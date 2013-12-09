@@ -28,7 +28,7 @@ function writeContactSection() {
 
     var phoneCoded = "fK1.V1K.mfKf";
     var phoneKey = "T78HitArOZzxoV3Sn6pLWNYgXk4dP1C02asQBUmMFKqehjv5JRybwlGc9EufID";
-    phoneNumber = decode(PHONE_CODED, PHONE_KEY);    
+    phoneNumber = decode(phoneCoded, phoneKey);    
     contactInfoList.append("<li>" + phoneNumber + "</li>");
 
     $("#contact_info_container").append(contactInfoList);
