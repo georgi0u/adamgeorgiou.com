@@ -1,3 +1,17 @@
+/* 
+   Some gross javascript to make my homepage pretty and functional.
+   
+   # xXx
+   1. This stuff probably shouldn't be rendered client side.
+   2. This probably shouldn't use so much straight up string-html crap.
+   3. This should probably take advantage of jQuery a lot more then it does.
+   4. I should probably be using underscore.js or something to make JS syntax a little easier to digest.
+   5. Eventually I should have some controls to consolidate, paginate, and sort the data on my main page.
+
+   It works for now.
+   -Adam
+*/
+
 function writeContactSection() {
     // Email obfuscator script 2.1 by Tim Williams, University of Arizona
     // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
@@ -104,14 +118,16 @@ function writeConcertsSection() {
         function(lhs, rhs) {
             return rhs["start_date"] - lhs["start_date"];
         });
+
     for(i in concerts) {
         var concert = concerts[i];
-        var toPrint = "";
+        var toPrint = "<span style ='display:table-cell; padding-right:10px;'>" + concert["start_date"] + "</span><span style ='display:table-cell;line-height:20px;'>" ;
         if(concert["title"]) {
-            toPrint += concert["title"] + " featuring ";
+            toPrint += "<span style='font-weight:bold;'>" + concert["title"] + "</span> <span style='font-style:italic;'>featuring</span> ";
         }
-        toPrint += concert["artists"].join(", ") + " @ " + concert["venue"];
+        toPrint += concert["artists"].join(", ") +  " <span style='font-style:italic;'>@ " + concert["venue"] + "</span></span>";
 
+        
         concertList.append("<li>" + toPrint + "</li>");
     }
 

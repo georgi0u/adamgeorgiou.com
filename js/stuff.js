@@ -358,7 +358,7 @@ var ADAMS_STUFF =
             {
                 "title" : "Lockn Festival",
                 "artists" : [
-                    "Furthur featuring Phil Lesh & Bob Weir",
+                    "Furthur",
                     "John Fogerty",
                     "Pegi Young & The Survivors",
                     "The String Cheese Incident",
