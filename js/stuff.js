@@ -289,5 +289,424 @@ var ADAMS_STUFF =
                 "tags" : ["non-fiction"]
                 
             }
+        ],
+        "concerts" : [
+            {
+                "artists" : [
+                    "The Pimps of Joytime",
+                    "Hank and Cupcakes",
+                    "Hey Lady"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20131206
+            },
+            {
+                "artists" : [
+                    "The Revivalists",
+                    "Brandon Niederauer",
+                    "Bobby Paltauf Band",
+                    "Tiajuana Caravan"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20131122
+            },
+            {
+                "artists" : [
+                    "Man Man"
+                ],
+                "venue" : "The Bowery Ballroom",
+                "start_date" : 20131022
+            },
+            {
+                "artists" : [
+                    "Yonder Mountain String Band"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20131029
+            },
+            {
+                "artists" : [
+                    "John Fogerty"
+                ],
+                "venue" : "The Beacon",
+                "start_date" : 20131112
+            },
+            {
+                "title" : "Farm Aid",
+                "artists" : [
+                    "Willie Nelson",
+                    "Neil Young",
+                    "John Mellencamp",
+                    "Dave Matthews with Tim Reynolds",
+                    "Jack Johnson",
+                    "Amos Lee",
+                    "Jamey Johnson",
+                    "Kacey Musgraves",
+                    "Toad the Wet Sprocket",
+                    "Sasha Dobson",
+                    "Carlene Carter",
+                    "Lukas Nelson & Promise of the Real",
+                    "Bahamas",
+                    "Pegi Young & The Survivors",
+                    "Jesse Lenat",
+                    "Insects vs Robots",
+                    "The Blackwood Quartet"
+                ],
+                "start_date" : 20130921,
+                "venue" : "Saratoga Performing Arts Center"
+            },
+            {
+                "title" : "Lockn Festival",
+                "artists" : [
+                    "Furthur featuring Phil Lesh & Bob Weir",
+                    "John Fogerty",
+                    "Pegi Young & The Survivors",
+                    "The String Cheese Incident",
+                    "Trey Anastasio Band",
+                    "Widespread Panic",
+                    "Zac Brown"
+                ],
+                "start_date" : 20130905,
+                "end_date" : 20130908,
+                "venue" : "Oak Ridge Farm"
+            },
+            {
+                "artists" : [
+                    "Tedeschi Trucks Band",
+                    "The Black Crows",
+                ],
+                "start_date" : 20130810,
+                "venue" : "Jones Beach"
+            },
+            {
+                "artists" : [
+                    "Galactic",
+                    "Maggie Koerner",
+                    "Dave Shaw"
+                ],
+                "start_date" : 20130809,
+                "venue" : "Brooklyn Bowl"
+            },
+            {
+                "artists" : [
+                    "Galactic",
+                    "Rubblebucket"
+                ],
+                "start_date" : 20130807,
+                "venue" : "Brooklyn Bowl"
+            },
+            {
+                "artists" : [
+                    "Swear and Shake"
+                ],
+                "start_date" : 20130801,
+                "venue" : "The Bowery Electric"
+            },
+            {
+                "artists" : [
+                    "Robert Plant and the Sensational Space Shifters",
+                    "Phosphorescent"
+                ],
+                "start_date" : 20130727,
+                "venue" : "The Brooklyn Bandshell"
+            },
+            {
+                "artists" : [
+                    "Trampled by Turtles",
+                    "The Devil Makes Three"
+                ],
+                "start_date" : 20130726,
+                "venue" : "The Brooklyn Bandshell"
+            },
+            {
+                "artists" : [
+                    "Father John Misty"
+                ],
+                "start_date" : 20130724,
+                "venue" : "Terminal 5"
+            },
+            {
+                "artists" : [
+                    "Phish"
+                ],
+                "start_date" : 20130713,
+                "venue" : "Merriweather Post Pavilion"
+            },
+            {
+                "title" : "Bonnaroo",
+                "artists" : [
+                    "Paul McCartney",
+                    "Jack Johnson",
+                    "Tom Petty & The Heartbreakers",
+                    "Pretty Lights",
+                    "The XX",
+                    "Macklemore & Ryan Lewis",
+                    "Of Monsters And Men",
+                    "ZZ Top",
+                    "Edward Sharpe And The Magnetic Zeros",
+                    "Gov't Mule",
+                    "Matt & Kim",
+                    "Allen Stone",
+                    "Araabmuzik",
+                    "ALO",
+                    "Haim",
+                    "Action Bronson",
+                    "Futurebirds",
+                    "Nicki Bluhm & The Gramblers",
+                    "Hes My Brother, Shes My Sister",
+                    "The Revivalists",
+                    "Animal Collective"
+                ],
+                "start_date" : 20130613,
+                "start_date" : 20130616,
+                "venue" : "Manchester, TN"
+            },
+            {
+                "title" : "Mountain Jam",
+                "artists" : [
+                    "Phil Lesh & Friends",
+                    "Widespread Panic",
+                    "Gov't Mule",
+                    "Primus",
+                    "The Avett Brothers",
+                    "The Lumineers",
+                    "Dispatch",
+                    "Big Gigantic",
+                    "Gary Clark Jr.",
+                    "Soulive w/ The Shady Horns",
+                    "Deer Tick",
+                    "The London Souls",
+                    "ALO",
+                    "Holy Ghost!",
+                    "Nicki Bluhm & The Gramblers",
+                    "The Revivalists",
+                    "Futurebirds",
+                    "David Wax Museum",
+                    "Swear and Shake",
+                    "Roadkill Ghost Choir"
+                ],
+                "start_date" : 20130606,
+                "start_date" : 20130609,
+                "venue" : "Hunter Mountain, NY"
+            },
+            {
+                "artists" : [
+                    "Florence and the Machine"
+                ],
+                "start_date" : 20130212,
+                "venue" : "Radio City Music Hall"
+            },
+            {
+                "artists" : [
+                    "Jack White",
+                    "Pokey LaFarge"
+                ],
+                "start_date" : 20120822,
+                "venue" : "Radio City Music Hall"
+            },
+            {
+                "artists" : [
+                    "Rodrigo y Gabriela",
+                    "Brett Dennen"
+                ],
+                "start_date" : 20120420,
+                "venue" : "Radio City Music Hall"
+            },
+            {
+                "artists" : [
+                    "The Darkness",
+                    "Foxy Shazam"
+                ],
+                "start_date" : 20120204,
+                "venue" : "Irving Plaza"
+            },
+            {
+                "artists" : [
+                    "Bassnectar",
+                ],
+                "start_date" : 20110813,
+                "venue" : "Governer's Island"
+            },
+            {
+                "artists" : [
+                    "Neil Young",
+                ],
+                "start_date" : 20081215,
+                "venue" : "Madison Square Garden"
+            },
+            {
+                "artists" : [
+                    "Crosby, Stills, Nash, and Young",
+                ],
+                "start_date" : 20030823,
+                "venue" : "Jones Beach"
+            },
+            {
+                "artists" : [
+                    "Steve Aoki",
+                    "Datsik"
+                ],
+                "start_date" : 20120217,
+                "venue" : "Roseland Ballroom"
+            },
+            {
+                "artists" : [
+                    "Sublime with Rome",
+                    "Matisyahu"
+                ],
+                "start_date" : 20100720,
+                "venue" : "Jones Beach"
+            },
+            {
+                "artists" : [
+                    "Get the Led Out"
+                ],
+                "start_date" : 20100729,
+                "venue" : "NYCB Theatre at Westbury"
+            },
+            {
+                "artists" : [
+                    "Brit Floyd"
+                ],
+                "start_date" : 20120521,
+                "venue" : "NYCB Theatre at Westbury"
+            },
+            {
+                "artists" : [
+                    "Trans Siberian Orchestra"
+                ],
+                "start_date" : 20061220,
+                "venue" : "Nassau Coliseum"
+            },
+            {
+                "artists" : [
+                    "M83"
+                ],
+                "start_date" : 20120808,
+                "venue" : "Central Park Summerstage"
+            },
+            {
+                "artists" : [
+                    "Neil Young & Crazy Horse",
+                    "Patti Smith"
+                ],
+                "start_date" : 20121127,
+                "venue" : "Madison Square Garden"
+            },
+            {
+                "artists" : [
+                    "Slightly Stoopid"
+                ],
+                "start_date" : 20100731,
+                "venue" : "Festival Pier"
+            },
+            {
+                "artists" : [
+                    "Neil Young"
+                ],
+                "start_date" : 20100518,
+                "venue" : "Palace Theatre"
+            },
+            {
+                "artists" : [
+                    "Edward Sharpe and the Magnetic Zeros"
+                ],
+                "start_date" : 20120509,
+                "venue" : "Roseland Ballroom"
+            },
+            {
+                "artists" : [
+                    "Edward Sharpe and the Magnetic Zeros"
+                ],
+                "start_date" : 20100721,
+                "venue" : "Governors Ball"
+            },
+            {
+                "artists" : [
+                    "Edward Sharpe and the Magnetic Zeros"
+                ],
+                "start_date" : 20110530,
+                "venue" : "Bowery Ballroom"
+            },
+            {
+                "artists" : [
+                    "Iron Maiden"
+                ],
+                "start_date" : 20061012,
+                "venue" : "Nassau Coliseum"
+            },
+            {
+                "artists" : [
+                    "Dream Theater"
+                ],
+                "start_date" : 20111012,
+                "venue" : "The Beacon"
+            },
+            {
+                "artists" : [
+                    "Children of Bodom"
+                ],
+                "start_date" : 20061129,
+                "venue" : "Trocadero Theatre"
+            },
+            {
+                "artists" : [
+                    "Dragonforce"
+                ],
+                "start_date" : 20060502,
+                "venue" : "The Avalon"
+            },
+            {
+                "artists" : [
+                    "Dragonforce"
+                ],
+                "start_date" : 20060906,
+                "venue" : "The Nokia"
+            },
+            {
+                "artists" : [
+                    "Buddy Guy",
+                    "Jonny Lang"
+                ],
+                "start_date" : 20120614,
+                "venue" : "NYCB Theatre at Westbury"
+            },
+            {
+                "title" : "Bonnaroo",
+                "artists" : [
+                    "Arcade Fire",
+                    "Buffalo Springfield feat Richie Furay, Stephen Stills, Neil Young, Rick Rosas, Joe Vitale",
+                    "My Morning Jacket",
+                    "Robert Plant & Band of Joy",
+                    "Mumford & Sons",
+                    "The Strokes",
+                    "Ray Lamontagne",
+                    "Bassnectar",
+                    "Dr. John and The Original Meters performing Desitively Bonnaroo",
+                    "Galactic",
+                    "Alison Krauss & Union Station",
+                    "Pretty Lights",
+                    "Florence + the Machine",
+                    "SuperJam with Dan Auerbach and Dr. John",
+                    "Explosions In The Sky",
+                    "STS9",
+                    "Scissor Sisters",
+                    "Ratatat",
+                    "Deerhunter",
+                    "Opeth",
+                    "Old Crow Medicine Show",
+                    "Matt & Kim",
+                    "Grace Potter & The Nocturnals",
+                    "Portugal. The Man",
+                    "Railroad Earth",
+                    "Black Dub"
+                ],
+                "start_date" : 20110609,
+                "end_date" : 20110612,
+                "venue" : "Manchester, TN"
+            }
         ]
     }
+
+                    
+

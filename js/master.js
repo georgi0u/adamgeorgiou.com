@@ -64,7 +64,7 @@ function writeBooksSection() {
         var book = ADAMS_STUFF["books"][i];
 
         // Title
-        toPrint = book["title"];
+        var toPrint = book["title"];
 
         // Author
         var author = book["author"];
@@ -89,7 +89,37 @@ function writeBooksSection() {
     section.append(bookList);
 }
 
+
+
+function writeConcertsSection() {
+    var section = $("#ticket_stubs_container");
+
+    // Header
+    section.append($("<h1>stubs</h1>"));
+
+    // Content
+    var concertList = $("<ul></ul>");
+
+    var concerts = ADAMS_STUFF["concerts"].sort(
+        function(lhs, rhs) {
+            return rhs["start_date"] - lhs["start_date"];
+        });
+    for(i in concerts) {
+        var concert = concerts[i];
+        var toPrint = "";
+        if(concert["title"]) {
+            toPrint += concert["title"] + " featuring ";
+        }
+        toPrint += concert["artists"].join(", ") + " @ " + concert["venue"];
+
+        concertList.append("<li>" + toPrint + "</li>");
+    }
+
+    section.append(concertList);
+}
+
 $(function() {
     writeContactSection();
     writeBooksSection();
+    writeConcertsSection();
 });
