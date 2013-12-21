@@ -18,6 +18,11 @@ var ADAMS_STUFF =
                 "title" : "Masters of Doom",
                 "tags" : ["non-fiction"]
             },
+            {
+                "author" : "Alina Wheeler",
+                "title" : "Designing Brand Identity",
+                "tags" : ["non-fiction","technical","design"]
+            },
             { 
                 "author" : "Elizabeth Gilbert",
                 "title" : "Eat, Pray, Love",
@@ -380,6 +385,14 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
+                    "Tedeschi Trucks Band",
+                    "Scrapomatic",
+                ],
+                "start_date" : 20111014,
+                "venue" : "The Tilles Center"
+            },
+            {
+                "artists" : [
                     "Galactic",
                     "Maggie Koerner",
                     "Dave Shaw"
@@ -619,7 +632,7 @@ var ADAMS_STUFF =
                     "Edward Sharpe and the Magnetic Zeros"
                 ],
                 "start_date" : 20100721,
-                "venue" : "Governors Ball"
+                "venue" : "Governors Island"
             },
             {
                 "artists" : [
@@ -704,7 +717,80 @@ var ADAMS_STUFF =
                 "start_date" : 20110609,
                 "end_date" : 20110612,
                 "venue" : "Manchester, TN"
+            },
+            {
+                "title" : "Rock the Bells",
+                "start_date" : 20070729,
+                "venue" : "Randall's Island",
+                "artists" : [
+                    "Rage Against the Machine",
+                    "Wu-Tang Clan",
+                    "Public Enemy",
+                    "Cypress Hill",
+                    "The Roots",
+                    "Mos Def & Talib Kweli",
+                    "EPMD",
+                    "Pharoahe Monch",
+                    "DOOM",
+                    "Immortal Technique",
+                    "Jedi Mind Tricks"
+                ]
+            },
+            {
+                "title" : "Gigantour",
+                "start_date" : 20060928,
+                "venue" : "Nassau Coliseum",
+                "artists" : [
+                    "Megadeth",
+                    "Lamb of God",
+                    "Opeth",
+                    "Arch Enemy",
+                    "Overkill",
+                    "Into Eternity",
+                    "Sanctity", 
+                    "The SmashUp"
+                    ]
+            },
+            {
+                "title" : "Warped Tour",
+                "start_date" : 20090718,
+                "venue" : "Nassau Coliseum",
+                "artists" : [
+                    "NoFX",
+                    "Bad Religion",
+                    "Streetlight Manifesto",
+                    "Less Than Jake"
+                ]
+            },
+            {
+                "start_date" : 20081022,
+                "venue" : "Revolution Hall",
+                "artists" : [
+                    "State Radio"
+                ]
+            },
+            {
+                "start_date" : 20080223,
+                "venue" : "Revolution Hall",
+                "artists" : [
+                    "Dumpstafunk"
+                ]
+            },
+            {
+                "start_date" : 20080430,
+                "venue" : "Revolution Hall",
+                "artists" : [
+                    "Streetlight Manifesto"
+                ]
+            },
+            {
+                "start_date" : 20131217,
+                "venue" : "The Barclays Center",
+                "artists" : [
+                    "John Mayer"
+                ]
             }
+
         ]
     }
 
