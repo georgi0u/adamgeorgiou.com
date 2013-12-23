@@ -8,7 +8,8 @@
    4. I should probably be using underscore.js or something to make JS syntax a little easier to digest.
    5. Eventually I should have some controls to consolidate, paginate, and sort the data on my main page.
 
-   It works for now.
+   Making liberal use of the "Make it work, then make work better" matra.
+
    -Adam
 */
 

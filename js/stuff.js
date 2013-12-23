@@ -2,6 +2,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "author" : "Orson Scott Card",
+                "title" : "Ender's Game",
+                "tags" : ["novel"]
+            },
+            { 
                 "author" : "George Orwell",
                 "title" : "1984",
                 "isbn-10" : 0156035847,
