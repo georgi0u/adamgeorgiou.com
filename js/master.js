@@ -115,14 +115,12 @@ function writeBooksSection() {
 
 
 function writeConcertsSection() {
-    var section = $("#ticket_stubs_container");
+    var concertList = $("<ul>");
 
-    // Header
-    section.append($("<h1>stubs</h1>"));
-
-    // Content
-    var concertList = $("<ul></ul>");
-
+    $("#ticket_stubs_container")
+        .append($("<h1>stubs</h1>"))
+        .append(concertList);
+    
     var concerts = ADAMS_STUFF["concerts"].sort(
         function(lhs, rhs) {
             return rhs["start_date"] - lhs["start_date"];
@@ -130,37 +128,52 @@ function writeConcertsSection() {
 
     for(i in concerts) {
         var concert = concerts[i];
-        var toPrint = "<span style ='display:table-cell; padding-right:10px;'>" + concert["start_date"] + "</span><span style ='display:table-cell;line-height:20px;'>" ;
-        if(concert["title"]) {
-            toPrint += "<span style='font-weight:bold;'>" + concert["title"] + "</span> <span style='font-style:italic;'>featuring</span> ";
-        }
-        toPrint += concert["artists"].join(", ") +  " <span style='font-style:italic;'>@ " + concert["venue"] + "</span></span>";
 
-        
-        concertList.append("<li>" + toPrint + "</li>");
+        var date = (
+            $("<div>")
+                .css({"display":"table-cell", "padding-right":"10px"})
+                .append(concert["start_date"]));
+
+        var concertInfo = $("<div>").css({"display":"table-cell", "line-height":"20px"});
+        if(concert["title"]) {
+            concertInfo
+                .append($("<span>").css("font-weight","bold").append(concert["title"]))
+                .append($("<span>").css("font-style","italic").append("featuring"));
+        }
+        concertInfo
+            .append(concert["artists"].join(", "))
+            .append($("<span>").css("font-style","italic").append("@ " + concert["venue"]));
+
+        concertList.append($("<li>").append(date).append(concertInfo));
     }
 
-    section.append(concertList);
+
 }
 
 function writeLastFmSection() {
-    $("#latest_tracks_container").append("<h1>latest listens</h1>");
-    $.get( "api_proxy", function( data ) {
-        var trackList = data["recenttracks"]["track"];
+    var trackListForDom = $("<ul></ul>");
+    var li = $("<li></li>");
+    var loadingElement = (
+        $("<span>i'm loading it, give me a sec!</span>")
+            .css({"font-style":"italic","color":"#aaa"}));
+    trackListForDom.append(li.append(loadingElement));
 
-        var trackListForDom = $("<ul></ul>");
-        
-        for(i in trackList) {
-            var track = trackList[i];
-            var toPrint = track["artist"]["#text"] + " - ";
-            toPrint += track["name"];
+    $("#latest_tracks_container")
+        .append("<h1>latest listen</h1>")
+        .append(trackListForDom);
 
-            var url = track["url"];
-            trackListForDom.append("<li><a target='_blank' href = \"" + url + "\">" + toPrint + "</a></li>");
-        }
+    $.get("api_proxy", function(data) {
+        var track = data["recenttracks"]["track"][0];
 
-        trackListForDom.append("<li style = 'font-style:italic;color:#aaa;'><a target='_blank' href = 'http://www.last.fm/user/georgi0u'>(see more)</a></li>");
-        $("#latest_tracks_container").append(trackListForDom);
+        var latestListenLink = (
+            $("<a>" + track["artist"]["#text"] + " - " + track["name"] + "</a>")
+                .attr("target","_blank")
+                .attr("href","http://www.last.fm/user/georgi0u/tracks"));
+
+        latestListenLink.hide();
+        li.empty();
+        li.append(latestListenLink);
+        latestListenLink.fadeIn();
     });
 }
 
