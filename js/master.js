@@ -1,7 +1,7 @@
-/* 
+/**
    Some gross javascript to make my homepage pretty and functional.
    
-   # xXx
+   xXx
    1. This stuff probably shouldn't be rendered client side.
    2. This probably shouldn't use so much straight up string-html crap.
    3. This should probably take advantage of jQuery a lot more then it does.
@@ -13,11 +13,14 @@
    -Adam
 */
 
+
+/**
+   Email obfuscator script 2.1 by Tim Williams, University of Arizona
+   Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+   This code is freeware provided these four comment lines remain intact
+   A wizard to generate this code is at http://www.jottings.com/obfuscator/
+*/
 function writeContactSection() {
-    // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-    // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-    // This code is freeware provided these four comment lines remain intact
-    // A wizard to generate this code is at http://www.jottings.com/obfuscator/
     function decode(coded, key){ 
         shift=coded.length
         link=""
@@ -49,7 +52,13 @@ function writeContactSection() {
     $("#contact_info_container").append(contactInfoList);
 }
 
+/**
+   XXX
+   Make this less gross looking
 
+   Pulls book data out of my stuff object, sorts it, and inserts 
+   it into the DOM nicely
+*/
 function writeBooksSection() {
     // Build Tag -> Hue Map
     var tags = new Object();
@@ -113,7 +122,10 @@ function writeBooksSection() {
 }
 
 
-
+/**
+   Pulls concert data out of my stuff object, sorts it, and inserts 
+   it into the DOM nicely
+*/
 function writeConcertsSection() {
     var concertList = $("<ul>");
 
@@ -138,18 +150,20 @@ function writeConcertsSection() {
         if(concert["title"]) {
             concertInfo
                 .append($("<span>").css("font-weight","bold").append(concert["title"]))
-                .append($("<span>").css("font-style","italic").append("featuring"));
+                .append($("<span>").css("font-style","italic").append(" featuring "));
         }
         concertInfo
             .append(concert["artists"].join(", "))
-            .append($("<span>").css("font-style","italic").append("@ " + concert["venue"]));
+            .append($("<span>").css("font-style","italic").append(" @ " + concert["venue"]));
 
         concertList.append($("<li>").append(date).append(concertInfo));
     }
-
-
 }
 
+/**
+   Hits a lastFm proxy on my server, gets the latest tracks I've scrobbled,
+   inserts the most recent one into the DOM.
+*/
 function writeLastFmSection() {
     var trackListForDom = $("<ul></ul>");
     var li = $("<li></li>");
