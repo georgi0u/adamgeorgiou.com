@@ -2,6 +2,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban",
+                "author" : "Malala Yousafzai",
+                "tags" : ["non-fiction"]
+            },
+            { 
                 "author" : "Orson Scott Card",
                 "title" : "Ender's Game",
                 "tags" : ["novel"]
