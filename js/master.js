@@ -176,7 +176,7 @@ function writeLastFmSection() {
         .append("<h1>latest listen</h1>")
         .append(trackListForDom);
 
-    $.get("api_proxy", function(data) {
+    $.get("./api_proxy", function(data) {
         var track = data["recenttracks"]["track"][0];
 
         var latestListenLink = (
@@ -196,4 +196,7 @@ $(function() {
     writeBooksSection();
     writeConcertsSection();
     writeLastFmSection();
+
+    
+    $(".tablesorter").tablesorter({sortList: [[0,0], [1,0]]}); 
 });
