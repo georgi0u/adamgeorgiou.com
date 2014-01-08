@@ -28,6 +28,11 @@ var ADAMS_STUFF =
                 "title" : "Masters of Doom",
                 "tags" : ["non-fiction"]
             },
+            { 
+                "author" : "Orson Scott Card",
+                "title" : "Speaker for the Dead",
+                "tags" : ["novel"]
+            },
             {
                 "author" : "Alina Wheeler",
                 "title" : "Designing Brand Identity",
