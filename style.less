@@ -95,6 +95,16 @@ a {
        
     }
 
+    div#ticket_stubs_container{
+        li > span.date {
+            visibility:hidden;
+            color:#999;
+        }
+        li:hover > span.date {
+            visibility:visible;
+        }
+    }
+
     div.sub_container{
         padding-top:40px;
         &:first-child {padding-top:0px;}

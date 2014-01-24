@@ -141,22 +141,24 @@ function writeConcertsSection() {
     for(i in concerts) {
         var concert = concerts[i];
 
-        var date = (
-            $("<div>")
-                .css({"display":"table-cell", "padding-right":"10px"})
-                .append(concert["start_date"]));
-
-        var concertInfo = $("<div>").css({"display":"table-cell", "line-height":"20px"});
+        var concertInfo = $("<li>").css("line-height","20px");
         if(concert["title"]) {
             concertInfo
                 .append($("<span>").css("font-weight","bold").append(concert["title"]))
                 .append($("<span>").css("font-style","italic").append(" featuring "));
         }
         concertInfo
-            .append(concert["artists"].join(", "))
-            .append($("<span>").css("font-style","italic").append(" @ " + concert["venue"]));
+            .append(concert["artists"].join(", ") + " @ ")
+            .append($("<span>").css("font-style","italic").append(concert["venue"]));
 
-        concertList.append($("<li>").append(date).append(concertInfo));
+
+        concertInfo
+            .append($("<span class = 'date'>").append(" on " + concert["start_date"]));
+
+
+        concertList.append(concertInfo);
+
+
     }
 }
 
