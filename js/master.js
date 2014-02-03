@@ -110,7 +110,7 @@ function writeBooksSection() {
             for(j in sortedTags) {
                 var tag = sortedTags[j];
                 var hue = tags[tag].toString();
-                toPrint += "<span style = 'padding:0 4px 0 4px;margin-right:5px;background: hsl(" + hue + ", 100%, 90%);'>" + tag + "</span>";
+                toPrint += "<span class = 'tag' style = 'background: hsl(" + hue + ", 100%, 90%);'>" + tag + "</span>";
             }
         }
 
@@ -160,7 +160,7 @@ function writeConcertsSection() {
          
         concertInfo
             .append(" on ")
-            .append($("<span>").addClass("date").append(date.toDateString()));
+            .append($("<span>").addClass("date").addClass("tag").append(date.toDateString()));
 
         concertList.append(concertInfo);
     }
