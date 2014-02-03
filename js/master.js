@@ -140,28 +140,38 @@ function writeConcertsSection() {
 
     for(i in concerts) {
         var concert = concerts[i];
-
+        
+        // Show title
         var concertInfo = $("<li>").css("line-height","20px");
-        if(concert["title"]) {
-            concertInfo
-                .append($("<span>").css("font-weight","bold").append(concert["title"]))
-                .append($("<span>").css("font-style","italic").append(" featuring "));
-        }
-        concertInfo
-            .append(concert["artists"].join(", ") + " @ ")
-            .append($("<span>").css("font-style","italic").append(concert["venue"]));
 
+        var showTitle = $("<span>").addClass("concert_title");
+        if(concert["title"]) {
+            showTitle.append(
+                $("<span>")
+                    .css({"color":"red"})
+                    .append(concert["title"]))
+                    .append(": ");
+        }
+        showTitle.append(concert["artists"].join(", "));
+
+        // Show Meta
         var dateStr = concert["start_date"].toString();
         var date = new Date();
         date.setFullYear(
             dateStr.substring(0,4),
             parseInt(dateStr.substring(4,6)) - 1,
             dateStr.substring(6,8));
-         
-        concertInfo
+        var showMeta = $("<span>").addClass("concert_meta");
+        showMeta
+            .append(concert["venue"])
             .append(" on ")
-            .append($("<span>").addClass("date").addClass("tag").append(date.toDateString()));
-
+            .append($("<span>").addClass("date").append(date.toDateString()));
+    
+        concertInfo.append(
+            $("<span>")
+                .addClass("inline_wrapper")
+                .append(showMeta)
+                .append(showTitle));
         concertList.append(concertInfo);
     }
 }
