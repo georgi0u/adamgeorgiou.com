@@ -817,8 +817,14 @@ var ADAMS_STUFF =
                     "Greensky Bluegrass",
                     "Tumbleweed Wanderers"
                 ]
+            },
+            {
+                "start_date" : 20140201,
+                "venue" : "BAMcafé",
+                "artists" : [
+                    "Scrapomatic"
+                ]
             }
-
         ]
     }
 

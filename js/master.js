@@ -151,14 +151,18 @@ function writeConcertsSection() {
             .append(concert["artists"].join(", ") + " @ ")
             .append($("<span>").css("font-style","italic").append(concert["venue"]));
 
-
+        var dateStr = concert["start_date"].toString();
+        var date = new Date();
+        date.setFullYear(
+            dateStr.substring(0,4),
+            parseInt(dateStr.substring(4,6)) - 1,
+            dateStr.substring(6,8));
+         
         concertInfo
-            .append($("<span class = 'date'>").append(" on " + concert["start_date"]));
-
+            .append(" on ")
+            .append($("<span>").addClass("date").append(date.toDateString()));
 
         concertList.append(concertInfo);
-
-
     }
 }
 
