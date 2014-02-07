@@ -824,6 +824,15 @@ var ADAMS_STUFF =
                 "artists" : [
                     "Scrapomatic"
                 ]
+            },
+            {
+                "start_date" : 20140206,
+                "venue" : "The Space at Westbury",
+                "artists" : [
+                    "Galactic",
+                    "Maggie Koerner",
+                    "Ryan Montbleau"
+                ]
             }
         ]
     }
