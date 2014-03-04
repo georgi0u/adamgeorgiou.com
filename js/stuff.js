@@ -381,6 +381,13 @@ var ADAMS_STUFF =
                 "venue" : "Saratoga Performing Arts Center"
             },
             {
+                "artists" : [
+                    "Peter Frampton"
+                ],
+                "start_date" : 20120216,
+                "venue" : "NYCB Theatre at Westbury"
+            },
+            {
                 "title" : "Lockn Festival",
                 "artists" : [
                     "Furthur",
@@ -486,7 +493,7 @@ var ADAMS_STUFF =
                     "Action Bronson",
                     "Futurebirds",
                     "Nicki Bluhm & The Gramblers",
-                    "Hes My Brother, Shes My Sister",
+                    "He's My Brother, She's My Sister",
                     "The Revivalists",
                     "Animal Collective"
                 ],
@@ -656,10 +663,18 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
-                    "Edward Sharpe and the Magnetic Zeros"
+                    "Edward Sharpe and the Magnetic Zeros",
+                    "He's My Brother, She's My Sister"
                 ],
                 "start_date" : 20110530,
                 "venue" : "Bowery Ballroom"
+            },
+            {
+                "artists" : [
+                    "He's My Brother, She's My Sister"
+                ],
+                "start_date" : 20120119,
+                "venue" : "Mercury Lounge"
             },
             {
                 "artists" : [
@@ -832,6 +847,25 @@ var ADAMS_STUFF =
                     "Galactic",
                     "Maggie Koerner",
                     "Ryan Montbleau"
+                ]
+            },
+            {
+                "start_date" : 20140210,
+                "venue" : "Brooklyn Bowl",
+                "artists" : [
+                    "Sons of an Illustrious Father",
+                    "Fascinator"
+                ]
+            },
+            {
+                "start_date" : 20140220,
+                "venue" : "Highline Ballroom",
+                "artists" : [
+                    "Anders Osborne",
+                    "Marco Benevento",
+                    "Scott Metzger",
+                    "Billy Iuso",
+                    "Brandon Niederauer"
                 ]
             }
         ]
