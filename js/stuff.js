@@ -327,6 +327,20 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
+                    "Soulive",
+                    "Susan Tedeschi",
+                    "The Shady Horns",
+                    "Joe Russo",
+                    "John Cleary",
+                    "Tash Neal"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "title" : "Bowlive",
+                "start_date" : 20140320
+            },
+
+            {
+                "artists" : [
                     "The Revivalists",
                     "Brandon Niederauer",
                     "Bobby Paltauf Band",
@@ -866,6 +880,14 @@ var ADAMS_STUFF =
                     "Scott Metzger",
                     "Billy Iuso",
                     "Brandon Niederauer"
+                ]
+            },
+            {
+                "start_date" : 20140311,
+                "venue" : "Brooklyn Bowl",
+                "artists" : [
+                    "Cornmeal",
+                    "The Brummy Brothers"
                 ]
             }
         ]
