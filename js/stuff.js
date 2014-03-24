@@ -100,6 +100,11 @@ var ADAMS_STUFF =
             },
             { 
                 "author" : "Richard Brautigan",
+                "title" : "Revenge of the Lawn",
+                "tags" : ["novel"]
+            },
+            { 
+                "author" : "Richard Brautigan",
                 "title" : "The Pill vs. the Springfield Mine Disaster",
                 "tags" : ["novel"]
             },
@@ -327,6 +332,13 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
+                    "Allen Stone"
+                ],
+                "venue" : "Music Hall of Williamsburg",
+                "start_date" : 20140320
+            },
+            {
+                "artists" : [
                     "Soulive",
                     "Susan Tedeschi",
                     "The Shady Horns",
@@ -336,7 +348,7 @@ var ADAMS_STUFF =
                 ],
                 "venue" : "Brooklyn Bowl",
                 "title" : "Bowlive",
-                "start_date" : 20140320
+                "start_date" : 20140319
             },
 
             {
