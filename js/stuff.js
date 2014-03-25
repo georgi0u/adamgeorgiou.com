@@ -338,6 +338,22 @@ var ADAMS_STUFF =
                 "start_date" : 20140320
             },
             {
+                "title" : "80s Dylan Record Release",
+                "artists" : [
+                    "Langhorne Slim",
+                    "Osei Essed",
+                    "Hannah Cohen",
+                    "Doveman",
+                    "Yellowbirds",
+                    "Spirit Family Reunion",
+                    "Elvis Perkins in Dearland",
+                    "Dawn Landes",
+                    "Deer Tick"                    
+                ],
+                "venue" : "Music Hall of Williamsburg",
+                "start_date" : 20140324
+            },
+            {
                 "artists" : [
                     "Soulive",
                     "Susan Tedeschi",
