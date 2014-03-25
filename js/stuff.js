@@ -684,7 +684,8 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
-                    "Neil Young"
+                    "Neil Young",
+                    "Wilco"
                 ],
                 "start_date" : 20100518,
                 "venue" : "Palace Theatre"
@@ -916,6 +917,14 @@ var ADAMS_STUFF =
                 "artists" : [
                     "Cornmeal",
                     "The Brummy Brothers"
+                ]
+            },
+            {
+                "start_date" : 20100711,
+                "venue" : "PNC Bank Arts Center",
+                "artists" : [
+                    "Iron Maiden",
+                    "Dream Theater"
                 ]
             }
         ]
