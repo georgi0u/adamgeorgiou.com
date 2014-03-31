@@ -338,6 +338,14 @@ var ADAMS_STUFF =
                 "start_date" : 20140320
             },
             {
+                "artists" : [
+                    "The Infamous Stringdusters",
+                    "Fruition"
+                ],
+                "venue" : "The Bowery Ballroom",
+                "start_date" : 20140327
+            },
+            {
                 "title" : "80s Dylan Record Release",
                 "artists" : [
                     "Langhorne Slim",
