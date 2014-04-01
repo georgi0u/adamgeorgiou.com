@@ -323,6 +323,14 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Trentemoller",
+                    "T.O.M. and his Computer"
+                ],
+                "venue" : "Music Hall of Williamsburg",
+                "start_date" : 20140331
+            },
+            {
+                "artists" : [
                     "The Pimps of Joytime",
                     "Hank and Cupcakes",
                     "Hey Lady"
