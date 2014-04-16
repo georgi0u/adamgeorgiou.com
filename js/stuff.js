@@ -323,6 +323,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Lotus"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20140415
+            },
+            {
+                "artists" : [
                     "Trentemoller",
                     "T.O.M. and his Computer"
                 ],
