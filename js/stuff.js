@@ -323,6 +323,14 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "The Revivalists",
+                    "Moon Taxi"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20140419
+            },
+            {
+                "artists" : [
                     "Lotus"
                 ],
                 "venue" : "Brooklyn Bowl",
