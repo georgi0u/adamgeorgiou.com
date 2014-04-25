@@ -5,6 +5,11 @@ var ADAMS_STUFF =
                 "title" : "Catch-22",
                 "author" : "Joseph Heller",
                 "tags" : ["novel"]
+            },            
+            { 
+                "title" : "Neil Young Nation",
+                "author" : "Kevin Chong",
+                "tags" : ["non-fiction"]
             },
             { 
                 "title" : "I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban",
@@ -321,6 +326,13 @@ var ADAMS_STUFF =
             }
         ],
         "concerts" : [
+            {
+                "artists" : [
+                    "The Dirty Dozen Brass Band"
+                ],
+                "venue" : "Tipitina's",
+                "start_date" : 20140424
+            },
             {
                 "artists" : [
                     "The Revivalists",
