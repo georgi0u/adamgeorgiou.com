@@ -328,6 +328,24 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "The Infamous Stringdusters", "Phish", "Robert Plant", "Eric Clapton", "Preseration Hall Jazz Band", "Galactic", "Maggie Koerner", "Rachelle Ferell", "Rodriguez","Bonerama",
+                    "Afoxe Omo Nile Ogunja", "Sonny Landreth", "North Mississippi Allstars","Rebirth Brass Band", "Santana", "Avett Brothers", "Anders Osborne", "Marco Benevento", 
+                    "The Real Untouchable Brass Band", " Christ Thomas King", "Sasha Masakowski", "Shamarr Allen & The Underdawgs", "Eric Lindell & Co."
+                ],
+                "title" : "New Orleans Jazz & Heritage Festival",
+                "venue" : "Fair Grounds Race Course",
+                "start_date" : 20140425,
+                "end_date" : 20140427
+            },
+            {
+                "artists" : [
+                    "Pretty Lights", "Talib Kweli", "Preservation Hall Jazz Band (Horns)", "Eric Krasno", "Hot 8 Brass Band"
+                ],
+                "venue" : "Champions Square, New Orlenas",
+                "start_date" : 20140426
+            },
+            {
+                "artists" : [
                     "The Dirty Dozen Brass Band"
                 ],
                 "venue" : "Tipitina's",
