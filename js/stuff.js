@@ -328,6 +328,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Becca Stevens", "Cliff and Sasha"
+                ],
+                "venue" : "Gasa Gasa",
+                "start_date" : 20140429
+            },
+            {
+                "artists" : [
                     "The Infamous Stringdusters", "Phish", "Robert Plant", "Eric Clapton", "Preseration Hall Jazz Band", "Galactic", "Maggie Koerner", "Rachelle Ferell", "Rodriguez","Bonerama",
                     "Afoxe Omo Nile Ogunja", "Sonny Landreth", "North Mississippi Allstars","Rebirth Brass Band", "Santana", "Avett Brothers", "Anders Osborne", "Marco Benevento", 
                     "The Real Untouchable Brass Band", " Christ Thomas King", "Sasha Masakowski", "Shamarr Allen & The Underdawgs", "Eric Lindell & Co."
