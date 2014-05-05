@@ -2,6 +2,12 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "A Moveable Feast",
+                "author" : "Ernest Hemingway",
+                "tags" : ["non-fiction"]
+            },            
+
+            { 
                 "title" : "Catch-22",
                 "author" : "Joseph Heller",
                 "tags" : ["novel"]
