@@ -6,7 +6,11 @@ var ADAMS_STUFF =
                 "author" : "Ernest Hemingway",
                 "tags" : ["non-fiction"]
             },            
-
+            { 
+                "title" : "Just Kids",
+                "author" : "Patti Smith",
+                "tags" : ["non-fiction"]
+            },            
             { 
                 "title" : "Catch-22",
                 "author" : "Joseph Heller",
@@ -338,6 +342,13 @@ var ADAMS_STUFF =
                 ],
                 "venue" : "Gasa Gasa",
                 "start_date" : 20140429
+            },
+            {
+                "artists" : [
+                    "The Moody Blues"
+                ],
+                "venue" : "NYCB Theatre at Westbury",
+                "start_date" : 20140508
             },
             {
                 "artists" : [
