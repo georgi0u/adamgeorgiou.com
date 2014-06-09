@@ -338,6 +338,45 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Dark Start Orchestra", 
+                    "Umphrey's McGee",
+                    "Robert Randolph & The Family Band",
+                    "The Weeks",
+                    "Trampled By Turtles",
+                    "Reignwolf",
+                    "The Avett Brothers",
+                    "Moon Taxi",
+                    "Bob Weir & Ratdog",
+                    "Sister Sparrow and the Dirty Birds",
+                    "Jeff Tweedy",
+                    "Jonathan Wilson",
+                    "Damian Marley",
+                    "Valerie June",
+                    "Tedeschi Trucks Band",
+                    "Gov't Mule",
+                    "Pretty Lights",
+                    "Chris Robinson Brotherhood",
+                    "Ghost of a Saber Tooth Tiger",
+                    "Michael Franti & Spearhead",
+                    "Lucious",
+                    "The Allman Brothers"
+                ],
+                "venue" : "Hunter Mountain",
+                "title" : "Mountain Jam",
+                "start_date" : 20140605,
+                "end_date" : 20140608,
+            },
+
+            {
+                "artists" : [
+                    "Sister Sparrow and the Dirty Birds", "Paris Monster"
+                ],
+                "venue" : "The Bowery Ballroom",
+                "start_date" : 20140531
+            },
+
+            {
+                "artists" : [
                     "Becca Stevens", "Cliff and Sasha"
                 ],
                 "venue" : "Gasa Gasa",
