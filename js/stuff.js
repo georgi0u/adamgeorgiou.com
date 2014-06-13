@@ -338,6 +338,15 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Charles Bradley & His Extraordinaries", 
+                    "Mac Demarco",
+                    "Benjamin Booker"
+                ],
+                "venue" : "House of Vans",
+                "start_date" : 20140612
+            },
+            {
+                "artists" : [
                     "Dark Start Orchestra", 
                     "Umphrey's McGee",
                     "Robert Randolph & The Family Band",
