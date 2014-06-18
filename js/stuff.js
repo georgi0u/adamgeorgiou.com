@@ -338,6 +338,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "John Butler Trio", "Allen Stone"
+                ],
+                "venue" : "Central Park Summerstage",
+                "start_date" : 20140617
+            },
+            {
+                "artists" : [
                     "Charles Bradley & His Extraordinaries", 
                     "Mac Demarco",
                     "Benjamin Booker"
