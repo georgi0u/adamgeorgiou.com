@@ -338,6 +338,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Ringo Starr & His All-Starr Band"
+                ],
+                "venue" : "The Beacon Theatre",
+                "start_date" : 20140618
+            },
+            {
+                "artists" : [
                     "John Butler Trio", "Allen Stone"
                 ],
                 "venue" : "Central Park Summerstage",
