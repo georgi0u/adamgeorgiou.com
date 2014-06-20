@@ -338,6 +338,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Lucinda Williams", "Kenneth Brian Band"
+                ],
+                "venue" : "The Space at Westbury",
+                "start_date" : 20140619
+            },
+            {
+                "artists" : [
                     "Ringo Starr & His All-Starr Band"
                 ],
                 "venue" : "The Beacon Theatre",
