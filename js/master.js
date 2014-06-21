@@ -53,29 +53,20 @@ function writeContactSection() {
 }
 
 /**
-   XXX
-   Make this less gross looking
-
    Pulls book data out of my stuff object, sorts it, and inserts 
    it into the DOM nicely
 */
 function writeBooksSection() {
     // Build Tag -> Hue Map
-    var tags = new Object();
+    var tagMap = new Object();
     for(i in ADAMS_STUFF["books"]) {
-        var book = ADAMS_STUFF["books"][i];
-        for(j in book["tags"]) {
-            var tag = book["tags"][j]
-            tags[tag] = true;
+        var tags = ADAMS_STUFF["books"][i]["tags"];
+        for(j in tags) {
+            var tag = tags[j]
+            tagMap[tag] = "";
         }
     }
-    var numTags = 0;
-    for(i in tags) numTags+=1;
-    var index = 0;
-    for(i in tags) {
-        tags[i] = (360/numTags) * index;
-        index += 1;
-    }
+    populateColorMap(tagMap);
 
     var section = $("#bookshelf_container");
 
@@ -83,7 +74,7 @@ function writeBooksSection() {
     section.append($("<h1>bookshelf</h1>"));
 
     // Book List
-    var bookList = $("<ul></ul>");
+    var bookList = $("<ul>");
     booksSorted = ADAMS_STUFF["books"].sort(
         function(lhs, rhs) {
             var leftTitle = lhs["title"].toLowerCase().replace(/^the /,"");
@@ -96,26 +87,34 @@ function writeBooksSection() {
         var book = booksSorted[i];
 
         // Title
-        var toPrint = book["title"];
+        var toPrint = $("<li>").text(book["title"]);
 
         // Author
         var author = book["author"];
-        if(author)
-            toPrint += " <span style='font-style:italic;'>by</span> " + author;
+        if(author) {
+            toPrint
+                .append($("<span>").css("font-style","italic").text(" by "))
+                .append(author);
+        }
 
         // Tags
         var sortedTags = book["tags"].sort();
         if(sortedTags) {
-            toPrint += " - "
+            toPrint.append(" - ");
             for(j in sortedTags) {
                 var tag = sortedTags[j];
-                var hue = tags[tag].toString();
-                toPrint += "<span class = 'tag' style = 'background: hsl(" + hue + ", 100%, 90%);'>" + tag + "</span>";
+                var hue = tagMap[tag].toString();
+                toPrint.append(
+                    $("<span>")
+                        .css("background", "hsl(" + hue + ", 100%, 90%)")
+                        .text(tag)
+                        .addClass("tag")
+                );
             }
         }
 
         // Append Book String
-        bookList.append("<li>" + toPrint + "</li>");
+        bookList.append(toPrint);
     }
 
     section.append(bookList);
@@ -183,16 +182,17 @@ function writeConcertsSection() {
 function writeLastFmSection() {
     var trackListForDom = $("<ul></ul>");
     var li = $("<li></li>");
-    var loadingElement = (
-        $("<span>i'm loading it, give me a sec!</span>")
-            .css({"font-style":"italic","color":"#aaa"}));
+    var loadingElement = 
+        $("<span>")
+            .text("i'm loading it, give me a sec!")
+            .css({"font-style":"italic","color":"#aaa"});
     trackListForDom.append(li.append(loadingElement));
 
     $("#latest_tracks_container")
-        .append("<h1>latest listen</h1>")
+        .append($("<h1>").text("latest listen"))
         .append(trackListForDom);
 
-    $.get("./api_proxy", function(data) {
+    $.get("/api_proxy", function(data) {
         var track = data["recenttracks"]["track"][0];
 
         var latestListenLink = (
@@ -213,6 +213,7 @@ $(function() {
     writeConcertsSection();
     writeLastFmSection();
 
-    
-    $(".tablesorter").tablesorter({sortList: [[0,0], [1,0]]}); 
+    var toBeSorted = $(".tablesorter");
+    if(toBeSorted.length)
+        toBeSorted.tablesorter({sortList: [[0,0], [1,0]]}); 
 });
