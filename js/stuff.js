@@ -1,3 +1,6 @@
+// My Poorman's database of crap.
+// Not meant to scale (duh).
+
 var ADAMS_STUFF = 
     {
         "books" : [
@@ -336,6 +339,13 @@ var ADAMS_STUFF =
             }
         ],
         "concerts" : [
+            {
+                "artists" : [
+                    "Shakey Graves", "Wild Child"
+                ],
+                "venue" : "The Bowery Ballroom",
+                "start_date" : 20140625
+            },
             {
                 "artists" : [
                     "Lucinda Williams", "Kenneth Brian Band"
