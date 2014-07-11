@@ -341,6 +341,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Zappa Does Zappa"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20140709
+            },
+            {
+                "artists" : [
                     "Shakey Graves", "Wild Child"
                 ],
                 "venue" : "The Bowery Ballroom",
