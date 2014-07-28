@@ -341,6 +341,21 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Galactic", "Maggie Koerner"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20140726
+            },
+            {
+                "artists" : [
+                    "Trigger Hippy w/ Jackie Greene and Joan Osborne"
+                ],
+                "venue" : "Watermark Bar & Lounge",
+                "start_date" : 20140725
+            },
+
+            {
+                "artists" : [
                     "Zappa Does Zappa"
                 ],
                 "venue" : "Brooklyn Bowl",
@@ -402,6 +417,7 @@ var ADAMS_STUFF =
                     "Tedeschi Trucks Band",
                     "Gov't Mule",
                     "Pretty Lights",
+                    "Jackie Greene",
                     "Chris Robinson Brotherhood",
                     "Ghost of a Saber Tooth Tiger",
                     "Michael Franti & Spearhead",
