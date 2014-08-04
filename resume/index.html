@@ -38,18 +38,22 @@
     <div id = "main_container">
       <article id = "resume">
 
-        <h1 id = "resume_title">résumé of adam georgiou</h1>
+        <h1 id = "resume_title">the <a id = "expand_button" href = "#"></a> résumé of adam georgiou</h1>
 
         <section id = "resume_content">
+
+          <div class = "category" id = "contact_info_container">
+            <h2>Contact</h2>
+          </div>
 
 
           <section class = "category" id = "objective">
 
             <h2 class = "category_title">objective</h2> 
 
-            <section class = "category_content">
+            <div class = "category_content">
               <p>To satisfy my curiosity and compulsion to create with positive, impactful, challenging projects.</p>
-            </section><!--end of category_content-->
+            </div><!--end of category_content-->
 
           </section> <!--end of category-->
 
@@ -57,7 +61,7 @@
           <section class ="category" id ="education">
 
             <h2 class = "category_title">education</h2> 
-            <section class = "category_content">
+            <div class = "category_content">
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title"><a target = "_blank" href = "http://www.rpi.edu">Rensselaer Polytechnic Institute</a></h3>
@@ -67,7 +71,7 @@
                 </ul>
               </section>
 
-              <section class = "sub_category">
+              <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">Choice Books</h3>
                 <ul>
                   <li>"Designing Brand Identity" by Alina Wheeler</li>
@@ -82,7 +86,7 @@
                 </ul>
               </section>
 
-              <section class = "sub_category">
+              <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">Choice People</h3>
                 <ul>
                   <li>George Georgiou</li>
@@ -91,25 +95,25 @@
                 </ul>
               </section>
 
-            </section><!--end of category_content-->
+            </div><!--end of category_content-->
           </section> <!--end of category-->
 
 
           <section class ="category" id = "experience">
             <h2 class = "category_title">experience</h2> 
-            <section class = "category_content">
+            <div class = "category_content">
 
               <section class = "sub_category">
-                <h3 class = "sub_category_title">Software Engineer @ <a href = "http://www.factset.com">FactSet Research Systems Inc.</a>, New York, NY</h3>
+                <h3 class = "sub_category_title">Software Engineer III @ <a href = "http://www.factset.com">FactSet Research Systems Inc.</a>, New York, NY</h3>
                 <ul class = "sub_category_tags">
                   <li>backend</li>
                   <li>distributed systems</li>
                 </ul>
 
                 <ul>
-                  <li>Work on various projects within the Real-time News Distribution group</li>
-                  <li>Main focus on multi-machine, multi-process, C++, Linux, <a href = "http://www.elasticsearch.org/">ElasticSearch</a> stack</li>
-                  <li>Also incited, lead the implementation of, and currently maintain a team-specific python environment.</li>
+                  <li class = "verbose">Software Engineer III within the Real-Time Marketdata Distribution group</li>
+                  <li>Provide real-time search and alert access to financial market data (e.g. research, fillings, editorials, etc.) via multi-machine, multi-process, C++, Linux, <a href = "http://www.elasticsearch.org/">ElasticSearch</a> stack</li>
+                  <li>Also incited, lead the implementation of, and currently maintain a team-specific python environment; including a build/integration system -- via BuldBot, setuptools, pylint -- and distribution mechanism --via internal PyPI server and PIP.</li>
                   <li>Manage team of 2 engineers</li>
                 </ul>
               </section>
@@ -137,8 +141,7 @@
                 </ul>
                 <ul>
                   <li>Designed a brand identity, wrote copy, and implemented a web presence for a local contracting company</li>
-                  <li>Implemented UI/UX Best Practices</li>
-                  <li>Jquery for the moving parts, otherwise a mostly static website</li>
+                  <li>jQuery for the moving parts, otherwise a mostly static website</li>
                 </ul>
               </section> 
 
@@ -150,12 +153,12 @@
                   <li>design</li>
                 </ul>
                 <ul>
-                  <li>RESTful Django (Web) Application</li>
+                  <li>Contributed to the design and initial implementation of RESTful Django (Web) Application for sharing and collaborating on audio.</li>
                   <li><a target = "_blank" href = 'https://github.com/joshelser/Concert'>github.com/joshelser/Concert</a></li>
                 </ul>
               </section> 
 
-              <section class = "sub_category">
+              <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">Photoblog</h3>
                 <ul class = "sub_category_tags">
                   <li>front end</li>
@@ -166,10 +169,11 @@
                 <ul>
                   <li>Developed a PHP, MYSQL, Smarty, jQuery based photo blogging system</li>
                   <li>Interfaced with Facebook API in order to post links to news feed</li>
+                  <li>Live site is now down, however <a href = "https://web.archive.org/web/20130110192811/http://adamgeorgiou.com/_photographs/">the wayback machine has a cached copy</a>.</li>
                 </ul>
               </section>
 
-              <section class = "sub_category">
+              <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">Intern @ The Monetary System, New York, NY</h3>
                 <ul class = "sub_category_tags">
                   <li>sys. administration</li>
@@ -181,16 +185,23 @@
                 </ul>
               </section> 
 
-            </section><!--end of category_content-->
+              <section class = "sub_category">
+                <h3 class = "sub_category_title">GitHub - Various Projects</h3>
+                <ul>
+                  <li>Arbitrary projects, open-source contributions, and otherwise public, version controlled files available at <a href = "https://github.com/georgi0u">github.com/georgi0u</a></li>
+                </ul>
+              </section>
+
+            </div><!--end of category_content-->
           </section> <!--end of category-->
 
 
-          <section class ="category" id = "skills">
-            <h2 class = "category_title">current skills</h2> 
-            <section class = "category_content">
+          <section class ="category" id = "domain_knowledge">
+            <h2 class = "category_title">domain knowledge</h2> 
+            <div class = "category_content">
               <section class = "sub_category">
-                <h3 class = "sub_category_title">Programming</h3>
-                <ul>
+                <h3 class = "sub_category_title verbose">Programming</h3>
+                <ul class = "verbose">
                   <li>Low Level Imperative Languages (C)</li>
                   <li>Mid Level O.O. Languages (C++ (including the STL, BOOST)/Java)</li>
                   <li>Scripting Languages (Python, Perl, PHP, Bash)</li>
@@ -198,57 +209,35 @@
                   <li>Javascript (jQuery)</li>
                   <li>Web Frameworks (Django)</li>
                   <li>Serialization Notations (JSON, XML)</li>
-                  <li>RESTful Services</li>
+                  <li>RESTful Services, APIs</li>
                   <li>Social APIs (Facebook, Twitter, YouTube, etc.)</li>
                   <li>Markup (HTML(5)) & Styling (CSS)</li>
-                  <li>(Preferred Tools) git, emacs, zsh, tmux, unix</li>
-                  <li>(Proficient) perforce, windows</li>
+                  <li>Tools (git, emacs, zsh, tmux, unix, perforce)</li>
+                </ul>
+                <ul class = "concise">
+                  <li>C++ (stl, boost)</li>
+                  <li>Python (Django)</li>
+                  <li><a href = "http://elasticsearch.org">ElasticSearch</a></li>
+                  <li>C</li>
+                  <li>java</li>
+                  <li>jquery</li>
+                  <li>perl</li>
+                  <li>bash</li>
+                  <li>php</li>
                 </ul>
               </section>
-              <section class = "sub_category">
+              <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">Design, Marketing</h3>
                 <ul>
-                  <li>Writing; copy, essays, editorials, poetry</li>
-                  <li>Web Design; user-interface, user-experience</li>
-                  <li>Adobe Suite; photoshop, lightroom, illustrator</li>
-                  <li>Photography; landscape, walk-about, nature</li>
-                  <li>Brand Design; truth, positioning, identity, consistency</li>
+                  <li>User-Interface, User-Experience</li>
+                  <li>Copy, Essays, Editorials</li>
+                  <li>Brand Design; positioning, identity, consistency</li>
                   <li>Typography, Color, Composition</li>
                 </ul>
               </section>
-            </section> <!--end of category_content-->
+            </div> <!--end of category_content-->
           </section> <!--end of category-->
 
- 
-          <section class ="category" id = "coursework">
-            <h2 class = "category_title">coursework</h2> 
- 
-            <section class = "category_content">
-
-              <section class = "sub_category">
-                <h3 class = "sub_category_title">Parallel Programming</h3>
-                <ul>
-                  <li>Designed scalable shared/distributed memory parallel applications</li>
-                  <li>Worked with IBM Blue Gene/L and other high performance computers</li>
-                </ul>
-              </section> 
- 
-              <section class = "sub_category">
-                <h3 class = "sub_category_title">Web Science</h3>
-                <ul>
-                  <li>Built prototype applications interfacing with multiple APIs (Facebook, Last.fm, Twitter)</li>
-                  <li>Gained knowledge/experience with semantic-web technologies</li>
-                </ul>
-              </section> 
-              <section class = "sub_category">
-                <h3 class = "sub_category_title">Computational Finance</h3>
-                <ul>
-                  <li>Developed understanding of financial markets, tools, and instruments</li>
-                  <li>Determined how to accurately and efficiently price a variety of derivatives</li>
-                </ul>
-              </section>
-            </section> <!--end of category_content-->
-          </section> <!--end of category-->
         </section> <!--end of resume_content-->
       </article>
     </div>

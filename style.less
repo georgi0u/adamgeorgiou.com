@@ -58,23 +58,58 @@ a {
     color:#333;
 
     #resume {
+        #contact_info_container {
+            h2 { color: #ff9999; border-left-color:#ff9999;}
+            li { 
+                display:inline; margin:0; margin-right:5px;
+                &:after {content:", ";}
+                &:last-child:after {content:"";}
+                a { text-decoration:none ;}
+                a:hover { text-decoration:underline ;}
+            }
+        }
+        #expand_button {
+            color:#aaa;
+        }
+        .concise { 
+            display:none;
+        }
         li {
-            list-style:disc inside;
-            line-height:15px;
+            list-style:disc outside;
+            line-height:18px;
+            margin-left:20px;
+            a {
+                text-decoration:underline;
+            }
+        }
+        #domain_knowledge {
+            .concise { 
+                li { 
+                    display:inline;
+                    margin-left:0;
+
+                    &:after {content:",  ";}
+                    &:last-child:after {content:"";}
+                    
+                }
+            }
         }
         .category {
-            &:first-child {padding-top:23px;}
+            &:first-child {padding-top:20px;}
             padding-bottom:20px;
         }
-        .sub_category {
-            &:first-child {padding-top:10px;}
-            padding-top:30px;
+        .sub_category  {
+            &:first-child {
+                padding-top:10px;
+            }
+            padding-top:20px;
         }
-        h3 { display:inline-block;}
+        h3 { display:inline-block; }
         ul.sub_category_tags {
             display:inline-block;
             margin-left:10px;
             li {
+                margin-left:2px;
                 display:inline;
                 padding:0 4px 0 4px;
                 background:#ddd;
@@ -104,7 +139,7 @@ a {
         td {
             border-top:1px #ddd solid;
         }
-       
+        
     }
     
     #ticket_stubs_container {
@@ -166,6 +201,7 @@ a {
     }
 
     h3 {
+        font-weight:bold;
         margin-bottom:20px;
         font-size:16px;
         line-height:25px;
@@ -181,4 +217,12 @@ a {
     }
 
     padding-bottom:50px;
+}
+
+
+@media print {
+    #expand_button {
+        display:none;
+    }
+    .category { padding-bottom:10px !important;}
 }
