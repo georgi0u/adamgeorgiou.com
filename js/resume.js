@@ -57,7 +57,7 @@ function colorResumeSubcategoryTags() {
         function(index) {
             var tag = $(this).text();
             var hue = tagMap[tag];
-            $(this).css("background", "hsl(" + hue + ", 100%, 90%");
+            $(this).css("background", "hsl(" + hue + ", 100%, 80%");
         }
     );
 }
