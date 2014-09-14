@@ -5,6 +5,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "Fear and Loathing in Las Vegas",
+                "author" : "Hunter S. Thompson",
+                "tags" : ["novel"]
+            },            
+            { 
                 "title" : "A Moveable Feast",
                 "author" : "Ernest Hemingway",
                 "tags" : ["non-fiction"]
@@ -339,6 +344,20 @@ var ADAMS_STUFF =
             }
         ],
         "concerts" : [
+            {
+                "artists" : [
+                    "Greensky Bluegrass"
+                ],
+                "venue" : "Gramercy Theatre",
+                "start_date" : 20140913
+            },
+            {
+                "artists" : [
+                    "White Denim", "Clear Plastic Masks"
+                ],
+                "venue" : "Music Hall of Williamsburg",
+                "start_date" : 20140911
+            },
             {
                 "artists" : [
                     "Galactic", "Maggie Koerner"
