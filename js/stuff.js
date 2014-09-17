@@ -5,6 +5,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "Shakey - Neil Young's Biography",
+                "author" : "Jimmy McDonough",
+                "tags" : ["non-fiction"]
+            },            
+            { 
                 "title" : "Fear and Loathing in Las Vegas",
                 "author" : "Hunter S. Thompson",
                 "tags" : ["novel"]
