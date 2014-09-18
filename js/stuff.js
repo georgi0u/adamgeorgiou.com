@@ -351,6 +351,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Bahamas"
+                ],
+                "venue" : "le poisson rouge",
+                "start_date" : 20140917
+            },
+            {
+                "artists" : [
                     "Greensky Bluegrass"
                 ],
                 "venue" : "Gramercy Theatre",
