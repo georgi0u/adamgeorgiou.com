@@ -353,7 +353,7 @@ var ADAMS_STUFF =
                 "artists" : [
                     "Bahamas"
                 ],
-                "venue" : "le poisson rouge",
+                "venue" : "Le Poisson Rouge",
                 "start_date" : 20140917
             },
             {
