@@ -351,6 +351,13 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "King Crimson"
+                ],
+                "venue" : "Best Buy Theater",
+                "start_date" : 20140918
+            },
+            {
+                "artists" : [
                     "Bahamas"
                 ],
                 "venue" : "Le Poisson Rouge",
