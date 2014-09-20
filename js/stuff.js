@@ -351,6 +351,14 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Nicki Bluhm & The Gramblers",
+                    "The Mother Hips"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20140919
+            },
+            {
+                "artists" : [
                     "King Crimson"
                 ],
                 "venue" : "Best Buy Theater",
