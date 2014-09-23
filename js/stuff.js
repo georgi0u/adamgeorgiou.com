@@ -5,6 +5,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "Into the Wild",
+                "author" : "Jon Krakauer",
+                "tags" : ["non-fiction"]
+            },            
+            { 
                 "title" : "Shakey - Neil Young's Biography",
                 "author" : "Jimmy McDonough",
                 "tags" : ["non-fiction"]
