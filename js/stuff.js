@@ -356,6 +356,14 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "The Black Keys",
+                    "Cage the Elephant"
+                ],
+                "venue" : "The Barclays Center",
+                "start_date" : 20140923
+            },
+            {
+                "artists" : [
                     "Nicki Bluhm & The Gramblers",
                     "The Mother Hips"
                 ],
