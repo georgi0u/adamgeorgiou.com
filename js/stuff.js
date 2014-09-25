@@ -364,6 +364,21 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
+                    "The Foo Fighters"
+                ],
+                "venue" : "Binghamton University",
+                "start_date" : 20080222
+            },
+            {
+                "artists" : [
+                    "Neil Young and Crazy Horse", "The Black Keys", "The Foo Fighters", "Band of Horses"
+                ],
+                "venue" : "Central Park",
+                "title" : "Global Citizen Festival",
+                "start_date": 20120929
+            },
+            {
+                "artists" : [
                     "Nicki Bluhm & The Gramblers",
                     "The Mother Hips"
                 ],
