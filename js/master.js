@@ -87,7 +87,13 @@ function writeBooksSection() {
         var book = booksSorted[i];
 
         // Title
-        var toPrint = $("<li>").text(book["title"]);
+        var toPrint = $("<li>");
+        if(book["title"].length > 100) {
+            toPrint.text(book["title"].substring(0, 100) + "...");
+        }
+        else {
+            toPrint.text(book["title"]);   
+        }
 
         // Author
         var author = book["author"];

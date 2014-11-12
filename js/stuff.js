@@ -5,6 +5,16 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "Gone Girl",
+                "author" : "Gillian Flynn",
+                "tags" : ["novel"]
+            },            
+            { 
+                "title" : "The Tycoons: How Andrew Carnegie, John D. Rockefeller, Jay Gould, and J. P. Morgan Invented the American Supereconomy",
+                "author" : "Charles R. Morris",
+                "tags" : ["non-fiction"]
+            },
+            { 
                 "title" : "Into the Wild",
                 "author" : "Jon Krakauer",
                 "tags" : ["non-fiction"]
@@ -354,6 +364,14 @@ var ADAMS_STUFF =
             }
         ],
         "concerts" : [
+            {
+                "artists" : [
+                    "Allen Stone",
+                    "Bad Rabbit"
+                ],
+                "venue" : "Terminal 5",
+                "start_date" : 20141009
+            },
             {
                 "artists" : [
                     "The Black Keys",
