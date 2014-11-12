@@ -8,6 +8,11 @@ var ADAMS_STUFF =
                 "title" : "Gone Girl",
                 "author" : "Gillian Flynn",
                 "tags" : ["novel"]
+            },
+            { 
+                "title" : "The Dharma Bums",
+                "author" : "Jack Kerouac",
+                "tags" : ["novel"]
             },            
             { 
                 "title" : "The Tycoons: How Andrew Carnegie, John D. Rockefeller, Jay Gould, and J. P. Morgan Invented the American Supereconomy",
