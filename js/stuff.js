@@ -379,6 +379,13 @@ var ADAMS_STUFF =
             },
             {
                 "artists" : [
+                    "Fitz and the Tantrums", "Big Data"
+                ],
+                "venue" : "Terminal 5",
+                "start_date" : 20141112
+            },
+            {
+                "artists" : [
                     "The Black Keys",
                     "Cage the Elephant"
                 ],
