@@ -5,6 +5,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "Animal Farm",
+                "author" : "George Orwell",
+                "tags" : ["novel"]
+            },
+            { 
                 "title" : "Gone Girl",
                 "author" : "Gillian Flynn",
                 "tags" : ["novel"]
@@ -369,6 +374,14 @@ var ADAMS_STUFF =
             }
         ],
         "concerts" : [
+            {
+                "artists" : [
+                    "The Revivalists",
+                    "Red Wanting Blue"
+                ],
+                "venue" : "Irving Plaza",
+                "start_date" : 20141121
+            },
             {
                 "artists" : [
                     "Allen Stone",
