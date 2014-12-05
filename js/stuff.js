@@ -376,6 +376,14 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Lettuce + Eric Krasno + Neal Evans", 
+                    "Bill Evans Soulgrass"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20141204
+            },
+            {
+                "artists" : [
                     "The Revivalists",
                     "Red Wanting Blue"
                 ],
