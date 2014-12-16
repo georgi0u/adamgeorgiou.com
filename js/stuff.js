@@ -376,7 +376,15 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
-                    "Lettuce + Eric Krasno + Neal Evans", 
+                    "Anders Osborne + Bill Evans",
+                    "Wolf! + Scott Metzger"
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20141212
+            },
+            {
+                "artists" : [
+                    "Lettuce + Eric Krasno + Tash Neal", 
                     "Bill Evans Soulgrass"
                 ],
                 "venue" : "Brooklyn Bowl",
