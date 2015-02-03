@@ -5,6 +5,11 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "Selected Essays",
+                "author" : "David Hume",
+                "tags" : ["non-fiction"]
+            },
+            { 
                 "title" : "Animal Farm",
                 "author" : "George Orwell",
                 "tags" : ["novel"]
@@ -374,6 +379,13 @@ var ADAMS_STUFF =
             }
         ],
         "concerts" : [
+            {
+                "artists" : [
+                    "Greensky Bluegrass",
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20150128
+            },
             {
                 "artists" : [
                     "Anders Osborne + Bill Evans",
