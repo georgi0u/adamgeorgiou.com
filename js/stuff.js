@@ -380,6 +380,31 @@ var ADAMS_STUFF =
         ],
         "concerts" : [
             {
+                "title" : "Bowlive",
+                "artists" : [
+                    "Soulive",
+                    "The Shady Horns",
+                    "George Porter Jr.",
+                    "Anders Osborne"
+
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20150319
+            },
+            {
+                "title" : "Bowlive",
+                "artists" : [
+                    "Soulive",
+                    "The Shady Horns",
+                    "Chris Robinson",
+                    "Adam Deitch",
+                    "George Porter Jr."
+
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20150318
+            },
+            {
                 "artists" : [
                     "North Mississippi Allstars & Anders Osborne (North Mississippi Osborne)",
                 ],
