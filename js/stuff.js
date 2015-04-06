@@ -376,6 +376,12 @@ var ADAMS_STUFF =
                 "author" : "Bill Bryson",
                 "tags" : ["non-fiction"]
                 
+            },
+            {
+                "title" : "Harry Potter and the Methods of Rationality",
+                "author" : "Eliezer Yudkowsky",
+                "tags" : ["novel"]
+                
             }
         ],
         "concerts" : [
