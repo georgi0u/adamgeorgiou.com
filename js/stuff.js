@@ -10,6 +10,16 @@ var ADAMS_STUFF =
                 "tags" : ["non-fiction"]
             },
             { 
+                "title" : "Debt: The First 5,000 Years",
+                "author" : "David Graeber",
+                "tags" : ["non-fiction"]
+            },
+            { 
+                "title" : "The Man Who Mistook His Wife for a Hat",
+                "author" : "Oliver Sacks",
+                "tags" : ["non-fiction"]
+            },
+            { 
                 "title" : "Animal Farm",
                 "author" : "George Orwell",
                 "tags" : ["novel"]
