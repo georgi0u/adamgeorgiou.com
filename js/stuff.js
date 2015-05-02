@@ -397,6 +397,15 @@ var ADAMS_STUFF =
         "concerts" : [
             {
                 "artists" : [
+                    "Stella Blues Band",
+                    "Steve Urban Band",
+
+                ],
+                "venue" : "Brooklyn Bowl",
+                "start_date" : 20150429
+            },
+            {
+                "artists" : [
                     "Shakey Graves",
                     "Nikki Lane",
 
