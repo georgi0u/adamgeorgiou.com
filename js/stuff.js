@@ -5,6 +5,26 @@ var ADAMS_STUFF =
     {
         "books" : [
             { 
+                "title" : "The Color of Magic",
+                "author" : "Terry Pratchett",
+                "tags" : ["novel"]
+            },
+            { 
+                "title" : "The Magician King",
+                "author" : "Lev Grossman",
+                "tags" : ["novel"]
+            },
+            { 
+                "title" : "The Magicians",
+                "author" : "Lev Grossman",
+                "tags" : ["novel"]
+            },
+            { 
+                "title" : "Foundation",
+                "author" : "Isaac Asimov",
+                "tags" : ["novel"]
+            },
+            { 
                 "title" : "Selected Essays",
                 "author" : "David Hume",
                 "tags" : ["non-fiction"]
