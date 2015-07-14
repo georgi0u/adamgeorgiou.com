@@ -172,11 +172,9 @@ function writeConcertsSection() {
             .append(" on ")
             .append($("<span>").addClass("date").append(date.toDateString()));
     
-        concertInfo.append(
-            $("<span>")
-                .addClass("inline_wrapper")
-                .append(showMeta)
-                .append(showTitle));
+        concertInfo
+            .append(showMeta)
+            .append(showTitle);
         concertList.append(concertInfo);
     }
 }

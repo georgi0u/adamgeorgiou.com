@@ -10,6 +10,16 @@ var ADAMS_STUFF =
                 "tags" : ["novel"]
             },
             { 
+                "title" : "Modern Romance",
+                "author" : "Aziz Ansari",
+                "tags" : ["non-fiction", "comedy"]
+            },
+            { 
+                "title" : "Capital in the Twenty-First Century",
+                "author" : "Thomas Picketty",
+                "tags" : ["non-fiction"]
+            },
+            { 
                 "title" : "The Magician King",
                 "author" : "Lev Grossman",
                 "tags" : ["novel"]

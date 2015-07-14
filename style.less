@@ -108,6 +108,9 @@ a {
                 padding-top:10px;
             }
             padding-top:20px;
+            .sub_category_content {
+                padding-bottom:13px;
+            }
         }
         h3 { display:inline-block; }
         ul.sub_category_tags {
@@ -149,22 +152,16 @@ a {
     
     #ticket_stubs_container {
         li {
+            padding-bottom:25ax;
+            span.concert_title {
+                display:block;
+                font-weight:bold;
+                margin-top:5px;
+            }
 
-            .inline_wrapper {
-                display:inline-block;
-                padding-bottom:13px;
-
-
-                span.concert_title {
-                    display:block;
-                    font-weight:bold;
-                    margin-top:5px;
-                }
-
-                span.concert_meta {
-                    font-style:italic;
-                    display:block;
-                }
+            span.concert_meta {
+                font-style:italic;
+                display:block;
             }
         }
     }
@@ -172,7 +169,6 @@ a {
     span.tag {
         padding:0 4px 0 4px;
         margin-right:5px;
-        display:inline-block;
     }
 
     div.sub_container{
@@ -212,6 +208,9 @@ a {
     }
     li { 
         padding-bottom:13px;
+        &:last-child {
+            padding-bottom:0;
+        }
     }
     p {
         line-height:25px;
@@ -219,8 +218,6 @@ a {
     a:hover {
         text-decoration:underline;
     }
-
-
 }
 
 
