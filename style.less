@@ -46,22 +46,33 @@ a {
     color:inherit;
 }
 
-
 /* Style */
-
 #main_container {
     font-family: Georgia, "Times New Roman", Times, serif;
-    width:1000px;
+    max-width:1000px;
+    min-width:400px;
     margin:auto;
     padding:40px 20px 40px 50px;
     font-size:15px;
     color:#333;
-
+    #profile_picture_container {
+        span {
+            border: 1px #000 solid;
+            display: inline-block;
+            height:404px;
+            margin:0;
+            padding:0;
+            img {
+                display:inline;
+                border: 2px #fff solid;
+                width:400px;
+            }
+        }
+    }
     #links_container {
         span { color:#fff;}
         a:hover > span { color:inherit; }
     }
-
     #resume {
         #contact_info_container {
             h2 {  border-left-color:#ff9999;}
@@ -92,7 +103,6 @@ a {
                 li { 
                     display:inline;
                     margin-left:0;
-
                     &:after {content:",  ";}
                     &:last-child:after {content:"";}
                     
@@ -123,14 +133,10 @@ a {
                 background:#ddd;
             }
         }
-
     }
-
-
     .coffee_shops {
         width:100%;
         margin-left:-10px;;
-
         tbody>tr:nth-child(2n+1) {
             background:#eee;
         }
@@ -152,34 +158,29 @@ a {
     
     #ticket_stubs_container {
         li {
-            padding-bottom:25ax;
+            padding-bottom:25px;
             span.concert_title {
                 display:block;
                 font-weight:bold;
                 margin-top:5px;
             }
-
             span.concert_meta {
                 font-style:italic;
                 display:block;
             }
         }
     }
-
     span.tag {
         padding:0 4px 0 4px;
         margin-right:5px;
     }
-
     div.sub_container{
         padding-top:40px;
         &:first-child {padding-top:0px;}
     }
-
     h1, h2 {
         text-transform:lowercase;
     }
-
     h1 {
         margin-bottom:12px;
         font-size:32px;
@@ -188,7 +189,6 @@ a {
         padding-left:10px;
         margin-left:-15px;
     }
-
     h2 {
         margin-top:30px;
         margin-bottom:20px;
@@ -199,7 +199,6 @@ a {
         font-weight:bold;
         color:#000;
     }
-
     h3 {
         font-weight:bold;
         margin-bottom:20px;
@@ -219,7 +218,6 @@ a {
         text-decoration:underline;
     }
 }
-
 
 @media print {
     #main_container {
