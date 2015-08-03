@@ -4,6 +4,11 @@
 var ADAMS_STUFF = {
     "books" : [
         { 
+            "title" : "The Road",
+            "author" : "Cormac Mccarthy",
+            "tags" : ["novel"]
+        },
+        { 
             "title" : "The Color of Magic",
             "author" : "Terry Pratchett",
             "tags" : ["novel"]
@@ -424,6 +429,22 @@ var ADAMS_STUFF = {
         }
     ],
     "concerts" : [
+        {
+            "artists" : [
+                "Snarky Puppy",
+                "The Funky Dawgz"
+            ],
+            "venue" : "The Watermark Bar",
+            "start_date" : 20150801
+        },
+        {
+            "artists" : [
+                "The Goodnight Lights",
+                "Mark Eriksen"
+            ],
+            "venue" : "Matchless Bar",
+            "start_date" : 20150731
+        },
         {
             "artists" : [
                 "Neil Young & Promise of the Real",
