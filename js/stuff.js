@@ -4,6 +4,11 @@
 var ADAMS_STUFF = {
     "books" : [
         { 
+            "title" : "Barbarian Days: A Surfing Life",
+            "author" : "William Finnegan",
+            "tags" : ["non-fiction"]
+        },
+        { 
             "title" : "The Road",
             "author" : "Cormac Mccarthy",
             "tags" : ["novel"]
@@ -429,6 +434,13 @@ var ADAMS_STUFF = {
         }
     ],
     "concerts" : [
+        {
+            "artists" : [
+                "Lake Street Dive"
+            ],
+            "venue" : "Central Park Summerstage",
+            "start_date" : 20150903
+        },
         {
             "artists" : [
                 "Snarky Puppy",
