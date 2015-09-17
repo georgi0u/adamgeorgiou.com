@@ -436,6 +436,44 @@ var ADAMS_STUFF = {
     "concerts" : [
         {
             "artists" : [
+                "Norah Jones",
+                "Ryan Adams",
+                "Body/Head",
+                "Patrick Carney",
+                "Ruby Amafu",
+                "Jakob Dylan",
+                "Brian Fallon",
+                "Butch Walker",
+                "Matt Hitt",
+                "Nick Zinner",
+                "Valerie June",
+                "Charles Bradley",
+                "Sharon Van Etten",
+                "Adam Green",
+                "Ryan Miller",
+                "Elvis Perkins",
+                "Summer Moon",
+                "Danny Masterson",
+                "Adam Busch",
+                "Michelle Branch",
+                "Donald Cumming",
+                "Sammy James Jr.",
+                "Steve Schiltz",
+                "Nicole Atkins",
+                "Sasha Dobson",
+                "Jade Castrinos",
+                "Caveman",
+                "Danny Clinch",
+                "Chanse Cohl",
+                "Daniel Gibson",
+                "David Gibson"
+            ],
+            "title" : "The Best Fest: Neilfest",
+            "venue" : "The Bowery Ballroom",
+            "start_date" : 20150914
+        },
+        {
+            "artists" : [
                 "Lake Street Dive"
             ],
             "venue" : "Central Park Summerstage",
