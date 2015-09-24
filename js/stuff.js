@@ -9,6 +9,11 @@ var ADAMS_STUFF = {
             "tags" : ["non-fiction"]
         },
         { 
+            "title" : "Hot Water Music",
+            "author" : "Charles Budowski",
+            "tags" : ["novel"]
+        },
+        { 
             "title" : "The Road",
             "author" : "Cormac Mccarthy",
             "tags" : ["novel"]
