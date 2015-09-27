@@ -9,6 +9,11 @@ var ADAMS_STUFF = {
             "tags" : ["non-fiction"]
         },
         { 
+            "title" : "The Old Man and the Sea",
+            "author" : "Ernest Hemingway",
+            "tags" : ["novel"]
+        },
+        { 
             "title" : "Hot Water Music",
             "author" : "Charles Budowski",
             "tags" : ["novel"]
