@@ -446,6 +446,14 @@ var ADAMS_STUFF = {
     "concerts" : [
         {
             "artists" : [
+                "Animal Liberation Orchestra",
+                "Fruition"
+            ],
+            "venue" : "Brooklyn Bowl",
+            "start_date" : 20151007
+        },
+        {
+            "artists" : [
                 "Norah Jones",
                 "Ryan Adams",
                 "Body/Head",
@@ -1117,7 +1125,7 @@ var ADAMS_STUFF = {
                 "Matt & Kim",
                 "Allen Stone",
                 "Araabmuzik",
-                "ALO",
+                "Animal Liberation Orchestra",
                 "Haim",
                 "Action Bronson",
                 "Futurebirds",
@@ -1145,7 +1153,7 @@ var ADAMS_STUFF = {
                 "Soulive w/ The Shady Horns",
                 "Deer Tick",
                 "The London Souls",
-                "ALO",
+                "Animal Liberation Orchestra",
                 "Holy Ghost!",
                 "Nicki Bluhm & The Gramblers",
                 "The Revivalists",
