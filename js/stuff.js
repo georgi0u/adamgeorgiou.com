@@ -9,6 +9,11 @@ var ADAMS_STUFF = {
             "tags" : ["non-fiction"]
         },
         { 
+            "title" : "Mr. New Orleans: The Life of a Big Easy Underworld Legend",
+            "author" : "Matthew Randazzo V",
+            "tags" : ["non-fiction"]
+        },
+        { 
             "title" : "The Old Man and the Sea",
             "author" : "Ernest Hemingway",
             "tags" : ["novel"]
