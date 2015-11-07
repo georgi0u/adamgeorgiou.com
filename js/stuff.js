@@ -4,6 +4,11 @@
 var ADAMS_STUFF = {
     "books" : [
         { 
+            "title" : "Breakfast of Champions",
+            "author" : "Kurt Vonnegut",
+            "tags" : ["novel"]
+        },
+        { 
             "title" : "Barbarian Days: A Surfing Life",
             "author" : "William Finnegan",
             "tags" : ["non-fiction"]
@@ -449,6 +454,21 @@ var ADAMS_STUFF = {
         }
     ],
     "concerts" : [
+        {
+            "artists" : [
+                "The Motet"
+            ],
+            "venue" : "Brooklyn Bowl",
+            "start_date" : 20151107
+        },
+        {
+            "artists" : [
+                "The Revivalists",
+                "Gedeon Luke & The People"
+            ],
+            "venue" : "Irving Plaza",
+            "start_date" : 20151028
+        },
         {
             "artists" : [
                 "Animal Liberation Orchestra",
