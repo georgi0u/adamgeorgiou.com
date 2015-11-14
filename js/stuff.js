@@ -456,10 +456,24 @@ var ADAMS_STUFF = {
     "concerts" : [
         {
             "artists" : [
+                "Shakey Graves"
+            ],
+            "venue" : "Terminal 5",
+            "start_date" : 20151111
+        },
+        {
+            "artists" : [
+                "Dead and Company"
+            ],
+            "venue" : "Madison Square Garden",
+            "start_date" : 20151107
+        },
+        {
+            "artists" : [
                 "The Motet"
             ],
             "venue" : "Brooklyn Bowl",
-            "start_date" : 20151107
+            "start_date" : 20151106
         },
         {
             "artists" : [
