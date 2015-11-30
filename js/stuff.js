@@ -456,7 +456,8 @@ var ADAMS_STUFF = {
     "concerts" : [
         {
             "artists" : [
-                "The Mike Dillon Band"
+                "The Mike Dillon Band",
+                "lespecial"
             ],
             "venue" : "Brooklyn Bowl",
             "start_date" : 20151130
