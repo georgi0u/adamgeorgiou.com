@@ -1,4 +1,4 @@
-B// My Poorman's database of crap.
+// My Poorman's database of crap.
 // Not meant to scale (duh).
 
 var ADAMS_STUFF = {
