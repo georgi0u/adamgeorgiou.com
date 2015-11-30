@@ -1,4 +1,4 @@
-// My Poorman's database of crap.
+B// My Poorman's database of crap.
 // Not meant to scale (duh).
 
 var ADAMS_STUFF = {
@@ -454,6 +454,13 @@ var ADAMS_STUFF = {
         }
     ],
     "concerts" : [
+        {
+            "artists" : [
+                "The Mike Dillon Band"
+            ],
+            "venue" : "Brooklyn Bowl",
+            "start_date" : 20151130
+        },
         {
             "artists" : [
                 "Shakey Graves"
