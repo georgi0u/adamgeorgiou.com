@@ -4,6 +4,11 @@
 var ADAMS_STUFF = {
     "books" : [
         { 
+            "title" : "A Heartbreaking Work of Staggering Genius",
+            "author" : "Dave Eggers",
+            "tags" : ["novel"]
+        },
+        { 
             "title" : "Breakfast of Champions",
             "author" : "Kurt Vonnegut",
             "tags" : ["novel"]
