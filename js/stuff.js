@@ -461,6 +461,13 @@ var ADAMS_STUFF = {
     "concerts" : [
         {
             "artists" : [
+                "Anders Osborne",
+            ],
+            "venue" : "Brooklyn Bowl",
+            "start_date" : 20151211
+        },
+        {
+            "artists" : [
                 "The Mike Dillon Band",
                 "lespecial"
             ],
