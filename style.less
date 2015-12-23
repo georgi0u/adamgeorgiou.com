@@ -177,6 +177,17 @@ a {
     div.sub_container{
         padding-top:40px;
         &:first-child {padding-top:0px;}
+        .collapse_button, .expand_button {
+            cursor: pointer;
+            font-style: italic;
+            display: block;
+        } 
+        .collapse_button {
+            padding-top: 25px;
+        }
+        .expand_button {
+            padding-top: 10px;
+        }
     }
     h1, h2 {
         text-transform:lowercase;
@@ -208,7 +219,7 @@ a {
     li { 
         padding-bottom:13px;
         &:last-child {
-            padding-bottom:0;
+            padding-bottom:0 !important;
         }
     }
     p {

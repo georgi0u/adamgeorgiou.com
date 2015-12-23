@@ -219,7 +219,7 @@ function writeLastFmSection() {
 function limitSubContainers() {
   var ITEM_LIMIT = 5;
   
-  var subContainers = $(".sub_container > ul");
+  var subContainers = $(".sub_container.collapsible > ul");
   var show = function(list, items) {
     $(list).append(items);
     $(items).fadeIn();
@@ -262,7 +262,7 @@ function limitSubContainers() {
       hide(list, hiddenItems);
       collapse.hide();
       expand.show();
-      var header = $(list).siblings('h1')[0]
+      var header = $(list).siblings('h1')[0];
       $('html, body').animate({
         scrollTop: $(header).offset().top - 50
       }, 0);
