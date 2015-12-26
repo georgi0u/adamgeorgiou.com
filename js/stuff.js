@@ -4,6 +4,11 @@
 var ADAMS_STUFF = {
   "books" : [
     { 
+      "title" : "White Fang",
+      "author" : "Jack London",
+      "tags" : ["novel"]
+    },
+    { 
       "title" : "A Heartbreaking Work of Staggering Genius",
       "author" : "Dave Eggers",
       "tags" : ["novel"]
