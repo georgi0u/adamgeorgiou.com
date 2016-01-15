@@ -466,6 +466,20 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Amy Helm",
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 201601014
+    },
+    {
+      "artists" : [
+        "Lettuce",
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 20160103
+    },
+    {
+      "artists" : [
         "Anders Osborne",
       ],
       "venue" : "Brooklyn Bowl",
