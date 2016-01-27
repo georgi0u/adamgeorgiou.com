@@ -466,6 +466,15 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "The Stooges",
+        "Tank & The Bangas",
+        "Sasha Masakowski"
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 201601016
+    },
+    {
+      "artists" : [
         "Amy Helm",
       ],
       "venue" : "Brooklyn Bowl",
