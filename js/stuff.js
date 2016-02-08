@@ -4,6 +4,11 @@
 var ADAMS_STUFF = {
   "books" : [
     { 
+      "title" : "Riprap; And, Cold Mountain Poems",
+      "author" : "Gary Snyder",
+      "tags" : ["poetry"]
+    },
+    { 
       "title" : "White Fang",
       "author" : "Jack London",
       "tags" : ["novel"]
@@ -466,19 +471,26 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Shakey Graves"
+      ],
+      "venue" : "The Barn @ Levon Helm Studios",
+      "start_date" : 20160206
+    },
+    {
+      "artists" : [
         "The Stooges",
         "Tank & The Bangas",
         "Sasha Masakowski"
       ],
       "venue" : "Brooklyn Bowl",
-      "start_date" : 201601016
+      "start_date" : 20160116
     },
     {
       "artists" : [
         "Amy Helm",
       ],
       "venue" : "Brooklyn Bowl",
-      "start_date" : 201601014
+      "start_date" : 20160114
     },
     {
       "artists" : [
