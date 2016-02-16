@@ -471,6 +471,14 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "The Pimps of Joytime",
+        "Kendra Morris"
+      ],
+      "venue" : "Music Hall of Williamsburg",
+      "start_date" : 20160212
+    },
+    {
+      "artists" : [
         "Shakey Graves"
       ],
       "venue" : "The Barn @ Levon Helm Studios",
