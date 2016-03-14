@@ -471,6 +471,14 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "The Revivalists",
+        "Dru DeCaro"
+      ],
+      "venue" : "Breckenridge Riverwalk Center",
+      "start_date" : 20160306
+    },
+    {
+      "artists" : [
         "The Pimps of Joytime",
         "Kendra Morris"
       ],
