@@ -471,6 +471,13 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Knower"
+      ],
+      "venue" : "The Hall at MP",
+      "start_date" : 20160327
+    },
+    {
+      "artists" : [
         "The Revivalists",
         "Dru DeCaro"
       ],
