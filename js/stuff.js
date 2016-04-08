@@ -471,6 +471,22 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Turkuaz",
+        "Chromatropic"
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 20160407
+    },
+    {
+      "artists" : [
+        "Blondie", "Rickie Lee Jones", "Ann Wilson of Heart", "Holy Holy", "Tony Visconti", "Woody Woodmansey", "Michael Stripe", "Perry Farrell", "The Flaming Lips", "Mumford and Sons", "Sean Lennon", "J Mascis", "Jakob Dylan", "The Pixies"
+      ],
+      "venue" : "Radio City Music Hall",
+      "title": "The Music of David Bowie",
+      "start_date" : 20160401
+    },
+    {
+      "artists" : [
         "Knower"
       ],
       "venue" : "The Hall at MP",
