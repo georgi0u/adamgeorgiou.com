@@ -9,6 +9,11 @@ var ADAMS_STUFF = {
       "tags" : ["poetry"]
     },
     { 
+      "title" : "Robert Plant: A Life",
+      "author" : "Paul Rees",
+      "tags" : ["non-fiction"]
+    },
+    { 
       "title" : "White Fang",
       "author" : "Jack London",
       "tags" : ["novel"]
