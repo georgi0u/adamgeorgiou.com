@@ -476,6 +476,13 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "The New Mastersounds"
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 20160414
+    },
+    {
+      "artists" : [
         "Turkuaz",
         "Chromatropic"
       ],
