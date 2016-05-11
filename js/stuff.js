@@ -3,184 +3,184 @@
 
 var ADAMS_STUFF = {
   "books" : [
-    { 
+    {
       "title" : "Riprap; And, Cold Mountain Poems",
       "author" : "Gary Snyder",
       "tags" : ["poetry"]
     },
-    { 
+    {
       "title" : "Robert Plant: A Life",
       "author" : "Paul Rees",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "White Fang",
       "author" : "Jack London",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "A Heartbreaking Work of Staggering Genius",
       "author" : "Dave Eggers",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Breakfast of Champions",
       "author" : "Kurt Vonnegut",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Barbarian Days: A Surfing Life",
       "author" : "William Finnegan",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Mr. New Orleans: The Life of a Big Easy Underworld Legend",
       "author" : "Matthew Randazzo V",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "The Old Man and the Sea",
       "author" : "Ernest Hemingway",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Hot Water Music",
       "author" : "Charles Budowski",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Road",
       "author" : "Cormac Mccarthy",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Color of Magic",
       "author" : "Terry Pratchett",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Modern Romance",
       "author" : "Aziz Ansari",
       "tags" : ["non-fiction", "comedy"]
     },
-    { 
+    {
       "title" : "Capital in the Twenty-First Century",
       "author" : "Thomas Picketty",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "The Magician King",
       "author" : "Lev Grossman",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Magicians",
       "author" : "Lev Grossman",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Foundation",
       "author" : "Isaac Asimov",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Selected Essays",
       "author" : "David Hume",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Debt: The First 5,000 Years",
       "author" : "David Graeber",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "The Man Who Mistook His Wife for a Hat",
       "author" : "Oliver Sacks",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Animal Farm",
       "author" : "George Orwell",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Gone Girl",
       "author" : "Gillian Flynn",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Dharma Bums",
       "author" : "Jack Kerouac",
       "tags" : ["novel"]
-    },            
-    { 
+    },
+    {
       "title" : "The Tycoons: How Andrew Carnegie, John D. Rockefeller, Jay Gould, and J. P. Morgan Invented the American Supereconomy",
       "author" : "Charles R. Morris",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Into the Wild",
       "author" : "Jon Krakauer",
       "tags" : ["non-fiction"]
-    },            
-    { 
+    },
+    {
       "title" : "Shakey - Neil Young's Biography",
       "author" : "Jimmy McDonough",
       "tags" : ["non-fiction"]
-    },            
-    { 
+    },
+    {
       "title" : "Fear and Loathing in Las Vegas",
       "author" : "Hunter S. Thompson",
       "tags" : ["novel"]
-    },            
-    { 
+    },
+    {
       "title" : "A Moveable Feast",
       "author" : "Ernest Hemingway",
       "tags" : ["non-fiction"]
-    },            
-    { 
+    },
+    {
       "title" : "Just Kids",
       "author" : "Patti Smith",
       "tags" : ["non-fiction"]
-    },            
-    { 
+    },
+    {
       "title" : "Catch-22",
       "author" : "Joseph Heller",
       "tags" : ["novel"]
-    },            
-    { 
+    },
+    {
       "title" : "Neil Young Nation",
       "author" : "Kevin Chong",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban",
       "author" : "Malala Yousafzai",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "author" : "Orson Scott Card",
       "title" : "Ender's Game",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "George Orwell",
       "title" : "1984",
       "isbn-10" : 0156035847,
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Aldous Huxley",
       "title" : "Brave New World",
       "isbn-10" : 0060850523,
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "David Kushner",
       "title" : "Masters of Doom",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "author" : "Orson Scott Card",
       "title" : "Speaker for the Dead",
       "tags" : ["novel"]
@@ -190,262 +190,262 @@ var ADAMS_STUFF = {
       "title" : "Designing Brand Identity",
       "tags" : ["non-fiction","technical","design"]
     },
-    { 
+    {
       "author" : "Elizabeth Gilbert",
       "title" : "Eat, Pray, Love",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "author" : "Benjamin Graham",
       "title" : "The Intelligent Investor",
       "tags" : ["non-fiction","technical","finance"]
     },
-    { 
+    {
       "author" : "Scott Meyers",
       "title" : "Effective C++",
       "tags" : ["non-fiction","technical","programming"]
     },
-    { 
+    {
       "author" : "Andy Hunt and Dave Thomas",
       "title" : "The Pragmatic Programmer",
       "tags" : ["non-fiction","technical","programming"]
     },
-    { 
+    {
       "author" : "Steven Skiena",
       "title" : "The Algorithm Design Manual",
       "tags" : ["non-fiction","technical","programming"]
     },
-    { 
+    {
       "author" : "Kurt Vonnegut",
       "title" : "Cat's Cradle",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Kurt Vonnegut",
       "title" : "Slaughterhouse-Five",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Lois Lowry",
       "title" : "The Giver",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Neal Stephenson",
       "title" : "Snow Crash",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Daniel Keyes",
       "title" : "Flowers for Algernon",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Richard Brautigan",
       "title" : "Trout Fishing in America",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Richard Brautigan",
       "title" : "Revenge of the Lawn",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Richard Brautigan",
       "title" : "The Pill vs. the Springfield Mine Disaster",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Richard Brautigan",
       "title" : "In Watermelon Sugar",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Richard Brautigan",
       "title" : "The Abortion",
       "tags" : ["novel"]
     },
-    { 
+    {
       "author" : "Jack Kerouac",
       "title" : "On the Road",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Sorcer's Stone",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Chamber of Secrets",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Prisoner of Azkaban",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Goblet of Fire",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Order of the Phoenix",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Half-Blood Prince",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Harry Potter and the Deathly Hallows",
       "author" : "J.K. Rowling",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "A Song of Ice and Fire: A Game of Thrones",
       "author" : "George R. R. Martin",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "A Song of Ice and Fire: A Clash of Kings",
       "author" : "George R. R. Martin",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "A Song of Ice and Fire: A Storm of Swords",
       "author" : "George R. R. Martin",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "A Song of Ice and Fire: A Feast for Crows",
       "author" : "George R. R. Martin",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "A Song of Ice and Fire: A Dance with Dragons",
       "author" : "George R. R. Martin",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Girl with the Dragon Tatto",
       "author" : "Stieg Larsson",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Girl who Played with Fire",
       "author" : "Stieg Larsson",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Girl who Kicked the Hornets' Nest",
       "author" : "Stieg Larsson",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Holes",
       "author" : "Louis Sachar",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "House of Leaves",
       "author" : "Mark Z. Danielewski",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Game",
       "author" : "Neil Strauss",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "The Moral Landscape",
       "author" : "Sam Harris",
       "tags" : ["non-fiction","philosophy"]
     },
-    { 
+    {
       "title" : "The End of Faith",
       "author" : "Sam Harris",
       "tags" : ["non-fiction", "religion"]
     },
-    { 
+    {
       "title" : "Free Will",
       "author" : "Sam Harris",
       "tags" : ["non-fiction", "philosophy"]
     },
-    { 
+    {
       "title" : "Zen Mind, Beginner's Mind",
       "author" : "Shunryu Suzuki",
       "tags" : ["non-fiction", "philosophy"]
     },
-    { 
+    {
       "title" : "Buddhism Plain and Simple",
       "author" : "Steve Hagen",
       "tags" : ["non-fiction", "philosophy"]
     },
-    { 
+    {
       "title" : "The Art of Living: Vipassana Meditation",
       "author" : "William Hart",
       "tags" : ["non-fiction", "philosophy"]
     },
-    { 
+    {
       "title" : "Siddhartha",
       "author" : "Herman Hesse",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Waiting for Godot",
       "author" : "Samuel Beckett",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Stranger",
       "author" : "Albert Camus",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "Embracing the Wide Sky",
       "author" : "Daniel Tammet",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Born of a Blue Day",
       "author" : "Daniel Tammet",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Zen and the Art of Motorcycle Maintenance",
       "author" : "Robert M. Pirsig",
       "tags" : ["novel", "philosophy"]
     },
-    { 
+    {
       "title" : "I,Robot",
       "author" : "Isaac Asimov",
       "tags" : ["novel"]
     },
-    { 
+    {
       "title" : "The Autobigraphy of Benjamin Franklin",
       "author" : "Benjamin Franklin",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Linchpin",
       "author" : "Seth Godin",
       "tags" : ["non-fiction", "business"]
     },
-    { 
+    {
       "title" : "The Soul of a New Machine",
       "author" : "Tracy Kidder",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Drive",
       "author" : "Daniel Pink",
       "tags" : ["non-fiction"]
     },
-    { 
+    {
       "title" : "Style: Lessons in Clarity and Grace",
       "author" : "Joseph M. Williams",
       "tags" : ["non-fiction", "technical"]
@@ -464,16 +464,23 @@ var ADAMS_STUFF = {
       "title" : "A Short History of Nearly Everything",
       "author" : "Bill Bryson",
       "tags" : ["non-fiction"]
-      
+
     },
     {
       "title" : "Harry Potter and the Methods of Rationality",
       "author" : "Eliezer Yudkowsky",
       "tags" : ["novel"]
-      
+
     }
   ],
   "concerts" : [
+    {
+      "artists" : [
+        "Rayland Baxter"
+      ],
+      "venue" : "Rockwood Music Hall",
+      "start_date" : 20160507
+    },
     {
       "artists" : [
         "The New Mastersounds"
@@ -809,7 +816,7 @@ var ADAMS_STUFF = {
     },
     {
       "artists" : [
-        "Lettuce + Eric Krasno + Tash Neal", 
+        "Lettuce + Eric Krasno + Tash Neal",
         "Bill Evans Soulgrass"
       ],
       "venue" : "Brooklyn Bowl",
@@ -949,7 +956,7 @@ var ADAMS_STUFF = {
     },
     {
       "artists" : [
-        "Charles Bradley & His Extraordinaries", 
+        "Charles Bradley & His Extraordinaries",
         "Mac Demarco",
         "Benjamin Booker"
       ],
@@ -958,7 +965,7 @@ var ADAMS_STUFF = {
     },
     {
       "artists" : [
-        "Dark Start Orchestra", 
+        "Dark Start Orchestra",
         "Umphrey's McGee",
         "Robert Randolph & The Family Band",
         "The Weeks",
@@ -1013,7 +1020,7 @@ var ADAMS_STUFF = {
     {
       "artists" : [
         "The Infamous Stringdusters", "Phish", "Robert Plant", "Eric Clapton", "Preseration Hall Jazz Band", "Galactic", "Maggie Koerner", "Rachelle Ferell", "Rodriguez","Bonerama",
-        "Afoxe Omo Nile Ogunja", "Sonny Landreth", "North Mississippi Allstars","Rebirth Brass Band", "Santana", "Avett Brothers", "Anders Osborne", "Marco Benevento", 
+        "Afoxe Omo Nile Ogunja", "Sonny Landreth", "North Mississippi Allstars","Rebirth Brass Band", "Santana", "Avett Brothers", "Anders Osborne", "Marco Benevento",
         "The Real Untouchable Brass Band", " Christ Thomas King", "Sasha Masakowski", "Shamarr Allen & The Underdawgs", "Eric Lindell & Co."
       ],
       "title" : "New Orleans Jazz & Heritage Festival",
@@ -1093,7 +1100,7 @@ var ADAMS_STUFF = {
         "Spirit Family Reunion",
         "Elvis Perkins in Dearland",
         "Dawn Landes",
-        "Deer Tick"                    
+        "Deer Tick"
       ],
       "venue" : "Music Hall of Williamsburg",
       "start_date" : 20140324
@@ -1570,7 +1577,7 @@ var ADAMS_STUFF = {
         "Arch Enemy",
         "Overkill",
         "Into Eternity",
-        "Sanctity", 
+        "Sanctity",
         "The SmashUp"
       ]
     },
