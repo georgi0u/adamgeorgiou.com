@@ -476,6 +476,13 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "The Revivalists"
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 20160512
+    },
+    {
+      "artists" : [
         "Rayland Baxter"
       ],
       "venue" : "Rockwood Music Hall",
