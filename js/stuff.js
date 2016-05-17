@@ -9,6 +9,11 @@ var ADAMS_STUFF = {
       "tags" : ["poetry"]
     },
     {
+      "title" : "Waging Heavy Peace: A Hippie Dream",
+      "author" : "Neil Young",
+      "tags" : ["non-fiction"]
+    },
+    {
       "title" : "Robert Plant: A Life",
       "author" : "Paul Rees",
       "tags" : ["non-fiction"]
