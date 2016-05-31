@@ -481,6 +481,31 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Lake Street Dive",
+        "Sharon Jones & The Dap Kings"
+      ],
+      "venue" : "Ommegang Brewery",
+      "start_date" : 20160528
+    },
+    {
+      "artists" : [
+        "Lukas Nelson & Promise of the Real",
+        "Cornmeal"
+      ],
+      "venue" : "Brooklyn Bowl",
+      "start_date" : 20160527
+    },
+    {
+      "title": "A Listening of Neil Young's New Album, Earth",
+      "artists" : [
+        "Neil Young"
+      ],
+      "venue" : "Museum of Modern Art",
+      "start_date" : 20160527
+    },
+
+    {
+      "artists" : [
         "The Revivalists"
       ],
       "venue" : "Brooklyn Bowl",
