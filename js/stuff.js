@@ -502,7 +502,7 @@ var ADAMS_STUFF = {
         "Con Brio"
       ],
       "title" : "Mountain Jam",
-      "venue" : "Ommegang Brewery",
+      "venue" : "Hunter Mountain, NY",
       "start_date" : 20160602,
       "end_date" : 20160605
     },
@@ -792,7 +792,7 @@ var ADAMS_STUFF = {
         "Benjamin Booker",
         "Railroad Earth"
       ],
-      "venue" : "Hunter Mountain",
+      "venue" : "Hunter Mountain, NY",
       "title" : "Mountain Jam",
       "start_date" : 20150604,
       "end_date" : 20150607,
@@ -1053,7 +1053,7 @@ var ADAMS_STUFF = {
         "Lucious",
         "The Allman Brothers"
       ],
-      "venue" : "Hunter Mountain",
+      "venue" : "Hunter Mountain, NY",
       "title" : "Mountain Jam",
       "start_date" : 20140605,
       "end_date" : 20140608,
