@@ -217,7 +217,7 @@ function writeLastFmSection() {
    expanding and collapsing the > N remaining items.
 */
 function limitSubContainers() {
-  var ITEM_LIMIT = 5;
+  var ITEM_LIMIT = 6;
   
   var subContainers = $(".sub_container.collapsible > ul");
   var show = function(list, items) {
@@ -236,7 +236,7 @@ function limitSubContainers() {
 
     var hiddenItems = [];
     $(list).children('li').each(function(index, item) {
-      if (index <= ITEM_LIMIT) {
+      if (index < ITEM_LIMIT) {
         return;
       }
       hiddenItems.push(item);
@@ -246,7 +246,7 @@ function limitSubContainers() {
 
     var expand = $(
       "<a title='Show remaining " + hiddenItems.length + " items.' " +
-      "   class='expand_button'>…</a>");
+      "   class='expand_button'>(show more)</a>");
     var collapse = $("<a class='collapse_button'>(show less of the above)</a>");
     collapse.hide();
     $(list).parent().append(expand);

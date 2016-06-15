@@ -481,6 +481,47 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Con Brio",
+        "The London Souls",
+        "Vulfpeck",
+        "Rayland Baxter",
+        "Brett Dennen",
+        "St. Lucia",
+        "Kamasi Washington",
+        "Lucius",
+        "Leaon Bridges",
+        "M83",
+        "LCD Soundsystem",
+        "Tame Impala",
+        "Zeds Dead",
+        "Grace Potter",
+        "Chris Stapleton",
+        "Band of Horses",
+        "Nathaniel Rateliff & The Night Sweats",
+        "Macklemore & Ryan Lewis",
+        "Pearl Jam",
+        "The Claypool Lennon Delirium",
+        "Superjam with Kamasi Washington, Allen Stone, and more",
+        "Judd Apatow",
+        "Vanessa Bayer",
+        "Pete Davidson",
+        "Charles Bradley & His Extraodinaires",
+        "Kurt Vile & The Violators",
+        "The Wood Brothers",
+        "Father John Misty",
+        "Lettuce",
+        "Steep Canyon Rangers",
+        "Ween",
+        "Dead & Company"
+        
+      ],
+      "title" : "Bonnaroo",
+      "venue" : "Manchester, TN",
+      "start_date" : 20160609,
+      "end_date" : 20160612
+    },
+    {
+      "artists" : [
         "Sister Sparrow and the Dirty Birds",
         "Houndmouth",
         "Umphrey's McGee",
