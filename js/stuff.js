@@ -921,7 +921,7 @@ var ADAMS_STUFF = {
     },
     {
       "artists" : [
-        "Lettuce + Eric Krasno + Tash Neal",
+        "Lettuce w/ Tash Neal",
         "Bill Evans Soulgrass"
       ],
       "venue" : "Brooklyn Bowl",
