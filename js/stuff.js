@@ -481,6 +481,13 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Anders Osborne and his Almost Acoustic Band",
+      ],
+      "venue" : "The Hall at MP",
+      "start_date" : 20160617
+    },
+    {
+      "artists" : [
         "Con Brio",
         "The London Souls",
         "Vulfpeck",
