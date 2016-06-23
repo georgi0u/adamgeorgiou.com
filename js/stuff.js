@@ -481,6 +481,13 @@ var ADAMS_STUFF = {
   "concerts" : [
     {
       "artists" : [
+        "Ray Lamontagne",
+      ],
+      "venue" : "The Brooklyn Bandshell",
+      "start_date" : 20160622
+    },
+    {
+      "artists" : [
         "Anders Osborne and his Almost Acoustic Band",
       ],
       "venue" : "The Hall at MP",
