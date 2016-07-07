@@ -74,17 +74,7 @@ function writeBooksSection() {
 
   // Book List
   var bookList = $("<ul>");
-  //  var booksSorted = shuffle(ADAMS_STUFF["books"]);
-  var  booksSorted = ADAMS_STUFF["books"];
-  // if you want to sort lexigraphically, use this
-  /*ADAMS_STUFF["books"].sort(
-    function(lhs, rhs) {
-      var leftTitle = lhs["title"].toLowerCase().replace(/^the /,"");
-      var rightTitle = rhs["title"].toLowerCase().replace(/^the /,"");
-
-      return (leftTitle < rightTitle) ? -1 : 1;
-    });
-  */
+  var booksSorted = shuffle(ADAMS_STUFF["books"]);
 
   for(i in booksSorted ) {
     var book = booksSorted[i];
