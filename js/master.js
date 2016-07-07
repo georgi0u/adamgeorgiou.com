@@ -74,7 +74,8 @@ function writeBooksSection() {
 
   // Book List
   var bookList = $("<ul>");
-  booksSorted = shuffle(ADAMS_STUFF["books"]);
+  //  var booksSorted = shuffle(ADAMS_STUFF["books"]);
+  var  booksSorted = ADAMS_STUFF["books"];
   // if you want to sort lexigraphically, use this
   /*ADAMS_STUFF["books"].sort(
     function(lhs, rhs) {
@@ -90,19 +91,32 @@ function writeBooksSection() {
 
     // Title
     var toPrint = $("<li>");
-    if(book["title"].length > 100) {
-      toPrint.text(book["title"].substring(0, 100) + "...");
-    } else {
-      toPrint.text(book["title"]);   
+    var title = book["title"]["name"]
+    if(title.length > 100) {
+      title = title.substring(0, 100) + "...";
+    }
+    if (book["title"]["link"] != undefined && book["title"]["link"] != "") {
+      var link = $("<a target=\"_blank\">");
+      link.text(title);
+      link.attr("href", book["title"]["link"]);
+      toPrint.append(link);
+    } else  {
+      toPrint.append(title);
     }
 
     // Author
     var author = book["author"];
-    if(author) {
-      toPrint
-        .append($("<span>").css("font-style","italic").text(" by "))
-        .append(author);
+    toPrint
+      .append($("<span>").css("font-style","italic").text(" by "))
+    if(author['link'] != undefined && author['link'] != "") {
+      var authorLink = $("<a target=\"_blank\">");
+      authorLink.attr("href", author["link"]);
+      authorLink.text(author["name"]);
+      author = authorLink;
+    } else {
+      author = author['name'];
     }
+    toPrint.append(author);
 
     // Tags
     var sortedTags = book["tags"].sort();
