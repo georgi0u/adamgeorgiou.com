@@ -1256,6 +1256,15 @@ var ADAMS_STUFF = {
   ], 
   "concerts": [
     {
+      "venue": "Brookfield Place Waterfront Plaza", 
+      "start_date": 20160713, 
+      "artists": [
+        "Rayland Baxter",
+        "Valerie June"
+      ],
+      "title": "Lowdown Hudson Music Fest"
+    }, 
+    {
       "venue": "The Brooklyn Bandshell", 
       "start_date": 20160622, 
       "artists": [
