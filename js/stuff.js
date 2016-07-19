@@ -2,6 +2,19 @@ var ADAMS_STUFF = {
   "books": [
     {
       "author": {
+        "link": "http://amzn.to/29RPINw",
+        "name": "Iain M. Banks"
+      }, 
+      "tags": [
+        "novel"
+      ], 
+      "title": {
+        "link": "http://amzn.to/29LtlrV",
+        "name": "The Player Of Games"
+      }
+    }, 
+    {
+      "author": {
         "link": "http://amzn.to/29lbrLd", 
         "name": "Gary Snyder"
       }, 
