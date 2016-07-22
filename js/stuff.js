@@ -1260,7 +1260,7 @@ var ADAMS_STUFF = {
         "Futurebirds", 
         "Rayland Baxter"
       ], 
-      "venue": "Brookyln Bowl", 
+      "venue": "Brooklyn Bowl", 
       "start_date": 20160721,
     }, 
     {
