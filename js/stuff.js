@@ -1257,6 +1257,14 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Futurebirds", 
+        "Rayland Baxter"
+      ], 
+      "venue": "Brookyln Bowl", 
+      "start_date": 20160721,
+    }, 
+    {
+      "artists": [
         "Rayland Baxter", 
         "Valerie June"
       ], 
