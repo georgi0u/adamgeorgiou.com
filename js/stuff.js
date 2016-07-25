@@ -5,6 +5,19 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "link": "https://www.amazon.com/Paulo-Coelho/e/B000AQ3HB8/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=6fa261d0a7b8a0157ec1973097dcdc21", 
+        "name": "Paulo Coelho"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/dp/B00U6SFUSS/ref=as_li_ss_tl?_encoding=UTF8&btkr=1&linkCode=ll1&tag=adamgeorgio06-20&linkId=ce9400533f03bb6749eede107dbd5d67", 
+        "name": "The Alchemist"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "link": "https://www.amazon.com/Iain-M.-Banks/e/B000APXAVG/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=f4a8fec29753115acd335025529f7d3b", 
         "name": "Iain M. Banks"
       }, 
