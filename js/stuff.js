@@ -162,7 +162,7 @@ var ADAMS_STUFF = {
       ], 
       "author": {
         "link": "http://www.amazon.com/Charles-Bukowski/e/B000APEQ9G/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=adamgeorgio06-20&linkId=1faa4f65aac5c9d26cfe10e118394349", 
-        "name": "Charles Budowski"
+        "name": "Charles Bukowski"
       }, 
       "title": {
         "link": "https://www.amazon.com/Hot-Water-Music-Charles-Bukowski/dp/0876855966?tag=adamgeorgio06-20", 
