@@ -5,6 +5,19 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "link": "https://www.amazon.com/Charles-Bukowski/e/B000APEQ9G/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=4366e15aef119e42550476b820595f7f", 
+        "name": "Charles Bukowski"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/Love-Dog-Hell-Charles-Bukowski/dp/0876853629/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=adamgeorgio06-20&linkId=f38591fb431fdbb028b85fa3a1674597", 
+        "name": "Love is a Dog From Hell"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "link": "https://www.amazon.com/Paulo-Coelho/e/B000AQ3HB8/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=6fa261d0a7b8a0157ec1973097dcdc21", 
         "name": "Paulo Coelho"
       }, 
