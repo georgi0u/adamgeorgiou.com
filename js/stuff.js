@@ -1283,6 +1283,14 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Lucinda Williams",
+        "Thao and The Get Down Stay Down"
+      ], 
+      "venue": "Lincoln Center", 
+      "start_date": 20160804,
+    }, 
+    {
+      "artists": [
         "Futurebirds", 
         "Rayland Baxter"
       ], 
