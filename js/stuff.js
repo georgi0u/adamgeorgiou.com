@@ -5,6 +5,18 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "J.K. Rowling & Jack Thorne"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/Harry-Potter-Cursed-Child-Production/dp/1338099132/ref=as_li_ss_tl?ie=UTF8&qid=1470532900&sr=8-1&keywords=harry+potter+and+the+cursed+child&linkCode=ll1&tag=adamgeorgio06-20&linkId=98f6644a1916990db1c9d12a40aa5029", 
+        "name": "Harry Potter & The Cursed Child"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "link": "https://www.amazon.com/Charles-Bukowski/e/B000APEQ9G/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=4366e15aef119e42550476b820595f7f", 
         "name": "Charles Bukowski"
       }, 
