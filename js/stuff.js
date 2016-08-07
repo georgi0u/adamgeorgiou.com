@@ -9,7 +9,7 @@ var ADAMS_STUFF = {
       }, 
       "title": {
         "link": "https://www.amazon.com/Harry-Potter-Cursed-Child-Production/dp/1338099132/ref=as_li_ss_tl?ie=UTF8&qid=1470532900&sr=8-1&keywords=harry+potter+and+the+cursed+child&linkCode=ll1&tag=adamgeorgio06-20&linkId=98f6644a1916990db1c9d12a40aa5029", 
-        "name": "Harry Potter & The Cursed Child"
+        "name": "Harry Potter and the Cursed Child"
       }
     }, 
     {
