@@ -1295,6 +1295,31 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Dark Star Orchestra",
+        "The String Cheese Incident",
+        "Dopapod",
+        "Cabinet",
+        "The Floozies",
+        "The Werks",
+        "Rayland Baxter",
+        "Pimps of Joytime",
+        "Pigeons Playing Ping Pong",
+        "Driftwood",
+        "Trey Anastasio Band",
+        "The Claypool Lennon Delirium",
+        "Anders Osborne",
+        "Twiddle",
+        "Turkuaz",
+        "Sister Sparrow and The Dirty Birds",
+        "The Magic Beans"
+      ],
+      "title" : "The Peach Festival",
+      "venue" : "Montage Mountain", 
+      "start_date": 20160811,
+      "end_date": 20160814,
+    }, 
+    {
+      "artists": [
         "Lucinda Williams",
         "Thao and The Get Down Stay Down"
       ], 
