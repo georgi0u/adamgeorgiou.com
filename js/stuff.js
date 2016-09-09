@@ -1295,6 +1295,14 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Vulfpeck",
+        "Eric Krasno Band"
+      ], 
+      "venue": "Central Park Summerstage", 
+      "start_date": 20160907,
+    },
+    {
+      "artists": [
         "Dark Star Orchestra",
         "The String Cheese Incident",
         "Dopapod",
