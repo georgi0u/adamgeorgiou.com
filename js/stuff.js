@@ -1295,6 +1295,31 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Neil Young & Promise of the Real",
+        "Lukas Nelson & Promise of the Real",
+        "Sheryl Crow",
+        "Chris Robinson Brotherhood"
+      ],
+      "title": "The Outlaw Festival",
+      "venue": "Montage Mountain", 
+      "start_date": 20160918
+    },
+    {
+      "artists": [
+        "Neil Young and Promise of the Real",
+        "Willie Nelson",
+        "Dave Matthews & Tim Reynolds",
+        "Alabama Shakes",
+        "Sturgill Simpson",
+        "Nathaniel Rateliff & The Night Sweats",
+        "Jamey Johnson w/ Alison Krauss"
+      ],
+      "title": "Farm Aid",
+      "venue": "Jiffy Lube Live", 
+      "start_date": 20160917
+    },
+    {
+      "artists": [
         "Vulfpeck",
         "Eric Krasno Band"
       ], 
