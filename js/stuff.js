@@ -2,6 +2,19 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Bob Dylan",
+        "link": "https://www.amazon.com/Bob-Dylan/e/B00LQF9VGW/ref=as_li_ss_tl?qid=1475006784&sr=8-1&linkCode=ll2&tag=adamgeorgio06-20&linkId=4ca022bca1aca2f589e4f8ef8af06f5b"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/Chronicles-Bob-Dylan/dp/0743244583/ref=as_li_ss_tl?ie=UTF8&qid=1475006784&sr=8-1&keywords=bob+dylan+chronicles&linkCode=ll1&tag=adamgeorgio06-20&linkId=326453b11717ba1b80370eb067719adc",
+        "name": "Chronicles"
+      }
+    }, 
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
