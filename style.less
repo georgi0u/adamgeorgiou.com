@@ -70,8 +70,16 @@ a {
         }
     }
     #links_container {
-        span { color:#fff;}
-        a:hover > span { color:inherit; }
+      a:hover {        
+        .hover-show { display: inline; }
+        .normal-show { display: none;}
+      }
+      
+      a {        
+        .hover-show { display: none; }
+        .normal-show { display: inline;}
+      }
+
     }
     #resume {
         #contact_info_container {

@@ -1308,6 +1308,14 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Boy & Bear",
+        "Cobi"
+      ],
+      "venue": "The Highline Ballroom", 
+      "start_date": 20161011
+    },
+    {
+      "artists": [
         "Neil Young & Promise of the Real",
         "Lukas Nelson & Promise of the Real",
         "Sheryl Crow",
