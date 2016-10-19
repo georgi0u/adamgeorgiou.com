@@ -1313,8 +1313,10 @@ var ADAMS_STUFF = {
         "Robert Plant",
         "Buddy Miller",
         "The Milk Carton Kids",
-        "David Pulkingham"
+        "David Pulkingham",
+        "Joan Baez"
       ],
+      "title": "Lampedusa: Concerts for Refugees",
       "venue": "The Town Hall", 
       "start_date": 20161018
     },
