@@ -1308,6 +1308,18 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Emmylou Harris",
+        "Steve Earle",
+        "Robert Plant",
+        "Buddy Miller",
+        "The Milk Carton Kids",
+        "David Pulkingham"
+      ],
+      "venue": "The Town Hall", 
+      "start_date": 20161018
+    },
+    {
+      "artists": [
         "Boy & Bear",
         "Cobi"
       ],
