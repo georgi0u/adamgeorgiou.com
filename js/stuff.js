@@ -1308,6 +1308,13 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Twiddle", "Madaila"
+      ],
+      "venue": "Brooklyn Bowl", 
+      "start_date": 20161027
+    },
+    {
+      "artists": [
         "Emmylou Harris",
         "Steve Earle",
         "Robert Plant",
