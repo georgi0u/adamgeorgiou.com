@@ -5,6 +5,19 @@ var ADAMS_STUFF = {
         "non-fiction"
       ], 
       "author": {
+        "name": "Christopher Hitchens",
+        "link": "https://www.amazon.com/Christopher-Hitchens/e/B000APSKR0/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=aefb6da4ea9bfb298d33e3a14fdc2f9a"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/Hitch-22-Memoir-Christopher-Hitchens/dp/044654034X/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=adamgeorgio06-20&linkId=dcf01e9095a031f3a31a34df7686dbce",
+        "name": "Hitch-22"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
         "name": "Bob Dylan",
         "link": "https://www.amazon.com/Bob-Dylan/e/B00LQF9VGW/ref=as_li_ss_tl?qid=1475006784&sr=8-1&linkCode=ll2&tag=adamgeorgio06-20&linkId=4ca022bca1aca2f589e4f8ef8af06f5b"
       }, 
@@ -1306,6 +1319,13 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": [
+        "Lettuce", "The Floozies"
+      ],
+      "venue": "The Playstation Theater", 
+      "start_date": 20161112
+    },
     {
       "artists": [
         "Twiddle", "Madaila"
