@@ -70,7 +70,7 @@ function writeBooksSection() {
   var section = $("#bookshelf_container");
 
   // Header
-  section.append($("<h1>bookshelf</h1>"));
+  section.append($("<h1><a target='_blank' href='https://www.goodreads.com/user/show/4860036-adam-georgiou'>bookshelf</a></h1>"));
 
   // Book List
   var bookList = $("<ul>");
