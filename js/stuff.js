@@ -1321,6 +1321,13 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Nikki Lane", "Brent Cobb", "Jonathan Tyler"
+      ],
+      "venue": "Music Hall of Williamsburg", 
+      "start_date": 20170302
+    },
+    {
+      "artists": [
         "Anders Osborne", "The Ghost of Paul Revere"
       ],
       "venue": "The Boulton Center", 
