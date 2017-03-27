@@ -5,6 +5,32 @@ var ADAMS_STUFF = {
         "non-fiction"
       ], 
       "author": {
+        "name": "Joe Simpson",
+        "link": "https://www.amazon.com/Joe-Simpson/e/B000AQ3DQW/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgiou-20&linkId=06ac07eb838ea97d7473181ee27abcdc"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/Touching-Void-Joe-Simpson-ebook/dp/B00AR0DN3Y/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1490581795&sr=1-1&keywords=touching+the+void&linkCode=ll1&tag=adamgeorgiou-20&linkId=d791e79ad62f6074636f2132d61091be",
+        "name": "Touching the Void"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Bill Bryson",
+        "link": "https://www.amazon.com/Bill-Bryson/e/B000APXTVM/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgiou-20&linkId=341009439eb30a763817072708b678f3"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/dp/B000S1LSAM/ref=as_li_ss_tl?_encoding=UTF8&btkr=1&linkCode=ll1&tag=adamgeorgio06-20&linkId=21ce70d69aad8234f3ee7702951e3c13",
+        "name": "A Walk In The Woods: Rediscovering America on the Appalachian Trail"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
         "name": "Christopher Hitchens",
         "link": "https://www.amazon.com/Christopher-Hitchens/e/B000APSKR0/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=aefb6da4ea9bfb298d33e3a14fdc2f9a"
       }, 
