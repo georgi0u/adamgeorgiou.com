@@ -167,6 +167,19 @@ var ADAMS_STUFF = {
         "link": "https://www.amazon.com/Heartbreaking-Work-Staggering-Genius/dp/0375725784?tag=adamgeorgio06-20", 
         "name": "A Heartbreaking Work of Staggering Genius"
       }
+    },
+        {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "link": "http://www.amazon.com/Dave-Eggers/e/B001H6UAH4/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=adamgeorgio06-20&linkId=81cdb092caa080782eb69e6f89231b89", 
+        "name": "Dave Eggers"
+      }, 
+      "title": {
+        "link": "https://www.amazon.com/dp/B00EGMQIJ0/ref=as_li_ss_tl?_encoding=UTF8&btkr=1&linkCode=ll1&tag=adamgeorgiou-20&linkId=b889c0ed5a1b15db63546db87037e393", 
+        "name": "The Circle"
+      }
     }, 
     {
       "tags": [
