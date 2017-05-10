@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Ernest Cline",
+      }, 
+      "title": {
+        "name": "Ready Player One"
+      }
+    }, 
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
@@ -1358,6 +1369,20 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": [
+        "Jamey Johnson", "Margo Price"
+      ],
+      "venue": "The Ogden Theater", 
+      "start_date": 20170503
+    },
+    {
+      "artists": [
+        "Adam Wakefeild"
+      ],
+      "venue": "The Valentine", 
+      "start_date": 20170419
+    },
     {
       "artists": [
         "Nikki Lane", "Brent Cobb", "Jonathan Tyler"
