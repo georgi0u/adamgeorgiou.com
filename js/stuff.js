@@ -1371,6 +1371,21 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "The Claypool Lennon Delirium"
+      ],
+      "venue": "The Fox Theater", 
+      "start_date": 20170517
+    },
+    {
+      "artists": [
+        "Lettuce", "Turkuaz"
+      ],
+      "venue": "Red Rocks", 
+      "start_date": 20170513
+    },
+
+    {
+      "artists": [
         "Jamey Johnson", "Margo Price"
       ],
       "venue": "The Ogden Theater", 
