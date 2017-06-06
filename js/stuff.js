@@ -1371,6 +1371,13 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Vulfpeck"
+      ],
+      "venue": "The Observatory", 
+      "start_date": 20170604
+    },
+    {
+      "artists": [
         "The Claypool Lennon Delirium"
       ],
       "venue": "The Fox Theater", 
