@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "J.D. Salinger",
+      }, 
+      "title": {
+        "name": "Catcher in the Rye"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "Ernest Cline",
       }, 
       "title": {
