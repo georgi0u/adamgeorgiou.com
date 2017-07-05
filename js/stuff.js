@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "Charles Bukowski",
+      }, 
+      "title": {
+        "name": "Hollywood"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "J.D. Salinger",
       }, 
       "title": {
