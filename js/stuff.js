@@ -5,6 +5,39 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "Jim Harrison",
+      }, 
+      "title": {
+        "name": "Legends of the Fall"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Orsen Scott Card",
+      }, 
+      "title": {
+        "name": "Xenocide"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Ben Sasse",
+      }, 
+      "title": {
+        "name": "The Vanishing American Adult"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "Charles Bukowski",
       }, 
       "title": {
