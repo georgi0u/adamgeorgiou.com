@@ -1426,6 +1426,23 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Twiddle",
+        "Pigeons Playing Ping Pong",
+      ],
+      "venue": "Boulder Theater", 
+      "start_date": 20170812
+    },
+    {
+      "artists": [
+        "Bahamas",
+        "The Lone Below",
+        "Future Islands"
+      ],
+      "venue": "The Fox Theater", 
+      "start_date": 20170809
+    },
+    {
+      "artists": [
         "Vulfpeck"
       ],
       "venue": "The Observatory", 
