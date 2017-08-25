@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "Neil Gaiman",
+      }, 
+      "title": {
+        "name": "American Gods"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "Jim Harrison",
       }, 
       "title": {
