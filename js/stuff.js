@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Jonathan Haidt",
+      }, 
+      "title": {
+        "name": "The Righteous Mind: Why Good People Are Divided by Politics and Religion"
+      }
+    },
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
@@ -1435,6 +1446,13 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": [
+        "St. Paul and the Broken Bones",
+      ],
+      "venue": "Chautauqua Theater", 
+      "start_date": 20170815
+    },
     {
       "artists": [
         "Twiddle",
