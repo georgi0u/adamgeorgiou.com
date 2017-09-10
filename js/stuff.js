@@ -1448,6 +1448,14 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "Dispatch",
+        "Real Estate"
+      ],
+      "venue": "Breckenridge Brewery", 
+      "start_date": 20170909
+    },
+    {
+      "artists": [
         "St. Paul and the Broken Bones",
       ],
       "venue": "Chautauqua Theater", 
