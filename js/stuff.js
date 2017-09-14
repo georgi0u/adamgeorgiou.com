@@ -1447,6 +1447,19 @@ var ADAMS_STUFF = {
   ], 
   "concerts": [
     {
+      "title": "Huricane Harvery Relief Concert, Featuring Members of",
+      "artists": [
+        "The Motet",
+        "Anders Osborne",
+        "The Infamous Stringdusters",
+        "The New Mastersounds",
+        "Thievery Corperation",
+        "Sunsquabi",
+      ],
+      "venue": "The Boulder Theater", 
+      "start_date": 20170912
+    },
+    {
       "artists": [
         "Dispatch",
         "Real Estate"
