@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Ernest Hemingway",
+      }, 
+      "title": {
+        "name": "A Farewell to Arms"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
