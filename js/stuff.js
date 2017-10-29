@@ -5,6 +5,50 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "George V. Higgins",
+      }, 
+      "title": {
+        "name": "The Friends of Eddie Coyle"
+      }
+    },
+    {
+      "tags": [
+        "nightmare"
+      ], 
+      "author": {
+        "name": "William Bouroughs",
+      }, 
+      "title": {
+        "name": "Naked Lunch"
+      }
+    },
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Marco Pierre White",
+      }, 
+      "title": {
+        "name": "The Devil in the Kitchen: Sex, Pain, Madness and the Making of a Great Chef"
+      }
+    },
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Anthony Bourdain",
+      }, 
+      "title": {
+        "name": "Kitchen Confidential"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "Ernest Hemingway",
       }, 
       "title": {
