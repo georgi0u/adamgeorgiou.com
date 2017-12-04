@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "George Orwell",
+      }, 
+      "title": {
+        "name": "All Art Is Propaganda"
+      }
+    },
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
