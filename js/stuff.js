@@ -2,6 +2,28 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "David Foster Wallace",
+      }, 
+      "title": {
+        "name": "Girl With Curious Hair"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Tom Robbins",
+      }, 
+      "title": {
+        "name": "Jitterbug Perfume"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
