@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Henry David Thoreau",
+      }, 
+      "title": {
+        "name": "Walden"
+      }
+    },
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
