@@ -2,6 +2,18 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction",
+        "essay"
+      ], 
+      "author": {
+        "name": "Henry David Thoreau",
+      }, 
+      "title": {
+        "name": "Civil Disobedience"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
