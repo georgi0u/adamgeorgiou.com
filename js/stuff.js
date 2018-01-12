@@ -2,6 +2,18 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "link": "https://www.amazon.com/Jack-London/e/B00JXLBJHA/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=adamgeorgio06-20&linkId=f09bccdacf4988a50aa5b14559eace10", 
+        "name": "Jack London"
+      }, 
+      "title": {
+        "name": "The Call of the Wild"
+      }
+    }, 
+    {
+      "tags": [
         "non-fiction",
         "essay"
       ], 
