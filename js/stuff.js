@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Fran Lebowitz"
+      }, 
+      "title": {
+        "name": "Metropolitan Life"
+      }
+    }, 
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
