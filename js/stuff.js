@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "non-fiction"
       ], 
       "author": {
+        "name": "David Foster Wallace"
+      }, 
+      "title": {
+        "name": "Brief Interviews With Hideous Men"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
         "name": "Fran Lebowitz"
       }, 
       "title": {
