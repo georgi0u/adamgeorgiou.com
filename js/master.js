@@ -260,6 +260,7 @@ function limitSubContainers() {
       show(list, hiddenItems);
       expand.hide();
       collapse.show();
+      $(list).parent().toggleClass('expanded');
     });
 
     collapse.click(function() {
@@ -270,6 +271,7 @@ function limitSubContainers() {
       $('html, body').animate({
         scrollTop: $(header).offset().top - 50
       }, 0);
+      $(list).parent().toggleClass('expanded');
     });
   });
 }
