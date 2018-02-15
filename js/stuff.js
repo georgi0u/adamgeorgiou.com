@@ -5,6 +5,39 @@ var ADAMS_STUFF = {
         "non-fiction"
       ], 
       "author": {
+        "name": "Fran Lebowitz"
+      }, 
+      "title": {
+        "name": "Social Studies"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Zach Klein"
+      }, 
+      "title": {
+        "name": "Cabin Porn: Inspiration for Your Quiet Place Somewhere"
+      }
+    }, 
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "David Foster Wallace"
+      }, 
+      "title": {
+        "name": "Consider the Lobster"
+      }
+    }, 
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "David Foster Wallace"
       }, 
       "title": {
