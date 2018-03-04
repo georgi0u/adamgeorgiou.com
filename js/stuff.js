@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Jim Harrison"
+      }, 
+      "title": {
+        "name": "Dalva"
+      }
+    }, 
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
@@ -1624,6 +1635,13 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": [
+        "Snarky Puppy",
+      ],
+      "venue": "The Boulder Theater", 
+      "start_date": 20180220
+    },
     {
       "title": "Huricane Harvery Relief Concert, Featuring Members of",
       "artists": [
