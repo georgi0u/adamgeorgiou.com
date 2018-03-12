@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "Viktor E. Frankl"
+      }, 
+      "title": {
+        "name": "Man's Search For Meaning"
+      }
+    },
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
@@ -1635,6 +1646,26 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "title": "Joey Porter’s Shady Business",
+      "artists": [
+        "Joey Porter (The Motet)",
+        "Lyle Divinsky (The Motet)",
+        "Alvin Ford Jr. (Pretty Lights Live Band / Dumpstaphunk)",
+        "Garrett Sayers (The Motet)",
+        "Craig Brodhead (Turkuaz)",
+        "Shira Elias (Turkuaz)"
+      ],
+      "venue": "Cervantes' Masterpiece", 
+      "start_date": 20180310
+    },
+    {
+      "artists": [
+       "Chicano Batman"
+      ],
+      "venue": "The Fillmore Auditorium", 
+      "start_date": 20180310
+    },
     {
       "artists": [
         "Snarky Puppy",
