@@ -1647,6 +1647,32 @@ var ADAMS_STUFF = {
   ], 
   "concerts": [
     {
+      "title": "Mountain Jam",
+      "artists": [
+        "Kurt Vile",
+        "Andy Frasco & The U.N.",
+        "War on Drugs",
+        "The Other Brother",
+        "Alt J",
+        "George Clinton & Parliament Funkadelic",
+        "Portugal. The Man.",
+        "Chicano Batman",
+        "Son Little",
+        "John Craigie",
+        "Turkuaz",
+        "Jane Lee Hooker",
+      ],
+      "venue": "Hunter Mountain", 
+      "start_date": 20180614
+    },
+    {
+      "artists": [
+        "Elephant Wrecking Ball",
+      ],
+      "venue": "The Velvet Elk Lounge @ The Post", 
+      "start_date": 20180316
+    },
+    {
       "title": "Joey Porter’s Shady Business",
       "artists": [
         "Joey Porter (The Motet)",
