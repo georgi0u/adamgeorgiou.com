@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "non-fiction"
       ], 
       "author": {
+        "name": "David Deutsch"
+      }, 
+      "title": {
+        "name": "The Beginning of Infinity"
+      }
+    },
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
         "name": "Viktor E. Frankl"
       }, 
       "title": {
@@ -1646,6 +1657,13 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": [
+        "Zed's Dead",
+      ],
+      "venue": "Red Rocks", 
+      "start_date": 20180702
+    },
     {
       "title": "Mountain Jam",
       "artists": [
