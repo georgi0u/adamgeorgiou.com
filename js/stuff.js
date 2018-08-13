@@ -1659,6 +1659,28 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "The Mother Hips",
+      ],
+      "venue": "The Fox (Free Outdoor Stage)", 
+      "start_date": 20180810
+    },
+    {
+      "artists": [
+        "Rayland Baxter",
+      ],
+      "venue": "The Fox (Free Outdoor Stage)", 
+      "start_date": 20180808
+    },
+    {
+      "artists": [
+        "Weezer",
+        "The Pixies"
+      ],
+      "venue": "Fiddler's Green Amphitheater", 
+      "start_date": 20180731
+    },
+    {
+      "artists": [
         "Zed's Dead",
       ],
       "venue": "Red Rocks", 
