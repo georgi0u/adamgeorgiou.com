@@ -1659,6 +1659,30 @@ var ADAMS_STUFF = {
   "concerts": [
     {
       "artists": [
+        "The Devil Makes Three",
+        "The Wood Brothers"
+      ],
+      "venue": "Red Rocks", 
+      "start_date": 20180525
+    },
+    {
+      "artists": [
+        "Yacht Rock Revue"
+      ],
+      "venue": "The Boulder Theater", 
+      "start_date": 20180914
+    },
+    {
+      "artists": [
+        "The Revivalists",
+        "Houndmouth",
+        "J Roddy Walston and The Business"
+      ],
+      "venue": "Red Rocks", 
+      "start_date": 20180913
+    },
+    {
+      "artists": [
         "The Mother Hips",
       ],
       "venue": "The Fox (Free Outdoor Stage)", 
@@ -1772,7 +1796,7 @@ var ADAMS_STUFF = {
         "Twiddle",
         "Pigeons Playing Ping Pong",
       ],
-      "venue": "Boulder Theater", 
+      "venue": "The Boulder Theater", 
       "start_date": 20170812
     },
     {
