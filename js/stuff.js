@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "David Foster Wallace"
+      }, 
+      "title": {
+        "name": "Infinite Jest"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
