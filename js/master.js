@@ -74,7 +74,7 @@ function writeBooksSection() {
 
   // Book List
   var bookList = $("<ul>");
-  var booksSorted = shuffle(ADAMS_STUFF["books"]);
+  var booksSorted = ADAMS_STUFF["books"]; // shuffle(ADAMS_STUFF["books"]);
 
   for(i in booksSorted ) {
     var book = booksSorted[i];

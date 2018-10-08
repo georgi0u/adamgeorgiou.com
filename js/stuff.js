@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "F. Scott Fitzgerald"
+      }, 
+      "title": {
+        "name": "The Great Gatsby"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "David Foster Wallace"
       }, 
       "title": {
