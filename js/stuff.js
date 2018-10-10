@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "James Baldwin"
+      }, 
+      "title": {
+        "name": "The Fire Next Time"
+      }
+    },
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
