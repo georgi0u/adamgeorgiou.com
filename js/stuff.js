@@ -5,6 +5,28 @@ var ADAMS_STUFF = {
         "non-fiction"
       ], 
       "author": {
+        "name": "Susan Sontag"
+      }, 
+      "title": {
+        "name": "On Photography"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Ethan Canin"
+      }, 
+      "title": {
+        "name": "A Doubter's Almanac"
+      }
+    },
+    {
+      "tags": [
+        "non-fiction"
+      ], 
+      "author": {
         "name": "James Baldwin"
       }, 
       "title": {
@@ -1690,6 +1712,14 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+        {
+      "artists": [
+        "Animal Liberation Orchestra",
+        "Tea Leaf Green",
+      ],
+      "venue": "The Fox Theatre", 
+      "start_date": 20181107
+    },
     {
       "artists": [
         "The Devil Makes Three",
