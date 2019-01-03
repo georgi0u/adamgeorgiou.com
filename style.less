@@ -16,6 +16,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
+    color:#333;
     font: inherit;
     vertical-align: baseline;
 }
@@ -26,6 +27,15 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+@media only screen
+and (max-device-width: 500px)
+{
+  body {
+    line-height: 2;
+  }
+
+}
+
 ol, ul {
     list-style: none;
 }
@@ -44,17 +54,16 @@ table {
 a {
     text-decoration:none;
     color:inherit;
+    font-size: inherit;
 }
 
 /* Style */
 #main_container {
-    font-family: Georgia, "Times New Roman", Times, serif;
     max-width:1000px;
     min-width:400px;
     margin:auto;
-    padding:40px 20px 40px 50px;
-    font-size:15px;
-    color:#333;
+    padding: 40px 20px 40px 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
     #profile_picture_container {
         span {
             border: 1px #000 solid;
@@ -100,7 +109,6 @@ a {
         }
         li {
             list-style:disc outside;
-            line-height:18px;
             margin-left:20px;
             a {
                 text-decoration:underline;
@@ -188,7 +196,7 @@ a {
         .collapse_button, .expand_button {
             cursor: pointer;
             font-style: italic;
-            display: inline-block;
+            display: block;
             padding-top: 25px;
         }
         // &.expanded {
@@ -213,7 +221,7 @@ a {
     }
     h1 {
         margin-bottom:12px;
-        font-size:32px;
+        font-size:2em;
         color:#000;
         border-left:5px solid #000;
         padding-left:10px;
@@ -224,7 +232,7 @@ a {
         margin-bottom:20px;
         border-left:2px solid #333;
         padding-left:13px;
-        font-size:20px;
+        font-size:1.875em;
         margin-left:-15px;
         font-weight:bold;
         color:#000;
@@ -232,8 +240,7 @@ a {
     h3 {
         font-weight:bold;
         margin-bottom:20px;
-        font-size:16px;
-        line-height:25px;
+        line-height:1.4;
     }
     ul {
         margin-bottom: -13px;
@@ -242,7 +249,7 @@ a {
         padding-bottom:13px;
     }
     p {
-        line-height:25px;
+        line-height:1.4;
     }
     a:hover {
         text-decoration:underline;
