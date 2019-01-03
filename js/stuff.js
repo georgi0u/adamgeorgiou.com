@@ -2,6 +2,28 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Stanislav Lem"
+      },
+      "title": {
+        "name": "Solaris"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "John Steinbeck"
+      },
+      "title": {
+        "name": "East of Eden"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
