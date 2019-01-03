@@ -5,7 +5,7 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
-        "name": "Stanislav Lem"
+        "name": "Stanisław Lem"
       },
       "title": {
         "name": "Solaris"
