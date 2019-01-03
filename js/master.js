@@ -152,7 +152,7 @@ function writeConcertsSection() {
     var concert = concerts[i];
     
     // Show title
-    var concertInfo = $("<li>").css("line-height","20px");
+    var concertInfo = $("<li>");//.css("line-height","20px");
 
     var showTitle = $("<span>").addClass("concert_title");
     if(concert["title"]) {
@@ -173,13 +173,15 @@ function writeConcertsSection() {
       dateStr.substring(6,8));
     var showMeta = $("<span>").addClass("concert_meta");
     showMeta
+      .append(" @ ")
       .append(concert["venue"])
       .append(" on ")
       .append($("<span>").addClass("date").append(date.toDateString()));
     
     concertInfo
-      .append(showMeta)
-      .append(showTitle);
+      .append(showTitle)
+      .append(showMeta);
+
     concertList.append(concertInfo);
   }
 }

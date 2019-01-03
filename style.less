@@ -12,261 +12,242 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    color:#333;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  color:#333;
+  font: inherit;
+  vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 2;
 }
-@media only screen
-and (max-device-width: 500px)
-{
-  body {
-    line-height: 2;
-  }
-
-}
-
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
-}
+            content: '';
+            content: none;
+          }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 a {
-    text-decoration:none;
-    color:inherit;
-    font-size: inherit;
+  text-decoration:none;
+  color:inherit;
+  font-size: inherit;
 }
 
 /* Style */
 #main_container {
-    max-width:1000px;
-    min-width:400px;
-    margin:auto;
-    padding: 40px 20px 40px 50px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    #profile_picture_container {
-        span {
-            border: 1px #000 solid;
-            display: inline-block;
-            height:404px;
-            margin:0;
-            padding:0;
-            img {
-                display:inline;
-                border: 2px #fff solid;
-                width:400px;
-            }
-        }
-    }
-    #links_container {
-      a:hover {        
-        .hover-show { display: inline; }
-        .normal-show { display: none;}
-      }
-      
-      a {        
-        .hover-show { display: none; }
-        .normal-show { display: inline;}
-      }
+  max-width:1000px;
+  min-width:400px;
+  margin:auto;
+  padding: 40px 20px 40px 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  li {
+      padding-left:1em;
+      text-indent: -1em;
 
-    }
-    #resume {
-        #contact_info_container {
-            h2 {  border-left-color:#ff9999;}
-            li { 
-                display:inline; margin:0; margin-right:5px;
-                &:after {content:", ";}
-                &:last-child:after {content:"";}
-                a { text-decoration:none ;}
-                a:hover { text-decoration:underline ;}
-            }
-        }
-        #expand_button {
-            color:#aaa;
-        }
-        .concise { 
-            display:none;
-        }
-        li {
-            list-style:disc outside;
-            margin-left:20px;
-            a {
-                text-decoration:underline;
-            }
-        }
-        #domain_knowledge {
-            .concise { 
-                li { 
-                    display:inline;
-                    margin-left:0;
-                    &:after {content:",  ";}
-                    &:last-child:after {content:"";}
-                    
-                }
-            }
-        }
-        .category {
-            &:first-child {padding-top:20px;}
-            padding-bottom:20px;
-        }
-        .sub_category  {
-            &:first-child {
-                padding-top:10px;
-            }
-            padding-top:20px;
-            .sub_category_content {
-                padding-bottom:13px;
-            }
-        }
-        h3 { display:inline-block; }
-        ul.sub_category_tags {
-            display:inline-block;
-            margin-left:10px;
-            li {
-                margin-left:2px;
-                display:inline;
-                padding:0 4px 0 4px;
-                background:#ddd;
-            }
-        }
-    }
-    .coffee_shops {
-        width:100%;
-        margin-left:-10px;;
-        tbody>tr:nth-child(2n+1) {
-            background:#eee;
-        }
-        td, th { 
-            text-align:left; 
-            border-left:1px #ddd solid;
-            &:first-child { border-left:0;}
-            padding:5px 10px 5px 10px;
-        } 
-        th { 
-            font-weight:bold;
-            &:hover {cursor:pointer;}
-        }
-        td {
-            border-top:1px #ddd solid;
-        }
-        
+  }
+  #links_container {
+    a:hover {        
+      .hover-show { display: inline; }
+      .normal-show { display: none;}
     }
     
-    #ticket_stubs_container {
-        li {
-            padding-bottom:25px;
-            span.concert_title {
-                display:block;
-                font-weight:bold;
-                margin-top:5px;
-            }
-            span.concert_meta {
-                font-style:italic;
-                display:block;
-            }
-        }
+    a {        
+      .hover-show { display: none; }
+      .normal-show { display: inline;}
     }
-    span.tag {
-        padding:0 4px 0 4px;
-        margin-right:5px;
+
+  }
+  #resume {
+    #contact_info_container {
+      h2 {  border-left-color:#ff9999;}
+      li { 
+        display:inline;
+        margin:0;
+        padding:0;
+        &:after {content:", ";}
+        &:last-child:after {content:"";}
+        a { text-decoration:none ;}
+        a:hover { text-decoration:underline ;}
+      }
     }
-    div.sub_container{
-        padding-top:40px;
-        &:first-child {padding-top:0px;}
-        .collapse_button, .expand_button {
-            cursor: pointer;
-            font-style: italic;
-            display: block;
-            padding-top: 25px;
-        }
-        // &.expanded {
-        //   ul {
-        //     list-style: none;
-        //     counter-reset: li;
-        //   }
-        //   li {
-        //     counter-increment: li;
-        //   }
-        //   li::before {
-        //     content: counter(li);
-        //     color: red;
-        //     display: inline-block;
-        //     text-align: left;
-        //     margin-right: 5px;
-        //   }
-        // }
+    #expand_button {
+      color:#aaa;
     }
-    h1, h2 {
-        text-transform:lowercase;
+    .concise { 
+      display:none;
     }
-    h1 {
-        margin-bottom:12px;
-        font-size:2em;
-        color:#000;
-        border-left:5px solid #000;
-        padding-left:10px;
-        margin-left:-15px;
-    }
-    h2 {
-        margin-top:30px;
-        margin-bottom:20px;
-        border-left:2px solid #333;
-        padding-left:13px;
-        font-size:1.875em;
-        margin-left:-15px;
-        font-weight:bold;
-        color:#000;
-    }
-    h3 {
-        font-weight:bold;
-        margin-bottom:20px;
-        line-height:1.4;
-    }
-    ul {
-        margin-bottom: -13px;
-    }
-    li { 
-        padding-bottom:13px;
-    }
-    p {
-        line-height:1.4;
-    }
-    a:hover {
+    li {
+      list-style:disc outside;
+      text-indent:0;
+      margin-left:20px;
+      padding-left:0;
+      
+      a {
         text-decoration:underline;
+      }
     }
+    #domain_knowledge {
+      .concise { 
+        li { 
+          display:inline;
+          margin-left:0;
+          &:after {content:",  ";}
+          &:last-child:after {content:"";}
+          
+        }
+      }
+    }
+    .category {
+      &:first-child {padding-top:20px;}
+      padding-bottom:20px;
+    }
+    .sub_category  {
+      &:first-child {
+        padding-top:10px;
+      }
+      padding-top:20px;
+      .sub_category_content {
+        padding-bottom:13px;
+      }
+    }
+
+    ul.sub_category_tags {
+      display: inline;
+      li {
+        font-weight: normal;
+        margin-left:2px;
+        display:inline;
+        padding:0 4px 0 4px;
+        background:#ddd;
+      }
+    }
+  }
+  .coffee_shops {
+    width:100%;
+    margin-left:-10px;;
+    tbody>tr:nth-child(2n+1) {
+      background:#eee;
+    }
+    td, th { 
+      text-align:left; 
+      border-left:1px #ddd solid;
+      &:first-child { border-left:0;}
+      padding:5px 10px 5px 10px;
+    } 
+    th { 
+      font-weight:bold;
+      &:hover {cursor:pointer;}
+    }
+    td {
+      border-top:1px #ddd solid;
+    }
+    
+  }
+  #ticket_stubs_container {
+    li {
+      span.concert_title {
+        display:inline;
+        font-weight:bold;
+        margin-top:5px;
+      }
+      span.concert_meta {
+        font-style:italic;
+      }
+    }
+  }
+  span.tag {
+    padding:0 4px 0 4px;
+    margin-right:5px;
+  }
+  div.sub_container{
+    padding-top:40px;
+    &:first-child {padding-top:0px;}
+    .collapse_button, .expand_button {
+      cursor: pointer;
+      font-style: italic;
+      display: block;
+      padding-top: 25px;
+    }
+    // &.expanded {
+    //   ul {
+    //     list-style: none;
+    //     counter-reset: li;
+    //   }
+    //   li {
+    //     counter-increment: li;
+    //   }
+    //   li::before {
+    //     content: counter(li);
+    //     color: red;
+    //     display: inline-block;
+    //     text-align: left;
+    //     margin-right: 5px;
+    //   }
+    // }
+  }
+  h1, h2 {
+    text-transform:lowercase;;
+  }
+  h1 {
+    margin-bottom:12px;
+    font-size:2em;
+    color:#000;
+    border-left:5px solid #000;
+    padding-left:10px;
+    margin-left:-15px;
+    line-height:1.4
+  }
+  h2 {
+    margin-top:20px;
+    margin-bottom:10px;
+    border-left:2px solid #333;
+    padding-left:13px;
+    font-size:1.875em;
+    margin-left:-15px;
+    font-weight:bold;
+    color:#000;
+    line-height:1.4;
+  }
+  h3 {
+    font-weight:bold;
+    margin-bottom:10px;
+    line-height:1.4;
+  }
+  ul {
+    margin-bottom: -13px;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
 }
 
 @media print {
-    #main_container {
-        padding:0 0px 0 20px !important;
-    }
-    h2 {
-        margin-top:20px !important;
-        margin-bottom:18px !important;
-    }
-    #expand_button {
-        display:none;
-    }
-    .category { padding-bottom:10px !important;}
+  #main_container {
+    padding:0 0px 0 20px !important;
+  }
+  h2 {
+    margin-top:20px !important;
+    margin-bottom:18px !important;
+  }
+  #expand_button {
+    display:none;
+  }
+  .category { padding-bottom:10px !important;}
 }
 
