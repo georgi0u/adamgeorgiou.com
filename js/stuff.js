@@ -1734,7 +1734,14 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
-        {
+    {
+      "artists": [
+        "James Blake"
+      ],
+      "venue": "The Bowery Ballroom", 
+      "start_date": 20121212
+    },
+    {
       "artists": [
         "Animal Liberation Orchestra",
         "Tea Leaf Green",
