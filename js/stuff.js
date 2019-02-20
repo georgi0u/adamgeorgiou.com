@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "Norman Mailer"
+      },
+      "title": {
+        "name": "The Naked and the Dead"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "Stanisław Lem"
       },
       "title": {
