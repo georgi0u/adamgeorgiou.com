@@ -5,6 +5,17 @@ var ADAMS_STUFF = {
         "novel"
       ], 
       "author": {
+        "name": "Jim Harrison"
+      },
+      "title": {
+        "name": "True North"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
         "name": "Norman Mailer"
       },
       "title": {
@@ -1745,6 +1756,20 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": [
+        "Fruition",
+        "Trampled By Turtles",
+        "The California Honeydrops",
+        "Upstate",
+        "Shook Twins",
+      ],
+      "title": "Winter Wondergrass",
+      "venue": "Steamboat", 
+      "start_date": 20190222,
+      "end_date": 20190224
+    },
+
     {
       "artists": [
         "James Blake"
