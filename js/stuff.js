@@ -1757,6 +1757,11 @@ var ADAMS_STUFF = {
   ], 
   "concerts": [
     {
+      "artists": ["Tobe Nwigwe",],
+      "venue": "Cervantes' Masterpiece Ballroom",
+      "start_date": 20190320,
+    },
+    {
       "artists": [
         "Fruition",
         "Trampled By Turtles",
@@ -1769,7 +1774,6 @@ var ADAMS_STUFF = {
       "start_date": 20190222,
       "end_date": 20190224
     },
-
     {
       "artists": [
         "James Blake"
