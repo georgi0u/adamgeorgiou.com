@@ -1757,6 +1757,16 @@ var ADAMS_STUFF = {
   ], 
   "concerts": [
     {
+      "artists": ["Ripe", "Waker"],
+      "venue": "The Bluebird Theater",
+      "start_date": 20190323,
+    },
+    {
+      "artists": ["Ripe", "Waker"],
+      "venue": "Globe Hall",
+      "start_date": 20190322,
+    },
+    {
       "artists": ["Tobe Nwigwe",],
       "venue": "Cervantes' Masterpiece Ballroom",
       "start_date": 20190320,
