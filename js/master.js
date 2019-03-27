@@ -118,7 +118,7 @@ function writeBooksSection() {
         toPrint.append(
           $("<span>")
             .css("background", "hsl(" + hue + ", 100%, 90%)")
-            .text(tag)
+            .text(tag.toLowerCase())
             .addClass("tag")
         );
       }

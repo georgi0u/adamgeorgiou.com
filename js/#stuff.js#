@@ -2,7 +2,7 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
-        "non-fiction"
+        "non-FICTION"
       ], 
       "author": {
         "name": "Anthony Bourdain"
