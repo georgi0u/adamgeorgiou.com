@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "poetry"
+      ], 
+      "author": {
+        "name": "Jim Harrison"
+      }, 
+      "title": {
+        "name": "In Search of Small Gods"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
