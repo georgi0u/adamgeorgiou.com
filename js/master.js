@@ -85,19 +85,21 @@ function writeBooksSection() {
     if(title.length > 100) {
       title = title.substring(0, 100) + "...";
     }
+    var iTitle = $("<i>");
+    iTitle.append(title);
     if (book["title"]["link"] != undefined && book["title"]["link"] != "") {
       var link = $("<a target=\"_blank\">");
-      link.text(title);
+      link.append(iTitle);
       link.attr("href", book["title"]["link"]);
       toPrint.append(link);
     } else  {
-      toPrint.append(title);
+      toPrint.append(iTitle);
     }
 
     // Author
     var author = book["author"];
     toPrint
-      .append($("<span>").css("font-style","italic").text(" by "))
+      .append($("<span>").text(" by "))
     if(author['link'] != undefined && author['link'] != "") {
       var authorLink = $("<a target=\"_blank\">");
       authorLink.attr("href", author["link"]);

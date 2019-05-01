@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Madeline Miller"
+      }, 
+      "title": {
+        "name": "Circe"
+      }
+    },
+    {
+      "tags": [
         "poetry"
       ], 
       "author": {
