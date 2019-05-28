@@ -2,6 +2,17 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": " James Gleick"
+      }, 
+      "title": {
+        "name": "Chaos: Making a New Science"
+      }
+    },
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
