@@ -2,10 +2,43 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Sejal Badani"
+      }, 
+      "title": {
+        "name": "The Storyteller's Secret"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Tana French"
+      }, 
+      "title": {
+        "name": "Into The Woods"
+      }
+    },
+    {
+      "tags": [
+        "novel", "philosophy"
+      ], 
+      "author": {
+        "name": "Milan Kundera"
+      }, 
+      "title": {
+        "name": "The Unbearable Lightness of Being"
+      }
+    },
+    {
+      "tags": [
         "non-fiction"
       ], 
       "author": {
-        "name": " James Gleick"
+        "name": "James Gleick"
       }, 
       "title": {
         "name": "Chaos: Making a New Science"
@@ -1800,6 +1833,11 @@ var ADAMS_STUFF = {
     }
   ], 
   "concerts": [
+    {
+      "artists": ["Lettuce", "Tauk"],
+      "venue": "Red Rocks Amphitheater",
+      "start_date": 20190615,
+    },
     {
       "artists": ["Ripe", "Waker"],
       "venue": "The Bluebird Theater",
