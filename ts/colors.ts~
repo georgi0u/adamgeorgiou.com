@@ -1,0 +1,10 @@
+export function createColorMap(set: Set<any>) {
+    const map = new Map();
+    let index = 0;
+    set.forEach((item) => {
+	map[item] = (360 / set.size) * index;
+	index++;
+    });
+    
+    return map;
+}
