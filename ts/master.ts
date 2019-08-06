@@ -105,9 +105,156 @@ function writeBooksSection() {
     section.append(bookList);
 }
 
+/**
+   Pulls concert data out of my stuff object, sorts it, and inserts 
+   it into the DOM nicely
+*/
+function writeConcertsSection() {
+    const concertList = $("<ul>");
+
+    $("#ticket_stubs_container")
+        .append($("<h1>stubs</h1>"))
+        .append(concertList);
+  
+    const sortedConcerts =
+        concerts.sort((lhs, rhs) => rhs["start_date"] - lhs["start_date"]);
+
+    sortedConcerts.forEach((concert) => {
+        // Show title
+        const concertInfo = $("<li>");
+        const showTitle = $("<span>").addClass("concert_title");
+        if (concert["title"]) {
+            showTitle.append(
+                $("<span>")
+                    .css({"color":"red"})
+                    .append(concert["title"]))
+                .append(": ");
+        }
+        showTitle.append(concert["artists"].join(", "));
+
+        // Show Meta
+        const dateStr = concert["start_date"].toString();
+        const date = new Date();
+        date.setFullYear(
+            parseInt(dateStr.substring(0,4)),
+            parseInt(dateStr.substring(4,6)) - 1,
+            parseInt(dateStr.substring(6,8)));
+        const showMeta = $("<span>").addClass("concert_meta");
+        showMeta
+            .append(" @ ")
+            .append(concert["venue"])
+            .append(" on ")
+            .append($("<span>").addClass("date").append(date.toDateString()));
+    
+        concertInfo
+            .append(showTitle)
+            .append(showMeta);
+
+        concertList.append(concertInfo);
+    });
+}
+
+/**
+   Hits a lastFm proxy on my server, gets the latest tracks I've scrobbled,
+   inserts the most recent one into the DOM.
+*/
+function writeLastFmSection() {
+  const trackListForDom = $("<ul></ul>");
+  const li = $("<li></li>");
+  const loadingElement = 
+        $("<span>")
+        .text("i'm loading it, give me a sec!")
+        .css({"font-style":"italic","color":"#aaa"});
+    trackListForDom.append(li.append(loadingElement));
+
+    $("#latest_tracks_container")
+        .append($("<h1>").text("latest listen"))
+        .append(trackListForDom);
+
+    $.get("/api_proxy").then((data) => {
+        const track = data["recenttracks"]["track"][0];
+
+        const latestListenLink = (
+            $("<a>" + track["artist"]["#text"] + " - " + track["name"] + "</a>")
+                .attr("target","_blank")
+                .attr("href","http://www.last.fm/user/georgi0u/tracks"));
+        
+        latestListenLink.hide();
+        li.empty();
+        li.append(latestListenLink);
+        latestListenLink.fadeIn();
+    }, (error) => {
+        li.empty();
+        li.append($("<a target='_blank' href='http://www.last.fm/user/georgi0u/tracks'>Check Last.fm</a>"));
+    });
+}
+
+/**
+   Limits sub containers so they only show N items, and then adds links for 
+   expanding and collapsing the > N remaining items.
+*/
+function limitSubContainers() {
+    const ITEM_LIMIT = 6;
+    
+    const subContainers = $(".sub_container.collapsible > ul");
+
+    subContainers.each((index, list) => {
+        if ($(list).children().length <= ITEM_LIMIT) {
+            return;
+        }
+
+        const hiddenItems: Element[] = [];
+        $(list).children('li').each((index, item) => {
+            if (index < ITEM_LIMIT) {
+                return;
+            }
+            hiddenItems.push(item);
+            $(item).hide();
+            $(item).remove();
+        });
+
+        const expand = $(
+            `<a title='Show remaining ${hiddenItems.length}  items.' ` +
+            `class='expand_button'>(show more)</a>`);
+        const collapse = $("<a class='collapse_button'>(show less of the above)</a>");
+        collapse.hide();
+        $(list).parent().append(expand);
+        $(list).parent().append(collapse);
+
+        expand.click(() => {
+            $(list).append(hiddenItems);
+            $(hiddenItems).fadeIn();
+            expand.hide();
+            collapse.show();
+            $(list).parent().toggleClass('expanded');
+        });
+
+        collapse.click(() => {
+            $(hiddenItems).fadeOut();
+            $(hiddenItems).remove();
+            collapse.hide();
+            expand.show();
+            const headerOffset = $($(list).siblings('h1')[0]).offset()
+            if (headerOffset) {
+                $('html, body').animate({scrollTop: headerOffset.top - 50}, 0);
+            }
+            $(list).parent().toggleClass('expanded');
+        });
+    });
+}
+
+
+
 
 $(function () {
+    $('body').hide();
     writeContactSection();
     writeBooksSection();
+    writeConcertsSection();
+    writeLastFmSection();
+
+    limitSubContainers();
+
+    $('body').show();
 });
 
