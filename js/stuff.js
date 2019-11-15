@@ -2,6 +2,73 @@ var ADAMS_STUFF = {
   "books": [
     {
       "tags": [
+        "non-fiction"
+      ], 
+      "author": {
+        "name": "David Goggins",
+      }, 
+      "title": {
+        "name": "Can't Hurt Me: Master Your Mind and Defy the Odds"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Ernest Hemingway",
+      }, 
+      "title": {
+        "name": "For Whom the Bell Tolls"
+      }
+    },
+    {
+      "tags": [
+        "non-fiction", "essays"
+      ], 
+      "author": {
+        "name": "David Foster Wallace"
+      }, 
+      "title": {
+        "name": "A Supposedly Fun Thing I'll Never Do Again"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Jim Harrison"
+      }, 
+      "title": {
+        "name": "The Ancient Minstrel"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Jim Harrison"
+      }, 
+      "title": {
+        "name": "Brown Dog"
+      }
+    },
+    {
+      "tags": [
+        "novel"
+      ], 
+      "author": {
+        "name": "Neal Stephenson"
+      }, 
+      "title": {
+        "name": "The Diamond Age"
+      }
+    },
+
+    {
+      "tags": [
         "novel"
       ], 
       "author": {
@@ -233,7 +300,7 @@ var ADAMS_STUFF = {
     }, 
     {
       "tags": [
-        "non-fiction"
+        "non-fiction", "essays"
       ], 
       "author": {
         "name": "David Foster Wallace"
@@ -279,7 +346,7 @@ var ADAMS_STUFF = {
     {
       "tags": [
         "non-fiction",
-        "essay"
+        "essays"
       ], 
       "author": {
         "name": "Henry David Thoreau",
@@ -815,7 +882,7 @@ var ADAMS_STUFF = {
     }, 
     {
       "tags": [
-        "non-fiction"
+        "non-fiction", "essays"
       ], 
       "author": {
         "link": "http://www.amazon.com/David-Hume/e/B000AQ3Q8W/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=adamgeorgio06-20&linkId=fa29a00819dfd01f9abf9fc695e4db72", 

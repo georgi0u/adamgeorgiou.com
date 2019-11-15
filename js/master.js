@@ -284,7 +284,7 @@ $(function() {
   writeContactSection();
   writeBooksSection();
   writeConcertsSection();
-  writeLastFmSection();
+  // writeLastFmSection();
 
   limitSubContainers();
   
