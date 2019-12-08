@@ -244,6 +244,39 @@ function limitSubContainers() {
 }
 
 
+function colorResumeSubcategoryTags() {
+    const elements = $("#resume .sub_category_tags > li");
+    if(!elements.length) {
+        return;
+    }
+
+    // Populate Color Map
+    const tags = new Set<string>();
+    elements.each((index, element) => {
+        tags.add($(element).text());
+    });
+    const tagColorMap = createColorMap(tags);
+
+    // Color Tags
+    elements.each((index, element) => {
+        var tag = $(element).text();
+        var hue = tagColorMap.get(tag);
+        $(element).css("background", "hsl(" + hue + ", 100%, 80%");
+    });
+}
+
+function resumeConsiseVerboseButton() {
+  let expand_button_content_toggle = "(concise)";
+  $("#expand_button").text("(verbose)");
+  $("#expand_button").click(function() {
+    $(".verbose").fadeToggle();
+    $(".concise").fadeToggle();
+
+    const temp = $(this).text();
+    $(this).text(expand_button_content_toggle);
+    expand_button_content_toggle = temp
+  });
+}
 
 
 $(function () {
@@ -254,6 +287,9 @@ $(function () {
     writeLastFmSection();
 
     limitSubContainers();
+
+    colorResumeSubcategoryTags();
+    resumeConsiseVerboseButton();
 
     $('body').show();
 });

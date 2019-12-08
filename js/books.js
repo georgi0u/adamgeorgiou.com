@@ -1,6 +1,94 @@
 export const books = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "Peter Thiel",
+        },
+        "title": {
+            "name": "Zero to One"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "C.S. Lewis",
+        },
+        "title": {
+            "name": "Mere Christianity"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "David Goggins",
+        },
+        "title": {
+            "name": "Can't Hurt Me: Master Your Mind and Defy the Odds"
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Ernest Hemingway",
+        },
+        "title": {
+            "name": "For Whom the Bell Tolls"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction", "essays"
+        ],
+        "author": {
+            "name": "David Foster Wallace"
+        },
+        "title": {
+            "name": "A Supposedly Fun Thing I'll Never Do Again"
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Jim Harrison"
+        },
+        "title": {
+            "name": "The Ancient Minstrel"
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Jim Harrison"
+        },
+        "title": {
+            "name": "Brown Dog"
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Neal Stephenson"
+        },
+        "title": {
+            "name": "The Diamond Age"
+        }
+    },
+    {
+        "tags": [
             "novel"
         ],
         "author": {
