@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "José Saramago",
+        },
+        "title": {
+            "name": "Blindness"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {
