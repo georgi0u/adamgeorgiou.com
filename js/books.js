@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "Tom Wolfe",
+        },
+        "title": {
+            "name": "The Painted Word"
+        }
+    },
+    {
+        "tags": [
             "novel"
         ],
         "author": {
