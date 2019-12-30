@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Fyodor Dostoevsky",
+        },
+        "title": {
+            "name": "Notes from Underground"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {
