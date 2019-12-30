@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Fyodor Dostoevsky",
+        },
+        "title": {
+            "name": "Notes from Underground"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {
