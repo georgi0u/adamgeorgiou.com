@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "Pamela Druckerman",
+        },
+        "title": {
+            "name": "Bringing Up Bébe"
+        }
+    },
+    {
+        "tags": [
             "novel"
         ],
         "author": {
