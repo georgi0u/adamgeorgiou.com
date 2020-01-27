@@ -8,6 +8,11 @@ export interface Concert {
 
 export const concerts: Concert[] = [
     {
+        "artists": ["Allen Stone", "Nikki Lane"],
+        "venue": "eTown",
+        "start_date": 20200127,
+    },
+    {
         "artists": ["Lettuce", "Tauk"],
         "venue": "Red Rocks Amphitheater",
         "start_date": 20190615,
