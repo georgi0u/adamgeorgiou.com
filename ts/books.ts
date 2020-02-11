@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction"
         ],
         "author": {
+            "name": "Tom Wolfe",
+        },
+        "title": {
+            "name": "The Electric Kool-Aid Acid Test"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "author": {
             "name": "Pamela Druckerman",
         },
         "title": {
