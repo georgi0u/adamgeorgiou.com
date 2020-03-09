@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "Naomi Alderman",
+        },
+        "title": {
+            "name": "The Power"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {
