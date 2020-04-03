@@ -17,6 +17,28 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "Rainer Maria Rilke",
+        },
+        "title": {
+            "name": "Letters to a Young Poet"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "Christopher Hitchens",
+        },
+        "title": {
+            "name": "Letters to a Young Contrarian"
+        }
+    },
+    {
+        "tags": [
             "novel"
         ],
         "author": {
