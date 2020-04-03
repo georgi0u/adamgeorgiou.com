@@ -26,6 +26,17 @@ export const books = [
             "novel"
         ],
         "author": {
+            "name": "Fyodor Dostoevsky",
+        },
+        "title": {
+            "name": "Crime and Punishment"
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "author": {
             "name": "Naomi Alderman",
         },
         "title": {
