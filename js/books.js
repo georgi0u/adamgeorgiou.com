@@ -4,6 +4,17 @@ export const books = [
             "non-fiction"
         ],
         "author": {
+            "name": "Samantha Power",
+        },
+        "title": {
+            "name": "The Education of an Idealist: A Memoir"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "author": {
             "name": "Rainer Maria Rilke",
         },
         "title": {
