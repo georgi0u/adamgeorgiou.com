@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction"
         ],
         "author": {
+            "name": "James P. Carse",
+        },
+        "title": {
+            "name": "Finite and Infinite Games"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "author": {
             "name": "Samantha Power",
         },
         "title": {
