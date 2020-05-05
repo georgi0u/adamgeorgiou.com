@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "David Foster Wallace",
+        },
+        "title": {
+            "name": "The Pale King"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {

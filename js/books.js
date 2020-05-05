@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "novel"
+        ],
+        "author": {
+            "name": "David Foster Wallace",
+        },
+        "title": {
+            "name": "The Pale King"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {
