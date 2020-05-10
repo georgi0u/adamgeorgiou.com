@@ -4,6 +4,17 @@ export const books = [
             "novel"
         ],
         "author": {
+            "name": "Junot Díaz",
+        },
+        "title": {
+            "name": "The Brief Wondrous Life of Oscar Wao"
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "author": {
             "name": "David Foster Wallace",
         },
         "title": {
