@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "author": {
+            "name": "Christopher Voss and Tahl Raz",
+        },
+        "title": {
+            "name": "Never Split the Difference: Negotiating As If Your Life Depended On It"
+        }
+    },
+    {
+        "tags": [
             "novel"
         ],
         "author": {
