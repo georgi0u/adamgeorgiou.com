@@ -56,7 +56,7 @@ export const books = [
     },
     {
         "tags": [
-            "non-fiction"
+            "non-fiction", "memoir"
         ],
         "author": {
             "name": "Samantha Power",
@@ -766,7 +766,7 @@ export const books = [
     },
     {
         "tags": [
-            "non-fiction"
+            "non-fiction", "memoir"
         ],
         "author": {
             "name": "Christopher Hitchens",
@@ -779,7 +779,7 @@ export const books = [
     },
     {
         "tags": [
-            "non-fiction"
+            "non-fiction", "memoir"
         ],
         "author": {
             "name": "Bob Dylan",
