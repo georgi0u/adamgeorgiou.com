@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "non-fiction", "memoir"
+        ],
+        "author": {
+            "name": "Karl Ove Knausgård",
+        },
+        "title": {
+            "name": "My Struggle: Book 1"
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "author": {
