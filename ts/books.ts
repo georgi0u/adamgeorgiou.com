@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Tyler Cowen",
+        },
+        "title": {
+            "name": "The Great Stagnation"
+        }
+    },
+    {
+        "tags": [
             "non-fiction", "memoir"
         ],
         "author": {
