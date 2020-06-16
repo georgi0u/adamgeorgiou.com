@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Tyler Cowen",
+        },
+        "title": {
+            "name": "The Great Stagnation"
+        }
+    },
+    {
+        "tags": [
             "non-fiction", "memoir"
         ],
         "author": {
