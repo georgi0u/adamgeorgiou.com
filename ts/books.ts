@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction", "letters",
+        ],
+        "author": {
+            "name": "Richard P. Feynman, Michelle Feynman",
+        },
+        "title": {
+            "name": "Perfectly Reasonable Deviations from the Beaten Track: Letters of Richard P. Feynman"
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "author": {
