@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Jim Harrison",
+        },
+        "title": {
+            "name": "The Raw and the Cooked: Adventures of a Roving Gourmand"
+        }
+    },
+    {
+        "tags": [
             "non-fiction", "letters",
         ],
         "author": {
