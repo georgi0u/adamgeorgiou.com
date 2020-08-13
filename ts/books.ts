@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction",
         ],
         "author": {
+            "name": "Andrew Carnegie",
+        },
+        "title": {
+            "name": "The Autobiography of Andrew Carnegie and The Gospel of Wealth"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
             "name": "Jim Harrison",
         },
         "title": {
