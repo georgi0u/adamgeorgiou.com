@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction",
         ],
         "author": {
+            "name": "Phil Grabsky",
+        },
+        "title": {
+            "name": "The Great Commanders"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
             "name": "Andrew Carnegie",
         },
         "title": {
