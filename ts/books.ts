@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel",
+        ],
+        "author": {
+            "name": "Liu Cixin",
+        },
+        "title": {
+            "name": "THe Three-Body Problem"
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "author": {
