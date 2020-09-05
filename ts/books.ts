@@ -23,7 +23,7 @@ export const books: Book[] = [
             "name": "Liu Cixin",
         },
         "title": {
-            "name": "THe Three-Body Problem"
+            "name": "The Three-Body Problem"
         }
     },
     {

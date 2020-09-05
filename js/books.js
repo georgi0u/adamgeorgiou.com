@@ -1,6 +1,39 @@
 export const books = [
     {
         "tags": [
+            "novel",
+        ],
+        "author": {
+            "name": "Liu Cixin",
+        },
+        "title": {
+            "name": "The Three-Body Problem"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Phil Grabsky",
+        },
+        "title": {
+            "name": "The Great Commanders"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Andrew Carnegie",
+        },
+        "title": {
+            "name": "The Autobiography of Andrew Carnegie and The Gospel of Wealth"
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "author": {
