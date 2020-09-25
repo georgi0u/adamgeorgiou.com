@@ -4,6 +4,17 @@ export const books = [
             "novel",
         ],
         "author": {
+            "name": "Leo Tolstoy",
+        },
+        "title": {
+            "name": "Anna Karenina"
+        }
+    },
+    {
+        "tags": [
+            "novel",
+        ],
+        "author": {
             "name": "Liu Cixin",
         },
         "title": {

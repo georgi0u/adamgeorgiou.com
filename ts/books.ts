@@ -20,6 +20,17 @@ export const books: Book[] = [
             "novel",
         ],
         "author": {
+            "name": "Leo Tolstoy",
+        },
+        "title": {
+            "name": "Anna Karenina"
+        }
+    },
+    {
+        "tags": [
+            "novel",
+        ],
+        "author": {
             "name": "Liu Cixin",
         },
         "title": {
