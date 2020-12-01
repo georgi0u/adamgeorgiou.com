@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Antonin Scalia",
+        },
+        "title": {
+            "name": "Scalia Speaks: Reflections on Law, Faith, and Life Well Lived"
+        }
+    },
+    {
+        "tags": [
             "novel",
         ],
         "author": {
