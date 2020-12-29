@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel",
+        ],
+        "author": {
+            "name": "John Steinbeck",
+        },
+        "title": {
+            "name": "The Grapes of Wrath"
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "author": {
