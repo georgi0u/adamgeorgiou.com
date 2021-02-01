@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Robert A. Caro",
+        },
+        "title": {
+            "name": "The Power Broker: Robert Moses and the Fall of New York"
+        }
+    },
+    {
+        "tags": [
             "novel",
         ],
         "author": {
