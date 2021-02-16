@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "bible",
+        ],
+        "author": {
+            "name": "Robert Alter",
+        },
+        "title": {
+            "name": "The Hebew Bible, Volume 1: The Five Books of Moses, The Torah"
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "author": {
