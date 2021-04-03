@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Kristi Coulter",
+        },
+        "title": {
+            "name": "Nothing Good Can Come from This"
+        }
+    },
+    {
+        "tags": [
             "bible",
         ],
         "author": {
