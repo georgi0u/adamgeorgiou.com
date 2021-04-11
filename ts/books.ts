@@ -14,7 +14,18 @@ export interface Book {
     title: Title;
 }
 
-export const books: Book[] = [
+export const books: Book[] = [    
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        },
+        "title": {
+            "name": "Skin in the Game: The Hidden Asymmetries in Daily Life"
+        }
+    },
     {
         "tags": [
             "non-fiction",
