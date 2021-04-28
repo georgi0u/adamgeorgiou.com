@@ -4,6 +4,61 @@ export const books = [
             "non-fiction",
         ],
         "author": {
+            "name": "Nassim Nicholas Taleb",
+        },
+        "title": {
+            "name": "Skin in the Game: The Hidden Asymmetries in Daily Life"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Kristi Coulter",
+        },
+        "title": {
+            "name": "Nothing Good Can Come from This"
+        }
+    },
+    {
+        "tags": [
+            "bible",
+        ],
+        "author": {
+            "name": "Robert Alter",
+        },
+        "title": {
+            "name": "The Hebew Bible, Volume 1: The Five Books of Moses, The Torah"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "Robert A. Caro",
+        },
+        "title": {
+            "name": "The Power Broker: Robert Moses and the Fall of New York"
+        }
+    },
+    {
+        "tags": [
+            "novel",
+        ],
+        "author": {
+            "name": "John Steinbeck",
+        },
+        "title": {
+            "name": "The Grapes of Wrath"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
             "name": "Antonin Scalia",
         },
         "title": {
