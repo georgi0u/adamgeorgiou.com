@@ -4,6 +4,17 @@ export const books = [
             "non-fiction",
         ],
         "author": {
+            "name": "James Dale Davidson & William Rees-Mogg",
+        },
+        "title": {
+            "name": "The Sovereign Individual: Mastering the Transition to the Information Age"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
             "name": "Nassim Nicholas Taleb",
         },
         "title": {

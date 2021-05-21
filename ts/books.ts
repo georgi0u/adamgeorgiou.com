@@ -14,7 +14,18 @@ export interface Book {
     title: Title;
 }
 
-export const books: Book[] = [    
+export const books: Book[] = [
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "author": {
+            "name": "James Dale Davidson & William Rees-Mogg",
+        },
+        "title": {
+            "name": "The Sovereign Individual: Mastering the Transition to the Information Age"
+        }
+    },
     {
         "tags": [
             "non-fiction",
