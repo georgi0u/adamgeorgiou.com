@@ -80,9 +80,17 @@ function writeBooksSection() {
 	}
 
 
-	// Tags
+
+	// Tags        
 	const tags = book["tags"];
 	if (tags) {
+            if (tags.indexOf("abandoned") != -1) {
+                toPrint.append(
+                    $("<span>")
+                        .append(toPrint.contents())
+                        .css('text-decoration', 'line-through'));
+            }
+            
 	    const sortedTags = tags.sort();
 	    toPrint.append(" - ");
 	    sortedTags.forEach((tag) => {
@@ -92,7 +100,8 @@ function writeBooksSection() {
 		}
 		toPrint.append(
 		    $("<span>")
-			.css("background", `hsl(${color}, 100%, 90%)`)
+			.css('background',
+                             tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
 			.text(tag.toLowerCase())
 			.addClass("tag"));
 	    });

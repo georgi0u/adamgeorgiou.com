@@ -17,6 +17,18 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel",
+            "abandoned"
+        ],
+        "title": {
+            "name": "So Long, See You Tomorrow",
+        },
+        "author": {
+            "name": "William Maxwell"
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "author": {
@@ -101,6 +113,18 @@ export const books: Book[] = [
         },
         "title": {
             "name": "Watership Down"
+        }
+    },
+    {
+        "tags": [
+            "novel",
+            "abandoned"
+        ],
+        "title": {
+            "name": "The Magic Mountain",
+        },
+        "author": {
+            "name": "Thomas Mann"
         }
     },
     {
