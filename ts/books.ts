@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction",
+        ],
+        "title": {
+            "name": "When Bad Things Happen to Good People",
+        },
+        "author": {
+            "name": "Harold S. Kushner"
+        }
+    },
+    {
+        "tags": [
             "novel",
             "abandoned"
         ],
