@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction",
         ],
         "title": {
+            "name": "The Rational Optimist: How Prosperity Evolves",
+        },
+        "author": {
+            "name": "Matt Ridley"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
             "name": "When Bad Things Happen to Good People",
         },
         "author": {
