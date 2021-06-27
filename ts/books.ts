@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction",
         ],
         "title": {
+            "name": "The Autobiography of Malcolm X",
+        },
+        "author": {
+            "name": "Malcolm X, Alex Haley"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
             "name": "The Rational Optimist: How Prosperity Evolves",
         },
         "author": {
