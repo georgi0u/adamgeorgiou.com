@@ -3,6 +3,62 @@ export const books = [
         "tags": [
             "non-fiction",
         ],
+        "title": {
+            "name": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets",
+        },
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
+            "name": "The Autobiography of Malcolm X",
+        },
+        "author": {
+            "name": "Malcolm X, Alex Haley"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
+            "name": "The Rational Optimist: How Prosperity Evolves",
+        },
+        "author": {
+            "name": "Matt Ridley"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
+            "name": "When Bad Things Happen to Good People",
+        },
+        "author": {
+            "name": "Harold S. Kushner"
+        }
+    },
+    {
+        "tags": [
+            "novel",
+            "abandoned"
+        ],
+        "title": {
+            "name": "So Long, See You Tomorrow",
+        },
+        "author": {
+            "name": "William Maxwell"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
         "author": {
             "name": "James Dale Davidson & William Rees-Mogg",
         },
@@ -85,6 +141,18 @@ export const books = [
         },
         "title": {
             "name": "Watership Down"
+        }
+    },
+    {
+        "tags": [
+            "novel",
+            "abandoned"
+        ],
+        "title": {
+            "name": "The Magic Mountain",
+        },
+        "author": {
+            "name": "Thomas Mann"
         }
     },
     {

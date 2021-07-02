@@ -21,16 +21,7 @@ function writeContactSection() {
   const emailCoded = "jF@RoRjrF60r16H.D6j";
   const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
   const email = decode(emailCoded, emailKey);
-
-  const phoneCoded = "fK1.V1K.mfKf";
-  const phoneKey = "T78HitArOZzxoV3Sn6pLWNYgXk4dP1C02asQBUmMFKqehjv5JRybwlGc9EufID";
-  const phoneNumber = decode(phoneCoded, phoneKey);
-
-  const contactInfoList = $("<ul></ul>");
-  contactInfoList.append(`<li><a href='mailto:${email}'>${email}</a></li>`);
-  contactInfoList.append(`<li>${phoneNumber}</li>`);
-
-  $("#contact_info_container").append(contactInfoList);
+  $("#email").get()[0].textContent = email;
 }
 
 

@@ -19,13 +19,7 @@ function writeContactSection() {
     const emailCoded = "jF@RoRjrF60r16H.D6j";
     const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
     const email = decode(emailCoded, emailKey);
-    const phoneCoded = "fK1.V1K.mfKf";
-    const phoneKey = "T78HitArOZzxoV3Sn6pLWNYgXk4dP1C02asQBUmMFKqehjv5JRybwlGc9EufID";
-    const phoneNumber = decode(phoneCoded, phoneKey);
-    const contactInfoList = $("<ul></ul>");
-    contactInfoList.append(`<li><a href='mailto:${email}'>${email}</a></li>`);
-    contactInfoList.append(`<li>${phoneNumber}</li>`);
-    $("#contact_info_container").append(contactInfoList);
+    $("#email").get()[0].textContent = email;
 }
 function writeBooksSection() {
     // Build Tag -> Hue Map
@@ -68,9 +62,14 @@ function writeBooksSection() {
         else {
             toPrint.append(author['name']);
         }
-        // Tags
+        // Tags        
         const tags = book["tags"];
         if (tags) {
+            if (tags.indexOf("abandoned") != -1) {
+                toPrint.append($("<span>")
+                    .append(toPrint.contents())
+                    .css('text-decoration', 'line-through'));
+            }
             const sortedTags = tags.sort();
             toPrint.append(" - ");
             sortedTags.forEach((tag) => {
@@ -79,7 +78,7 @@ function writeBooksSection() {
                     return;
                 }
                 toPrint.append($("<span>")
-                    .css("background", `hsl(${color}, 100%, 90%)`)
+                    .css('background', tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
                     .text(tag.toLowerCase())
                     .addClass("tag"));
             });
@@ -230,7 +229,6 @@ function resumeConsiseVerboseButton() {
     });
 }
 $(function () {
-    $('body').hide();
     writeContactSection();
     writeBooksSection();
     writeConcertsSection();
