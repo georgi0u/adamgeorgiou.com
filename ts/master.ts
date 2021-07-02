@@ -280,7 +280,6 @@ function resumeConsiseVerboseButton() {
 
 
 $(function () {
-    $('body').hide();
     writeContactSection();
     writeBooksSection();
     writeConcertsSection();
