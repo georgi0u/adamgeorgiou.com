@@ -20,6 +20,17 @@ export const books: Book[] = [
             "non-fiction",
         ],
         "title": {
+            "name": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets",
+        },
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
             "name": "The Autobiography of Malcolm X",
         },
         "author": {
