@@ -19,7 +19,8 @@ function writeContactSection() {
     const emailCoded = "jF@RoRjrF60r16H.D6j";
     const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
     const email = decode(emailCoded, emailKey);
-    $("#email").get()[0].textContent = email;
+    const link = $(`<a target="_blank" href="mailto:${email}">${email}</a>`);
+    $("#email").append(link);
 }
 function writeBooksSection() {
     // Build Tag -> Hue Map
@@ -218,8 +219,8 @@ function colorResumeSubcategoryTags() {
     });
 }
 function resumeConsiseVerboseButton() {
-    let expand_button_content_toggle = "(concise)";
-    $("#expand_button").text("(verbose)");
+    let expand_button_content_toggle = "(verbose)";
+    $("#expand_button").text("(concise)");
     $("#expand_button").click(function () {
         $(".verbose").fadeToggle();
         $(".concise").fadeToggle();
