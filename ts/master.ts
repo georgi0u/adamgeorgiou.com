@@ -16,12 +16,13 @@ function writeContactSection() {
 	    }
 	}
 	return decoded;
-  }
-  
-  const emailCoded = "jF@RoRjrF60r16H.D6j";
-  const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
-  const email = decode(emailCoded, emailKey);
-  $("#email").get()[0].textContent = email;
+    }
+    
+    const emailCoded = "jF@RoRjrF60r16H.D6j";
+    const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
+    const email = decode(emailCoded, emailKey);
+    const link = $(`<a target="_blank" href="mailto:${email}">${email}</a>`);
+    $("#email").append(link);
 }
 
 
@@ -101,7 +102,7 @@ function writeBooksSection() {
 	// Append Book String
 	bookList.append(toPrint);
     });
-		  
+    
     section.append(bookList);
 }
 
@@ -115,7 +116,7 @@ function writeConcertsSection() {
     $("#ticket_stubs_container")
         .append($("<h1>stubs</h1>"))
         .append(concertList);
-  
+    
     const sortedConcerts =
         concerts.sort((lhs, rhs) => rhs["start_date"] - lhs["start_date"]);
 
@@ -145,7 +146,7 @@ function writeConcertsSection() {
             .append(concert["venue"])
             .append(" on ")
             .append($("<span>").addClass("date").append(date.toDateString()));
-    
+        
         concertInfo
             .append(showTitle)
             .append(showMeta);
@@ -159,9 +160,9 @@ function writeConcertsSection() {
    inserts the most recent one into the DOM.
 */
 function writeLastFmSection() {
-  const trackListForDom = $("<ul></ul>");
-  const li = $("<li></li>");
-  const loadingElement = 
+    const trackListForDom = $("<ul></ul>");
+    const li = $("<li></li>");
+    const loadingElement = 
         $("<span>")
         .text("i'm loading it, give me a sec!")
         .css({"font-style":"italic","color":"#aaa"});
@@ -215,7 +216,7 @@ function limitSubContainers() {
 
         const expand = $(
             `<a title='Show remaining ${hiddenItems.length}  items.' ` +
-            `class='expand_button'>(show more)</a>`);
+                `class='expand_button'>(show more)</a>`);
         const collapse = $("<a class='collapse_button'>(show less of the above)</a>");
         collapse.hide();
         $(list).parent().append(expand);
@@ -266,16 +267,16 @@ function colorResumeSubcategoryTags() {
 }
 
 function resumeConsiseVerboseButton() {
-  let expand_button_content_toggle = "(verbose)";
-  $("#expand_button").text("(concise)");
-  $("#expand_button").click(function() {
-    $(".verbose").fadeToggle();
-    $(".concise").fadeToggle();
+    let expand_button_content_toggle = "(verbose)";
+    $("#expand_button").text("(concise)");
+    $("#expand_button").click(function() {
+        $(".verbose").fadeToggle();
+        $(".concise").fadeToggle();
 
-    const temp = $(this).text();
-    $(this).text(expand_button_content_toggle);
-    expand_button_content_toggle = temp
-  });
+        const temp = $(this).text();
+        $(this).text(expand_button_content_toggle);
+        expand_button_content_toggle = temp
+    });
 }
 
 
