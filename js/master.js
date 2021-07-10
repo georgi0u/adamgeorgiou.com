@@ -96,7 +96,7 @@ function writeBooksSection() {
 function writeConcertsSection() {
     const concertList = $("<ul>");
     $("#ticket_stubs_container")
-        .append($("<h1>stubs</h1>"))
+        .prepend($("<h1>stubs</h1>"))
         .append(concertList);
     const sortedConcerts = concerts.sort((lhs, rhs) => rhs["start_date"] - lhs["start_date"]);
     sortedConcerts.forEach((concert) => {
