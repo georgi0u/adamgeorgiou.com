@@ -79,16 +79,18 @@ function writeBooksSection() {
             }
             const sortedTags = tags.sort();
             toPrint.append(" - ");
+            const toPrintTags = $("<span style='display:inline-block;'></span>");
             sortedTags.forEach((tag) => {
                 const color = tagColorMap.get(tag);
                 if (color == null) {
                     return;
                 }
-                toPrint.append($("<span>")
+                toPrintTags.append($("<span>")
                     .css('background', tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
                     .text(tag.toLowerCase())
                     .addClass("tag"));
             });
+            toPrint.append(toPrintTags);
         }
         // Append Book String
         bookList.append(toPrint);
@@ -133,36 +135,6 @@ function writeConcertsSection() {
     });
 }
 /**
-   Hits a lastFm proxy on my server, gets the latest tracks I've scrobbled,
-   inserts the most recent one into the DOM.
-*/
-// function writeLastFmSection() {
-//     const trackListForDom = $("<ul></ul>");
-//     const li = $("<li></li>");
-//     const loadingElement = 
-//         $("<span>")
-//         .text("i'm loading it, give me a sec!")
-//         .css({"font-style":"italic","color":"#aaa"});
-//     trackListForDom.append(li.append(loadingElement));
-//     $("#latest_tracks_container")
-//         .append($("<h1>").text("latest listen"))
-//         .append(trackListForDom);
-//     $.get("/api_proxy").then((data) => {
-//         const track = data["recenttracks"]["track"][0];
-//         const latestListenLink = (
-//             $("<a>" + track["artist"]["#text"] + " - " + track["name"] + "</a>")
-//                 .attr("target","_blank")
-//                 .attr("href","http://www.last.fm/user/georgi0u/tracks"));
-//         latestListenLink.hide();
-//         li.empty();
-//         li.append(latestListenLink);
-//         latestListenLink.fadeIn();
-//     }, (error) => {
-//         li.empty();
-//         li.append($("<a target='_blank' href='http://www.last.fm/user/georgi0u/tracks'>Check Last.fm</a>"));
-//     });
-// }
-/**
    Limits sub containers so they only show N items, and then adds links for
    expanding and collapsing the > N remaining items.
 */
@@ -190,13 +162,13 @@ function limitSubContainers() {
         $(list).parent().append(collapse);
         expand.click(() => {
             $(list).append(hiddenItems);
-            $(hiddenItems).fadeIn(250);
+            $(hiddenItems).show();
             expand.hide();
             collapse.show();
             $(list).parent().toggleClass('expanded');
         });
         collapse.click(() => {
-            $(hiddenItems).fadeOut(250);
+            $(hiddenItems).hide();
             $(hiddenItems).remove();
             collapse.hide();
             expand.show();
@@ -230,29 +202,28 @@ function resumeConsiseVerboseButton() {
     let expand_button_content_toggle = "(verbose)";
     $("#expand_button").text("(concise)");
     $("#expand_button").click(function () {
-        $(".verbose").slideToggle(200);
-        $(".concise").slideToggle(200);
+        $(".verbose").toggle();
+        $(".concise").toggle();
         const temp = $(this).text();
         $(this).text(expand_button_content_toggle);
         expand_button_content_toggle = temp;
     });
 }
 function writeAboutControls() {
-    const expand_button = $("<a  style='text-decoration:underline;cursor:pointer;'>…</a>");
+    const expand_button = $("<span>.. <a style='cursor:pointer;font-style:italic;'> continued.</a></span>");
     expand_button.click(() => {
-        $("#more_about").slideToggle(200);
+        $("#more_about").toggle();
         expand_button.remove();
     });
-    $("#about_container").append(expand_button);
+    $("#brief_about").append(expand_button);
 }
 $(function () {
     writeContactSection();
     writeBooksSection();
     writeConcertsSection();
-    //    writeLastFmSection();
+    writeAboutControls();
     limitSubContainers();
     colorResumeSubcategoryTags();
     resumeConsiseVerboseButton();
-    writeAboutControls();
     $('body').show();
 });

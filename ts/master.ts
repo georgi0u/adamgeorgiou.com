@@ -91,18 +91,20 @@ function writeBooksSection() {
             
 	    const sortedTags = tags.sort();
 	    toPrint.append(" - ");
+            const toPrintTags = $("<span style='display:inline-block;'></span>");
 	    sortedTags.forEach((tag) => {
 		const color = tagColorMap.get(tag)
 		if (color == null) {
 		    return;
 		}
-		toPrint.append(
+		toPrintTags.append(
 		    $("<span>")
 			.css('background',
                              tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
 			.text(tag.toLowerCase())
 			.addClass("tag"));
 	    });
+            toPrint.append(toPrintTags);
 	}
 
 	// Append Book String
