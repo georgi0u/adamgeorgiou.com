@@ -39,10 +39,9 @@
 
   </head>
 
-  <body style="display:none; overflow:scroll;">
+  <body style="display:none;">
     <div id = "main_container">
       <article id = "resume">
-
         <h1 id = "resume_title">the <a id = "expand_button" href = "#"></a> résumé of adam georgiou</h1>
 
         <section id = "resume_content">
@@ -73,7 +72,7 @@
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title"><a target = "_blank" href = "http://www.rpi.edu">Rensselaer Polytechnic Institute</a></h3>
-                <ul>
+                <ul class = "sub_category_content">
                   <li>Dual B.S. Degree in Computer Science & Marketing</li>
                   <li><a href="https://drive.google.com/file/d/1ZSSteVYBfhaW0Q46frPikzR2I2JOo7rj/view?usp=sharing" target="_blank">GPA: 3.9</a></li>
                 </ul>
@@ -118,7 +117,7 @@
                     <li>frontend</li>
                   </ul>
                 </h3>
-                <ul class = "sub_category_content verbose">
+                <ul class = "sub_category_content">
                   <li>Google Drive Frontend</li> 
                 </ul>
               </section>
@@ -134,6 +133,7 @@
                 <ul class = "sub_category_content">
                   <li>Build applications and tools to collect, display, and otherwise work with insightful advertisement Verification data.</li>
                   <li>Worked on both the Programmatic-based, DoubleClick Bid Manager; and Reservation-based, DoubleClick Campaign Manager products</li>
+                  <li>Lead team of 2 engineers</li>
                 </ul>
               </section>
 
@@ -146,6 +146,10 @@
                     <li>distributed systems</li>
                   </ul>
                 </h3>
+                <ul class = "sub_category_content concise">
+                  <li>Real-time search and alert access to financial market data</li>
+                </ul>
+
                 <ul class = "sub_category_content verbose">
                   <li>Provide real-time search and alert access to financial market data (e.g. research, filings, editorials) via multi-machine, multi-process, C++, Linux, <a href = "http://www.elasticsearch.org/">Elasticsearch</a> stack</li>
                   <li>Also lead the implementation of and currently maintain a team-specific Python environment, including a build/integration system (via BuildBot, setuptools, pylint) and distribution mechanism (via internal PyPI server and PIP)</li>

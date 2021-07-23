@@ -20,7 +20,13 @@ function writeContactSection() {
     const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
     const email = decode(emailCoded, emailKey);
     const link = $(`<a target="_blank" href="mailto:${email}">${email}</a>`);
-    $("#email").append(link);
+    const toModify = $("#email");
+    if (toModify.prop('tagName') === 'A') {
+        toModify.attr('href', `mailto:${email}`);
+    }
+    else {
+        $("#email").append(link);
+    }
 }
 function writeBooksSection() {
     // Build Tag -> Hue Map
@@ -130,36 +136,38 @@ function writeConcertsSection() {
    Hits a lastFm proxy on my server, gets the latest tracks I've scrobbled,
    inserts the most recent one into the DOM.
 */
-function writeLastFmSection() {
-    const trackListForDom = $("<ul></ul>");
-    const li = $("<li></li>");
-    const loadingElement = $("<span>")
-        .text("i'm loading it, give me a sec!")
-        .css({ "font-style": "italic", "color": "#aaa" });
-    trackListForDom.append(li.append(loadingElement));
-    $("#latest_tracks_container")
-        .append($("<h1>").text("latest listen"))
-        .append(trackListForDom);
-    $.get("/api_proxy").then((data) => {
-        const track = data["recenttracks"]["track"][0];
-        const latestListenLink = ($("<a>" + track["artist"]["#text"] + " - " + track["name"] + "</a>")
-            .attr("target", "_blank")
-            .attr("href", "http://www.last.fm/user/georgi0u/tracks"));
-        latestListenLink.hide();
-        li.empty();
-        li.append(latestListenLink);
-        latestListenLink.fadeIn();
-    }, (error) => {
-        li.empty();
-        li.append($("<a target='_blank' href='http://www.last.fm/user/georgi0u/tracks'>Check Last.fm</a>"));
-    });
-}
+// function writeLastFmSection() {
+//     const trackListForDom = $("<ul></ul>");
+//     const li = $("<li></li>");
+//     const loadingElement = 
+//         $("<span>")
+//         .text("i'm loading it, give me a sec!")
+//         .css({"font-style":"italic","color":"#aaa"});
+//     trackListForDom.append(li.append(loadingElement));
+//     $("#latest_tracks_container")
+//         .append($("<h1>").text("latest listen"))
+//         .append(trackListForDom);
+//     $.get("/api_proxy").then((data) => {
+//         const track = data["recenttracks"]["track"][0];
+//         const latestListenLink = (
+//             $("<a>" + track["artist"]["#text"] + " - " + track["name"] + "</a>")
+//                 .attr("target","_blank")
+//                 .attr("href","http://www.last.fm/user/georgi0u/tracks"));
+//         latestListenLink.hide();
+//         li.empty();
+//         li.append(latestListenLink);
+//         latestListenLink.fadeIn();
+//     }, (error) => {
+//         li.empty();
+//         li.append($("<a target='_blank' href='http://www.last.fm/user/georgi0u/tracks'>Check Last.fm</a>"));
+//     });
+// }
 /**
    Limits sub containers so they only show N items, and then adds links for
    expanding and collapsing the > N remaining items.
 */
 function limitSubContainers() {
-    const ITEM_LIMIT = 6;
+    const ITEM_LIMIT = 3;
     const subContainers = $(".sub_container.collapsible > ul");
     subContainers.each((index, list) => {
         if ($(list).children().length <= ITEM_LIMIT) {
@@ -182,13 +190,13 @@ function limitSubContainers() {
         $(list).parent().append(collapse);
         expand.click(() => {
             $(list).append(hiddenItems);
-            $(hiddenItems).fadeIn();
+            $(hiddenItems).fadeIn(250);
             expand.hide();
             collapse.show();
             $(list).parent().toggleClass('expanded');
         });
         collapse.click(() => {
-            $(hiddenItems).fadeOut();
+            $(hiddenItems).fadeOut(250);
             $(hiddenItems).remove();
             collapse.hide();
             expand.show();
@@ -222,20 +230,29 @@ function resumeConsiseVerboseButton() {
     let expand_button_content_toggle = "(verbose)";
     $("#expand_button").text("(concise)");
     $("#expand_button").click(function () {
-        $(".verbose").fadeToggle();
-        $(".concise").fadeToggle();
+        $(".verbose").slideToggle(200);
+        $(".concise").slideToggle(200);
         const temp = $(this).text();
         $(this).text(expand_button_content_toggle);
         expand_button_content_toggle = temp;
     });
 }
+function writeAboutControls() {
+    const expand_button = $("<a  style='text-decoration:underline;cursor:pointer;'>…</a>");
+    expand_button.click(() => {
+        $("#more_about").slideToggle(200);
+        expand_button.remove();
+    });
+    $("#about_container").append(expand_button);
+}
 $(function () {
     writeContactSection();
     writeBooksSection();
     writeConcertsSection();
-    writeLastFmSection();
+    //    writeLastFmSection();
     limitSubContainers();
     colorResumeSubcategoryTags();
     resumeConsiseVerboseButton();
+    writeAboutControls();
     $('body').show();
 });

@@ -201,7 +201,7 @@ function writeConcertsSection() {
    expanding and collapsing the > N remaining items.
 */
 function limitSubContainers() {
-    const ITEM_LIMIT = 6;
+    const ITEM_LIMIT = 3;
     
     const subContainers = $(".sub_container.collapsible > ul");
 
@@ -285,6 +285,15 @@ function resumeConsiseVerboseButton() {
     });
 }
 
+function writeAboutControls() {
+    const expand_button = $("<a  style='text-decoration:underline;cursor:pointer;'>…</a>");
+    expand_button.click(() => {
+        $("#more_about").slideToggle(200);
+        expand_button.remove();
+    });
+    $("#about_container").append(expand_button);
+}
+
 
 $(function () {
     writeContactSection();
@@ -296,6 +305,7 @@ $(function () {
 
     colorResumeSubcategoryTags();
     resumeConsiseVerboseButton();
+    writeAboutControls();
 
     $('body').show();
 });
