@@ -168,7 +168,7 @@ function writeConcertsSection() {
    expanding and collapsing the > N remaining items.
 */
 function limitSubContainers() {
-    const ITEM_LIMIT = 3;
+    const ITEM_LIMIT = 10;
     
     const subContainers = $(".sub_container.collapsible > ul");
 
@@ -188,9 +188,9 @@ function limitSubContainers() {
         });
 
         const expand = $(
-            `<a title='Show remaining ${hiddenItems.length}  items.' ` +
+            `<a tabindex='0' title='Show remaining ${hiddenItems.length}  items.' ` +
                 `class='expand_button'>(show more)</a>`);
-        const collapse = $("<a class='collapse_button'>(show less of the above)</a>");
+        const collapse = $("<a tabindex='0' class='collapse_button'>(show less of the above)</a>");
         collapse.hide();
         $(list).parent().append(expand);
         $(list).parent().append(collapse);
@@ -253,7 +253,7 @@ function resumeConsiseVerboseButton() {
 }
 
 function writeAboutControls() {
-    const expand_button = $("<span>.. <a style='cursor:pointer;font-style:italic;'> continued.</a></span>");
+    const expand_button = $("<span>.. <a tabindex='0' style='cursor:pointer;font-style:italic;'> continued.</a></span>");
     expand_button.click(() => {
         $("#more_about").toggle();
         expand_button.remove();
