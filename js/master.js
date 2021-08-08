@@ -160,14 +160,18 @@ function limitSubContainers() {
         collapse.hide();
         $(list).parent().append(expand);
         $(list).parent().append(collapse);
-        expand.click(() => {
+        expand.on('keypress click', (e) => {
+            if (e.which !== 13 && e.type !== 'click')
+                return;
             $(list).append(hiddenItems);
             $(hiddenItems).show();
             expand.hide();
             collapse.show();
             $(list).parent().toggleClass('expanded');
         });
-        collapse.click(() => {
+        collapse.on('keypress click', (e) => {
+            if (e.which !== 13 && e.type !== 'click')
+                return;
             $(hiddenItems).hide();
             $(hiddenItems).remove();
             collapse.hide();

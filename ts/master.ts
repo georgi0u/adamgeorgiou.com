@@ -195,24 +195,28 @@ function limitSubContainers() {
         $(list).parent().append(expand);
         $(list).parent().append(collapse);
 
-        expand.click(() => {
-            $(list).append(hiddenItems);
-            $(hiddenItems).show();
-            expand.hide();
-            collapse.show();
-            $(list).parent().toggleClass('expanded');
+        expand.on('keypress click', (e) => {
+          if (e.which !== 13 && e.type !== 'click')
+            return;
+          $(list).append(hiddenItems);
+          $(hiddenItems).show();
+          expand.hide();
+          collapse.show();
+          $(list).parent().toggleClass('expanded');
         });
 
-        collapse.click(() => {
-            $(hiddenItems).hide();
-            $(hiddenItems).remove();
-            collapse.hide();
-            expand.show();
-            const headerOffset = $($(list).siblings('h1')[0]).offset()
-            if (headerOffset) {
-                $('html, body').animate({scrollTop: headerOffset.top - 50}, 0);
-            }
-            $(list).parent().toggleClass('expanded');
+        collapse.on('keypress click', (e) => {
+          if (e.which !== 13 && e.type !== 'click')
+            return;
+          $(hiddenItems).hide();
+          $(hiddenItems).remove();
+          collapse.hide();
+          expand.show();
+          const headerOffset = $($(list).siblings('h1')[0]).offset()
+          if (headerOffset) {
+            $('html, body').animate({scrollTop: headerOffset.top - 50}, 0);
+          }
+          $(list).parent().toggleClass('expanded');
         });
     });
 }
