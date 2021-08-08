@@ -145,9 +145,9 @@ function writeConcertsSection() {
         const dateStr = concert["start_date"].toString();
         const date = new Date();
         date.setFullYear(
-            parseInt(dateStr.substring(0,4)),
-            parseInt(dateStr.substring(4,6)) - 1,
-            parseInt(dateStr.substring(6,8)));
+            parseInt(dateStr.substring(0,4), 10),
+            parseInt(dateStr.substring(4,6), 10) - 1,
+            parseInt(dateStr.substring(6,8), 10));
         const showMeta = $("<span>").addClass("concert_meta");
         showMeta
             .append(" @ ")
@@ -240,13 +240,13 @@ function colorResumeSubcategoryTags() {
 }
 
 function resumeConsiseVerboseButton() {
-    let expand_button_content_toggle = "(verbose)";
+    let expand_button_content_toggle: string = "(verbose)";
     $("#expand_button").text("(concise)");
     $("#expand_button").click(function() {
         $(".verbose").toggle();
         $(".concise").toggle();
 
-        const temp = $(this).text();
+        const temp: string = $(this).text();
         $(this).text(expand_button_content_toggle);
         expand_button_content_toggle = temp
     });

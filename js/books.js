@@ -4,6 +4,17 @@ export const books = [
             "non-fiction",
         ],
         "title": {
+            "name": "The Black Swan: The Impact of the Highly Improbable",
+        },
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction",
+        ],
+        "title": {
             "name": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets",
         },
         "author": {

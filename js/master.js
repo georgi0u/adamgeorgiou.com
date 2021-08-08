@@ -121,7 +121,7 @@ function writeConcertsSection() {
         // Show Meta
         const dateStr = concert["start_date"].toString();
         const date = new Date();
-        date.setFullYear(parseInt(dateStr.substring(0, 4)), parseInt(dateStr.substring(4, 6)) - 1, parseInt(dateStr.substring(6, 8)));
+        date.setFullYear(parseInt(dateStr.substring(0, 4), 10), parseInt(dateStr.substring(4, 6), 10) - 1, parseInt(dateStr.substring(6, 8), 10));
         const showMeta = $("<span>").addClass("concert_meta");
         showMeta
             .append(" @ ")
