@@ -8,6 +8,11 @@ export interface Concert {
 
 export const concerts: Concert[] = [
     {
+        "artists": ["Dermot Kennedy", "Bishop Briggs"],
+        "venue": "Red Rocks",
+        "start_date": 20210806,
+    },
+    {
         "artists": ["The String Cheese Incident"],
         "venue": "Red Rocks",
         "start_date": 20210717,
