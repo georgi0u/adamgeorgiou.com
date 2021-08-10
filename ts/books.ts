@@ -28,6 +28,18 @@ export const books: Book[] = [
     },
     {
         "tags": [
+            "non-fiction", "lost interest", "abandoned"
+        ],
+        "title": {
+            "name": "Ants Among Elephants: An Untouchable Family and the Making of Modern India",
+        },
+        "author": {
+            "name": "Sujatha Gidla",
+        }
+    },
+
+    {
+        "tags": [
             "non-fiction",
         ],
         "title": {
