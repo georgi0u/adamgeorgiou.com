@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel", "short-stories"
+        ],
+        "title": {
+            "name": "Tough, Tough Toys for Tough, Tough Boys",
+        },
+        "author": {
+            "name": "Will Self",
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "title": {
@@ -835,7 +846,7 @@ export const books: Book[] = [
     },
     {
 	"tags": [
-            "novel"
+            "novel", "short-stories"
 	], 
 	"author": {
             "name": "David Foster Wallace",
@@ -945,7 +956,7 @@ export const books: Book[] = [
     }, 
     {
 	"tags": [
-            "novel"
+            "novel", "short-stories"
 	], 
 	"author": {
             "name": "Jim Harrison",

@@ -204,6 +204,7 @@ function colorResumeSubcategoryTags() {
 }
 function resumeConsiseVerboseButton() {
     let expand_button_content_toggle = "(verbose)";
+    $(".verbose").hide();
     $("#expand_button").text("(concise)");
     $("#expand_button").click(function () {
         $(".verbose").toggle();

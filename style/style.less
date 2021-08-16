@@ -91,6 +91,11 @@ a {
   margin:auto;
   padding: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  display:grid;
+  align-items: center;
+  #main_container > * {
+    
+  }
   li {
     padding-bottom: 10px;
   }
@@ -279,17 +284,25 @@ a {
   }
 }
 
+.print_only {
+  display: none;
+}
+
 @media print {
   #main_container {
     padding:0 0px 0 20px !important;
   }
-  h2 {
-    margin-top:20px !important;
-    margin-bottom:18px !important;
+  .verbose {
+    display: initial !important;
+  }
+  .concise {
+    display: none !important;
   }
   #expand_button {
-    display:none;
+    display:none !important;
   }
-  .category { padding-bottom:10px !important;}
+  .print_only {
+    display: initial !important;
+  }
 }
 

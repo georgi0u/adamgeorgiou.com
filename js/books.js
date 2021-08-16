@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "novel", "short-stories"
+        ],
+        "title": {
+            "name": "Tough, Tough Toys for Tough, Tough Boys",
+        },
+        "author": {
+            "name": "Will Self",
+        }
+    },
+    {
+        "tags": [
             "non-fiction",
         ],
         "title": {
@@ -819,7 +830,7 @@ export const books = [
     },
     {
         "tags": [
-            "novel"
+            "novel", "short-stories"
         ],
         "author": {
             "name": "David Foster Wallace",
@@ -929,7 +940,7 @@ export const books = [
     },
     {
         "tags": [
-            "novel"
+            "novel", "short-stories"
         ],
         "author": {
             "name": "Jim Harrison",
