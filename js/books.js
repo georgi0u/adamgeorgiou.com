@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "The Bed of Procrustes",
+        },
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        }
+    },
+    {
+        "tags": [
             "novel", "short-stories"
         ],
         "title": {

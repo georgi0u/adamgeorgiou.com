@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "The Bed of Procrustes",
+        },
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        }
+    },
+    {
+        "tags": [
             "novel", "short-stories"
         ],
         "title": {

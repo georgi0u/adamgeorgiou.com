@@ -251,7 +251,7 @@ function resumeConsiseVerboseButton() {
         $(".verbose").toggle();
         $(".concise").toggle();
 
-        const temp: string = $(this).text();
+        const temp: string = $(this).text().toString();
         $(this).text(expand_button_content_toggle);
         expand_button_content_toggle = temp
     });
