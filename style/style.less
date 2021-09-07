@@ -22,25 +22,34 @@ time, mark, audio, video {
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  line-height: 2;
-  font-size: 1em;
+  line-height: 3rem;
+  font-size: 1.6rem;
   overflow: scroll;
 }
 
 h1 {
-  font-size:2em;
-  line-height:1.4;
+  font-size:3rem;
+  line-height:4.5rem;
 }
 h2 {
-  font-size:1.875em;
-  line-height:1.4;
+  font-size:1.875rem;
+  line-height:4.5rem;
 }
 @media screen and (min-resolution: 200dpi) {
   #resume .sub_category_tags {
@@ -89,7 +98,7 @@ a {
   max-width:1000px;
   min-width:400px;
   margin:auto;
-  padding: 30px;
+  padding: 4vmin;
   font-family: Georgia, "Times New Roman", Times, serif;
   display:grid;
   align-items: center;
