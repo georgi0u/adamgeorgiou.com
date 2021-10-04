@@ -1,6 +1,28 @@
 export const books = [
     {
         "tags": [
+            "non-fiction", "abandoned"
+        ],
+        "title": {
+            "name": "Will: A Memoir",
+        },
+        "author": {
+            "name": "Will Self",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "Thinking, Fast and Slow",
+        },
+        "author": {
+            "name": "Daniel Kahneman",
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "title": {
