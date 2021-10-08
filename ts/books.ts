@@ -17,6 +17,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "Expecting Better: Why the Conventional Pregnancy Wisdom Is Wrong — And What You Really Need to Know",
+        },
+        "author": {
+            "name": "Emily Oster",
+        }
+    },
+    {
+        "tags": [
              "non-fiction", "abandoned"
         ],
         "title": {
