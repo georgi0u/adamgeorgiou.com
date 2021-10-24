@@ -1,6 +1,17 @@
 export const books = [
     {
         "tags": [
+            "novel"
+        ],
+        "title": {
+            "name": "Dune",
+        },
+        "author": {
+            "name": "Frank Herbert",
+        }
+    },
+    {
+        "tags": [
             "non-fiction"
         ],
         "title": {
