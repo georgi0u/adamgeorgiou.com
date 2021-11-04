@@ -1,5 +1,10 @@
 export const concerts = [
     {
+        "artists": ["Deadmau5"],
+        "venue": "Roseland Ballroom",
+        "start_date": 20111004,
+    },
+    {
         "artists": ["Dermot Kennedy", "Bishop Briggs"],
         "venue": "Red Rocks",
         "start_date": 20210806,
