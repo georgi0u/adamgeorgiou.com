@@ -48,8 +48,11 @@ h1 {
   line-height:4.5rem;
 }
 h2 {
-  font-size:1.875rem;
+  font-size:2;
   line-height:4.5rem;
+}
+h3 {
+  font-size:1.8rem;
 }
 
 @media screen and (min-resolution: 200dpi) {
@@ -69,9 +72,35 @@ h2 {
     line-height:7rem !important;
   }
   h2 {
-    font-size: 3.24em !important;
+    font-size: 3.75rem !important;
     line-height:5rem !important;
+    border-bottom: 1px #000 solid;
+  }
+  h3 {
+    font-size:3.4rem;
+  }
 
+  #resume {
+    .sub_category {
+      &:first-child {
+        padding-top: 50px !important;
+      }
+      padding-bottom: 50px !important;
+    }
+    .category {
+      &:first-child {
+        padding-top: 68px !important;
+      }
+
+      padding-bottom: 80px !important;;
+    }
+  }
+
+  .sub_container {
+    &:first-child {
+      padding-top:0 !important;
+    }
+    padding-top:100px !important;
   }
 }
 
@@ -264,9 +293,6 @@ a {
   h1, h2 {
     text-transform:lowercase;
     font-weight: normal;
-  }
-  h3 {
-    font-weight: bold;
   }
   h1 {
     margin-bottom:12px;

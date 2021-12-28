@@ -4,6 +4,61 @@ export const books = [
             "novel"
         ],
         "title": {
+            "name": "Running the Light",
+        },
+        "author": {
+            "name": "Sam Tallent",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction", "abandoned"
+        ],
+        "title": {
+            "name": "Mating in Captivity",
+        },
+        "author": {
+            "name": "Esther Perel",
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "title": {
+            "name": "The Idiot",
+        },
+        "author": {
+            "name": "Fyodor Dostoevsky",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley",
+        },
+        "author": {
+            "name": "Antonio García Martínez",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "Antifragile: Things That Gain from Disorder",
+        },
+        "author": {
+            "name": "Nassim Nicholas Taleb",
+        }
+    },
+    {
+        "tags": [
+            "novel"
+        ],
+        "title": {
             "name": "Dune",
         },
         "author": {
