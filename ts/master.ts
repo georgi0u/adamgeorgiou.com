@@ -41,8 +41,6 @@ function writeBooksSection() {
 
     const section = $("#bookshelf_container");
 
-    // Header
-    section.append($("<h1><a target='_blank' href='https://www.goodreads.com/user/show/4860036-adam-georgiou'>bookshelf</a></h1>"));
 
     // Book List
     const bookList = $("<ul>");
@@ -122,7 +120,6 @@ function writeConcertsSection() {
     const concertList = $("<ul>");
 
     $("#ticket_stubs_container")
-        .prepend($("<h1>stubs</h1>"))
         .append(concertList);
     
     const sortedConcerts =

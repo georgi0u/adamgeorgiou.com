@@ -35,8 +35,6 @@ function writeBooksSection() {
     const uniqueTags = new Set(flattenedTags);
     const tagColorMap = createColorMap(uniqueTags);
     const section = $("#bookshelf_container");
-    // Header
-    section.append($("<h1><a target='_blank' href='https://www.goodreads.com/user/show/4860036-adam-georgiou'>bookshelf</a></h1>"));
     // Book List
     const bookList = $("<ul>");
     books.forEach((book) => {
@@ -104,7 +102,6 @@ function writeBooksSection() {
 function writeConcertsSection() {
     const concertList = $("<ul>");
     $("#ticket_stubs_container")
-        .prepend($("<h1>stubs</h1>"))
         .append(concertList);
     const sortedConcerts = concerts.sort((lhs, rhs) => rhs["start_date"] - lhs["start_date"]);
     sortedConcerts.forEach((concert) => {
