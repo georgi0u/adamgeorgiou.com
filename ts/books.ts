@@ -20,6 +20,17 @@ export const books: Book[] = [
              "novel"
         ],
         "title": {
+            "name": "Based on a True Story",
+        },
+        "author": {
+            "name": "Norm Macdonald",
+        }
+    },
+    {
+        "tags": [
+             "novel"
+        ],
+        "title": {
             "name": "Running the Light",
         },
         "author": {

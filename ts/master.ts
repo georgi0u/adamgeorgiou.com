@@ -268,7 +268,7 @@ $(function () {
     writeContactSection();
     writeBooksSection();
     writeConcertsSection();
-    writeAboutControls();
+//    writeAboutControls();
     
     limitSubContainers();
 
