@@ -17,6 +17,50 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+             "novel", "currently reading"
+        ],
+        "title": {
+            "name": "Pride and Prejudice",
+        },
+        "author": {
+            "name": "Jane Austen",
+        }
+    },
+    {  
+        "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "The Poverty of Historicism",
+        },
+        "author": {
+            "name": "Karl Popper",
+        }
+    },
+    {
+        "tags": [
+             "non-fiction", "currently reading"
+        ],
+        "title": {
+            "name": "Raw Nerve",
+        },
+        "author": {
+            "name": "Aaron Swartz",
+        }
+    },
+    {
+        "tags": [
+             "non-fiction", "abandoned"
+        ],
+        "title": {
+            "name": "Bullshit Jobs",
+        },
+        "author": {
+            "name": "David Graeber",
+        }
+    },
+    {
+        "tags": [
              "novel"
         ],
         "title": {

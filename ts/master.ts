@@ -108,6 +108,7 @@ function writeBooksSection() {
 	// Append Book String
 	bookList.append(toPrint);
     });
+
     
     section.append(bookList);
 }
@@ -255,8 +256,12 @@ function resumeConsiseVerboseButton() {
 }
 
 function writeAboutControls() {
-    const expand_button = $("<span>.. <a tabindex='0' style='cursor:pointer;font-style:italic;'> continued.</a></span>");
-    expand_button.click(() => {
+    const expand_button =
+        $("<span>.. <a tabindex='0' style='cursor:pointer;font-style:italic;text-decoration:underline;'> continued.</a></span>");
+    expand_button.on('keypress click', (e) => {
+        if (e.which !== 13 && e.type !== 'click')
+            return;
+
         $("#more_about").toggle();
         expand_button.remove();
     });
@@ -268,13 +273,12 @@ $(function () {
     writeContactSection();
     writeBooksSection();
     writeConcertsSection();
-//    writeAboutControls();
+    writeAboutControls();
     
     limitSubContainers();
 
     colorResumeSubcategoryTags();
     resumeConsiseVerboseButton();
-    
 
     $('body').show();
 });
