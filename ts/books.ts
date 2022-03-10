@@ -11,13 +11,50 @@ export interface Title {
 export interface Book {
     tags: string[];
     author: Author;
+    translator?: Author;
     title: Title;
 }
 
 export const books: Book[] = [
     {
         "tags": [
-             "novel", "currently reading"
+             "epic poem"
+        ],
+        "title": {
+            "name": "The Oddysey",
+        },
+        "author": {
+            "name": "Homer"
+        },
+        "translator": {
+            "name": "Emily Wilson"
+        }
+    },
+    {
+        "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "The Maintenance Race",
+        },
+        "author": {
+            "name": "Stewart Brand",
+        }
+    },
+    {
+        "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "HypnoBirthing: The Mongan Method",
+        },
+        "author": {
+            "name": "Marie F. Mongan",
+        }
+    },
+    {
+        "tags": [
+             "novel"
         ],
         "title": {
             "name": "Pride and Prejudice",
@@ -101,7 +138,10 @@ export const books: Book[] = [
         },
         "author": {
             "name": "Fyodor Dostoevsky",
-        }
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
+        },
     },
     {
         "tags": [
@@ -356,7 +396,8 @@ export const books: Book[] = [
         },
         "author": {
             "name": "Thomas Mann"
-        }
+        },
+        "translator": { "name": "John E. Woods" }
     },
     {
         "tags": [
@@ -364,6 +405,9 @@ export const books: Book[] = [
         ],
         "author": {
             "name": "Leo Tolstoy",
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
         },
         "title": {
             "name": "Anna Karenina"
@@ -543,6 +587,9 @@ export const books: Book[] = [
         },
         "title": {
             "name": "Crime and Punishment"
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
         }
     },
     {
@@ -598,7 +645,11 @@ export const books: Book[] = [
         },
         "title": {
             "name": "Notes from Underground"
-        }
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
+        },
+
     },
     {
         "tags": [
@@ -620,7 +671,10 @@ export const books: Book[] = [
         },
         "title": {
             "name": "Blindness"
-        }
+        },
+        "translator": {
+            "name": "Giovanni Pontiero"
+        },
     },
     {
         "tags": [

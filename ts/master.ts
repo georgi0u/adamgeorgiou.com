@@ -54,28 +54,20 @@ function writeBooksSection() {
 	}
 	const iTitle = $("<i>");
 	iTitle.append(title);
-	if (book["title"]["link"]) {
-	    const link = $("<a target=\"_blank\">");
-	    link.append(iTitle);
-	    link.attr("href", book["title"]["link"]);
-	    toPrint.append(link);
-	} else  {
-	    toPrint.append(iTitle);
-	}
+	toPrint.append(iTitle);
 
 	// Author
 	const author = book["author"];
-	toPrint.append($("<span>").text(" by "))
-	if (author['link']) {
-	    const authorLink = $("<a target=\"_blank\">");
-	    authorLink.attr("href", author["link"]);
-	    authorLink.text(author["name"]);
-	    toPrint.append(authorLink);
-	} else {
-	    toPrint.append(author['name']);
-	}
-
-
+        const translator = book["translator"];
+        if (translator) {
+	    toPrint.append($("<span>").text(" written by "))
+            toPrint.append(author['name']);
+            toPrint.append($("<span>").text(", translated by "))
+            toPrint.append(translator['name']);
+        } else {
+	    toPrint.append($("<span>").text(" by "))
+            toPrint.append(author['name']);
+        }
 
 	// Tags        
 	const tags = book["tags"];
