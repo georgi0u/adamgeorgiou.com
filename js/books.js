@@ -1,7 +1,65 @@
 export const books = [
     {
         "tags": [
-            "novel", "currently reading"
+            "non-fiction"
+        ],
+        "title": {
+            "name": "Twelve Hours' Sleep by Twelve Weeks Old: A Step-By-Step Plan for Baby Sleep Success"
+        },
+        "author": {
+            "name": "Suzy Giordano, Lisa Abidin"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",
+        },
+        "author": {
+            "name": "Emily Oster"
+        }
+    },
+    {
+        "tags": [
+            "epic poem"
+        ],
+        "title": {
+            "name": "The Oddysey",
+        },
+        "author": {
+            "name": "Homer"
+        },
+        "translator": {
+            "name": "Emily Wilson"
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "The Maintenance Race",
+        },
+        "author": {
+            "name": "Stewart Brand",
+        }
+    },
+    {
+        "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "HypnoBirthing: The Mongan Method",
+        },
+        "author": {
+            "name": "Marie F. Mongan",
+        }
+    },
+    {
+        "tags": [
+            "novel"
         ],
         "title": {
             "name": "Pride and Prejudice",
@@ -85,7 +143,10 @@ export const books = [
         },
         "author": {
             "name": "Fyodor Dostoevsky",
-        }
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
+        },
     },
     {
         "tags": [
@@ -340,7 +401,8 @@ export const books = [
         },
         "author": {
             "name": "Thomas Mann"
-        }
+        },
+        "translator": { "name": "John E. Woods" }
     },
     {
         "tags": [
@@ -348,6 +410,9 @@ export const books = [
         ],
         "author": {
             "name": "Leo Tolstoy",
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
         },
         "title": {
             "name": "Anna Karenina"
@@ -527,6 +592,9 @@ export const books = [
         },
         "title": {
             "name": "Crime and Punishment"
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
         }
     },
     {
@@ -582,7 +650,10 @@ export const books = [
         },
         "title": {
             "name": "Notes from Underground"
-        }
+        },
+        "translator": {
+            "name": "Pevear & Volokhonsky"
+        },
     },
     {
         "tags": [
@@ -604,7 +675,10 @@ export const books = [
         },
         "title": {
             "name": "Blindness"
-        }
+        },
+        "translator": {
+            "name": "Giovanni Pontiero"
+        },
     },
     {
         "tags": [

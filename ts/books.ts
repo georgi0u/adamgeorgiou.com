@@ -18,6 +18,28 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "Twelve Hours' Sleep by Twelve Weeks Old: A Step-By-Step Plan for Baby Sleep Success"
+        },
+        "author": {
+            "name": "Suzy Giordano, Lisa Abidin"
+        }
+    },
+    {
+        "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",
+        },
+        "author": {
+            "name": "Emily Oster"
+        }
+    },
+    {
+        "tags": [
              "epic poem"
         ],
         "title": {
