@@ -18,6 +18,28 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "novel", "abandoned"
+        ],
+        "title": {
+            "name": "Seveneves"
+        },
+        "author": {
+            "name": "Neal Stephenson"
+        }
+    },
+    {
+        "tags": [
+             "non-fiction"
+        ],
+        "title": {
+            "name": "The End of History and the Last Man"
+        },
+        "author": {
+            "name": "Francis Fukuyama"
+        }
+    },
+    {
+        "tags": [
              "non-fiction"
         ],
         "title": {
