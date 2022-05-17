@@ -8,6 +8,12 @@ export interface Concert {
 
 export const concerts: Concert[] = [
     {
+        "artists": ["Lake Street Dive"],
+        "venue": "Red Rocks",
+        "start_date": 20220508,
+    },
+
+    {
         "artists": ["Deadmau5"],
         "venue": "Roseland Ballroom",
         "start_date": 20111004,
