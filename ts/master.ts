@@ -260,6 +260,15 @@ function writeAboutControls() {
     $("#brief_about").append(expand_button);
 }
 
+function jumbleTheJunk() {
+    const drawer = $("#junk_drawer_container > ul");
+    drawer
+        .children()
+        .toArray()
+        .sort(() => Math.round(Math.random())-0.5)
+        .forEach((el) => drawer.append(el));
+}
+
 
 $(function () {
     writeContactSection();
@@ -271,6 +280,7 @@ $(function () {
 
     colorResumeSubcategoryTags();
     resumeConsiseVerboseButton();
+    jumbleTheJunk();
 
     $('body').show();
 });

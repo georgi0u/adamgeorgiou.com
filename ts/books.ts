@@ -18,6 +18,17 @@ export interface Book {
 export const books: Book[] = [
     {
         "tags": [
+            "non-fiction"
+        ],
+        "title": {
+            "name": "Blitzed: Drugs in Nazi Germany"
+        },
+        "author": {
+            "name": "Norman Ohler"
+        }
+    },
+    {
+        "tags": [
             "novel", "abandoned"
         ],
         "title": {
