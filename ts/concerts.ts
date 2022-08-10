@@ -8,11 +8,15 @@ export interface Concert {
 
 export const concerts: Concert[] = [
     {
+        "artists": ["Lukas Nelson & Promise of the Real"],
+        "venue": "Ogden Theater",
+        "start_date": 20220805,
+    },
+    {
         "artists": ["Lake Street Dive"],
         "venue": "Red Rocks",
         "start_date": 20220508,
     },
-
     {
         "artists": ["Deadmau5"],
         "venue": "Roseland Ballroom",

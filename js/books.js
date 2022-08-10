@@ -1,5 +1,38 @@
 export const books = [
     {
+        'tags': [
+            'novel'
+        ],
+        'title': {
+            'name': 'Heart of Darkness'
+        },
+        'author': {
+            'name': 'Joseph Conrad'
+        }
+    },
+    {
+        'tags': [
+            'non-fiction'
+        ],
+        'title': {
+            'name': 'The Man from the Future: The Visionary Life of John von Neumann'
+        },
+        'author': {
+            'name': 'Ananyo Bhattacharya'
+        }
+    },
+    {
+        'tags': [
+            'novel', 'abandoned'
+        ],
+        'title': {
+            'name': 'Shalimar the Clown'
+        },
+        'author': {
+            'name': 'Salman Rushdie'
+        }
+    },
+    {
         "tags": [
             "non-fiction"
         ],
@@ -37,7 +70,7 @@ export const books = [
             "non-fiction"
         ],
         "title": {
-            "name": "Twelve Hours' Sleep by Twelve Weeks Old: A Step-By-Step Plan for Baby Sleep Success"
+            "name": "Twelve Hours Sleep by Twelve Weeks Old: A Step-By-Step Plan for Baby Sleep Success"
         },
         "author": {
             "name": "Suzy Giordano, Lisa Abidin"
@@ -114,7 +147,7 @@ export const books = [
     },
     {
         "tags": [
-            "non-fiction", "currently reading"
+            "non-fiction", "skimmed"
         ],
         "title": {
             "name": "Raw Nerve",

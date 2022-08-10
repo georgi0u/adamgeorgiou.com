@@ -275,12 +275,12 @@ $(function () {
     writeBooksSection();
     writeConcertsSection();
     writeAboutControls();
-    
+
+    jumbleTheJunk();
     limitSubContainers();
 
     colorResumeSubcategoryTags();
     resumeConsiseVerboseButton();
-    jumbleTheJunk();
 
     $('body').show();
 });
