@@ -8,6 +8,12 @@ export interface Concert {
 
 export const concerts: Concert[] = [
     {
+        "artists": ["Anders Osborne", "Railroad Earth"],
+        "venue": "Breckenridge Brewery",
+        "start_date": 20221008,
+        "title": "Breckenridge Brewery Hootenanny",
+    },
+    {
         "artists": ["Lukas Nelson & Promise of the Real"],
         "venue": "Ogden Theater",
         "start_date": 20220805,

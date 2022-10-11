@@ -21,6 +21,39 @@ export const books: Book[] = [
             'novel'
         ],
         'title': {
+            'name': 'The House of God'
+        },
+        'author': {
+            'name': 'Samuel Shem'
+        }
+    },
+    {
+        'tags': [
+            'novel'
+        ],
+        'title': {
+            'name': 'Zorba the Greek'
+        },
+        'author': {
+            'name': 'Nikos Kazantzakis'
+        }
+    },
+    {
+        'tags': [
+            'novel'
+        ],
+        'title': {
+            'name': 'The Master and Margarita'
+        },
+        'author': {
+            'name': 'Mikhail Bulgakov'
+        }
+    },
+    {
+        'tags': [
+            'novel'
+        ],
+        'title': {
             'name': 'Heart of Darkness'
         },
         'author': {
