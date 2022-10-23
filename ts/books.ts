@@ -21,6 +21,28 @@ export const books: Book[] = [
             'novel'
         ],
         'title': {
+            'name': 'The Great Divorce'
+        },
+        'author': {
+            'name': 'C.S. Lewis'
+        }
+    },
+    {
+        'tags': [
+            'novel'
+        ],
+        'title': {
+            'name': 'Atlas Shrugged'
+        },
+        'author': {
+            'name': 'Ayn Rand'
+        }
+    },
+    {
+        'tags': [
+            'novel'
+        ],
+        'title': {
             'name': 'The House of God'
         },
         'author': {
