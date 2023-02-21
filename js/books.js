@@ -4,6 +4,53 @@ export const books = [
             'novel'
         ],
         'title': {
+            'name': 'The Brothers Karamazov'
+        },
+        'author': {
+            'name': 'Fyodor Dostoyevsky'
+        },
+        'translator': {
+            'name': 'David McDuff'
+        }
+    },
+    {
+        'tags': [
+            'non-fiction', 'christian apologetics'
+        ],
+        'title': {
+            'name': 'The Everlasting Man'
+        },
+        'author': {
+            'name': 'G.K. Chesterton'
+        }
+    },
+    {
+        'tags': [
+            'non-fiction'
+        ],
+        'title': {
+            'name': 'A Mind at Play: How Claude Shannon Invented the Information Age'
+        },
+        'author': {
+            'name': 'Jimmy Soni'
+        }
+    },
+    {
+        'tags': [
+            'non-fiction'
+        ],
+        'title': {
+            'name': 'The Story of Paypal and the Entrepreneurs Who Shaped Silicon Valley'
+        },
+        'author': {
+            'name': 'Jimmy Soni'
+        }
+    },
+    {
+        'tags': [
+            'novel', 'christian apologetics'
+        ],
+        'title': {
             'name': 'The Great Divorce'
         },
         'author': {
@@ -263,7 +310,7 @@ export const books = [
             "name": "The Idiot",
         },
         "author": {
-            "name": "Fyodor Dostoevsky",
+            "name": "Fyodor Dostoyevsky"
         },
         "translator": {
             "name": "Pevear & Volokhonsky"
@@ -709,7 +756,7 @@ export const books = [
             "novel"
         ],
         "author": {
-            "name": "Fyodor Dostoevsky",
+            "name": "Fyodor Dostoyevsky"
         },
         "title": {
             "name": "Crime and Punishment"
@@ -814,7 +861,7 @@ export const books = [
     },
     {
         "tags": [
-            "non-fiction"
+            "non-fiction", 'christian apologetics'
         ],
         "author": {
             "name": "C.S. Lewis",
