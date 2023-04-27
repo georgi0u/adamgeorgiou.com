@@ -18,6 +18,39 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            'non-fiction'
+        ],
+        'title': {
+            'name': 'The Idea Factory: Bell Labs and the Great Age of American Innovation'
+        },
+        'author': {
+            'name': 'Jon Gertner'
+        }
+    },
+    {
+        'tags': [
+            'non-fiction'
+        ],
+        'title': {
+            'name': 'The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution'
+        },
+        'author': {
+            'name': 'Gregory Zuckerman'
+        }
+    },
+    {
+        'tags': [
+            'non-fiction', 'christian apologetics'
+        ],
+        'title': {
+            'name': 'Orthodoxy'
+        },
+        'author': {
+            'name': 'G.K. Chesterton'
+        }
+    },
+    {
+        'tags': [
             'novel'
         ],
         'title': {
