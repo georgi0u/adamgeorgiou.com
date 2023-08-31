@@ -1,6 +1,39 @@
 export const books = [
     {
         'tags': [
+            "non-fiction"
+        ],
+        'title': {
+            'name': 'The Ancient City: A Study of the Religion, Laws, and Institutions of Greece and Rome'
+        },
+        'author': {
+            'name': 'Numa Denis Fustel de Coulanges'
+        }
+    },
+    {
+        'tags': [
+            "novel", "short-stories"
+        ],
+        'title': {
+            'name': 'Oblivion: Stories'
+        },
+        'author': {
+            'name': 'David Foster Wallace'
+        }
+    },
+    {
+        'tags': [
+            'novel'
+        ],
+        'title': {
+            'name': 'Dark Lord\'s Answer'
+        },
+        'author': {
+            'name': 'Eliezer Yudkowsky'
+        }
+    },
+    {
+        'tags': [
             'non-fiction'
         ],
         'title': {
