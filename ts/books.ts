@@ -18,6 +18,17 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            "novel"
+        ],
+        'title': {
+            'name': 'The Metamorphosis of Prime Intellect'
+        },
+        'author': {
+            'name': 'Roger Williams'
+        }
+    },
+    {
+        'tags': [
             "non-fiction"
         ],
         'title': {

@@ -1,6 +1,17 @@
 export const books = [
     {
         'tags': [
+            "novel"
+        ],
+        'title': {
+            'name': 'The Metamorphosis of Prime Intellect'
+        },
+        'author': {
+            'name': 'Roger Williams'
+        }
+    },
+    {
+        'tags': [
             "non-fiction"
         ],
         'title': {
