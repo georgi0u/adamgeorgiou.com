@@ -18,6 +18,29 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            "non-fiction"
+        ],
+        'title': {
+            'name': 'How to Get Rich'
+        },
+        'author': {
+            'name': 'Felix Dennis'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction"
+        ],
+        'title': {
+            'name': 'Guns, Germs, and Steel'
+        },
+        'author': {
+            'name': 'Jared Diamond'
+        }
+    },
+
+    {
+        'tags': [
             "novel"
         ],
         'title': {
@@ -252,7 +275,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "The End of History and the Last Man"
@@ -263,7 +286,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "Twelve Hours Sleep by Twelve Weeks Old: A Step-By-Step Plan for Baby Sleep Success"
@@ -274,7 +297,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",
@@ -285,7 +308,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "epic poem"
+            "epic poem"
         ],
         "title": {
             "name": "The Oddysey",
@@ -299,7 +322,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "The Maintenance Race",
@@ -310,7 +333,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "HypnoBirthing: The Mongan Method",
@@ -321,7 +344,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "novel"
+            "novel"
         ],
         "title": {
             "name": "Pride and Prejudice",
@@ -332,7 +355,7 @@ export const books: Book[] = [
     },
     {  
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "The Poverty of Historicism",
@@ -343,7 +366,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction", "skimmed"
+            "non-fiction", "skimmed"
         ],
         "title": {
             "name": "Raw Nerve",
@@ -354,7 +377,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction", "abandoned"
+            "non-fiction", "abandoned"
         ],
         "title": {
             "name": "Bullshit Jobs",
@@ -365,7 +388,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "novel"
+            "novel"
         ],
         "title": {
             "name": "Based on a True Story",
@@ -376,7 +399,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "novel"
+            "novel"
         ],
         "title": {
             "name": "Running the Light",
@@ -387,7 +410,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction", "abandoned"
+            "non-fiction", "abandoned"
         ],
         "title": {
             "name": "Mating in Captivity",
@@ -398,7 +421,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "novel"
+            "novel"
         ],
         "title": {
             "name": "The Idiot",
@@ -412,7 +435,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley",
@@ -423,7 +446,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "Antifragile: Things That Gain from Disorder",
@@ -434,7 +457,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "novel"
+            "novel"
         ],
         "title": {
             "name": "Dune",
@@ -445,7 +468,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "Expecting Better: Why the Conventional Pregnancy Wisdom Is Wrong — And What You Really Need to Know",
@@ -456,7 +479,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction", "abandoned"
+            "non-fiction", "abandoned"
         ],
         "title": {
             "name": "Will: A Memoir",
@@ -467,7 +490,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "Thinking, Fast and Slow",
@@ -478,7 +501,7 @@ export const books: Book[] = [
     },
     {
         "tags": [
-             "non-fiction"
+            "non-fiction"
         ],
         "title": {
             "name": "The Bed of Procrustes",

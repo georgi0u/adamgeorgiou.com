@@ -1,6 +1,28 @@
 export const books = [
     {
         'tags': [
+            "non-fiction"
+        ],
+        'title': {
+            'name': 'How to Get Rich'
+        },
+        'author': {
+            'name': 'Felix Dennis'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction"
+        ],
+        'title': {
+            'name': 'Guns, Germs, and Steel'
+        },
+        'author': {
+            'name': 'Jared Diamond'
+        }
+    },
+    {
+        'tags': [
             "novel"
         ],
         'title': {
