@@ -18,6 +18,17 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            "Novel"
+        ],
+        'title': {
+            'name': 'Out of the Silent Planet (The Space Trilogy, #1)'
+        },
+        'author': {
+            'name': 'C.S. Lewis'
+        }
+    },
+    {
+        'tags': [
             "non-fiction"
         ],
         'title': {
