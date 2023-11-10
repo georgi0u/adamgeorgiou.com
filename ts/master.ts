@@ -60,7 +60,7 @@ function writeBooksSection() {
 	const author = book["author"];
         const translator = book["translator"];
         if (translator) {
-	    toPrint.append($("<span>").text(" written by "))
+	    toPrint.append($("<span>").text(" by "))
             toPrint.append(author['name']);
             toPrint.append($("<span>").text(", translated by "))
             toPrint.append(translator['name']);

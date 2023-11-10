@@ -18,6 +18,31 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'What I Talk About When I Talk About Running',
+        },
+        'author': {
+            'name': 'Haruki Murakami'
+        }
+    },
+    {
+        'tags': [
+            "epic poem",
+        ],
+        'title': {
+            'name': 'Inferno'
+        },
+        'author': {
+            'name': 'Dante Alighieri'
+        },
+        'translator': {
+            'name': 'Robert & Jean Hollander'
+        }
+    },
+    {
+        'tags': [
             "Novel"
         ],
         'title': {
