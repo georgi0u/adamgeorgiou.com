@@ -1,6 +1,17 @@
 export const books = [
     {
         'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Norwegian Wood',
+        },
+        'author': {
+            'name': 'Haruki Murakami'
+        }
+    },
+    {
+        'tags': [
             "non-fiction",
         ],
         'title': {
