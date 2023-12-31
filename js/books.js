@@ -4,6 +4,17 @@ export const books = [
             "novel",
         ],
         'title': {
+            'name': 'Radical Chic & Mau-Mauing the Flak Catchers',
+        },
+        'author': {
+            'name': 'Tom Wolfe'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
             'name': 'Norwegian Wood',
         },
         'author': {
