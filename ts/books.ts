@@ -18,7 +18,7 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
-            "novel",
+            "non-fiction",
         ],
         'title': {
             'name': 'Radical Chic & Mau-Mauing the Flak Catchers',

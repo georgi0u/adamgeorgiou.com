@@ -1,7 +1,7 @@
 export const books = [
     {
         'tags': [
-            "novel",
+            "non-fiction",
         ],
         'title': {
             'name': 'Radical Chic & Mau-Mauing the Flak Catchers',
