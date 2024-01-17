@@ -1,10 +1,54 @@
 export const books = [
     {
         'tags': [
+            "non-fiction", "in progress"
+        ],
+        'title': {
+            'name': 'The Four Loves',
+        },
+        'author': {
+            'name': 'C.S. Lewis'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction", "in progress"
+        ],
+        'title': {
+            'name': 'Napoleon: A Life',
+        },
+        'author': {
+            'name': 'Andrew Roberts'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'The Right Stuff',
+        },
+        'author': {
+            'name': 'Tom Wolfe'
+        }
+    },
+    {
+        'tags': [
             "non-fiction",
         ],
         'title': {
             'name': 'Radical Chic & Mau-Mauing the Flak Catchers',
+        },
+        'author': {
+            'name': 'Tom Wolfe'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'The Bonfire of the Vanities',
         },
         'author': {
             'name': 'Tom Wolfe'
