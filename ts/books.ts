@@ -21,21 +21,32 @@ export const books: Book[] = [
             "non-fiction", "in progress"
         ],
         'title': {
-            'name': 'The Four Loves',
-        },
-        'author': {
-            'name': 'C.S. Lewis'
-        }
-    },
-    {
-        'tags': [
-            "non-fiction", "in progress"
-        ],
-        'title': {
             'name': 'Napoleon: A Life',
         },
         'author': {
             'name': 'Andrew Roberts'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Animal',
+        },
+        'author': {
+            'name': 'Lisa Taddeo'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'The Four Loves',
+        },
+        'author': {
+            'name': 'C.S. Lewis'
         }
     },
     {
