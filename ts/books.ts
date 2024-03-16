@@ -29,6 +29,17 @@ export const books: Book[] = [
     },
     {
         'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'The Hard Thing About Hard Things',
+        },
+        'author': {
+            'name': 'Ben Horowitz'
+        }
+    },
+    {
+        'tags': [
             "novel",
         ],
         'title': {
