@@ -1,7 +1,7 @@
 export const books = [
     {
         'tags': [
-            "non-fiction", "in progress"
+            "non-fiction",
         ],
         'title': {
             'name': 'Napoleon: A Life',
