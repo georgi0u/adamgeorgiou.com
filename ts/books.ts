@@ -18,6 +18,17 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Red Team Blues',
+        },
+        'author': {
+            'name': 'Cory Doctorow'
+        }
+    },
+    {
+        'tags': [
             "non-fiction",
         ],
         'title': {
