@@ -4,6 +4,17 @@ export const books = [
             "novel",
         ],
         'title': {
+            'name': 'Gilead',
+        },
+        'author': {
+            'name': 'Marilynne Robinson'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
             'name': 'Red Team Blues',
         },
         'author': {
