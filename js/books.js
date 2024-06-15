@@ -1,6 +1,28 @@
 export const books = [
     {
         'tags': [
+            "non-fiction", "in progress"
+        ],
+        'title': {
+            'name': 'The Path to Power (The Years of Lyndon Johnson, Volume 1)',
+        },
+        'author': {
+            'name': 'Robert Caro'
+        }
+    },
+    {
+        'tags': [
+            "memoir", "in progress"
+        ],
+        'title': {
+            'name': 'Wild Swans: Three Daughters of China',
+        },
+        'author': {
+            'name': 'Jung Chang'
+        }
+    },
+    {
+        'tags': [
             "novel",
         ],
         'title': {
