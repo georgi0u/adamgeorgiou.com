@@ -158,7 +158,7 @@ function writeConcertsSection() {
    expanding and collapsing the > N remaining items.
 */
 function limitSubContainers() {
-    const ITEM_LIMIT = 4;
+    const ITEM_LIMIT = 2;
     
     const subContainers = $(".sub_container.collapsible > ul");
 

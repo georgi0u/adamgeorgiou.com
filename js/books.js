@@ -1,10 +1,10 @@
 export const books = [
     {
         'tags': [
-            "non-fiction", "in progress"
+            "non-fiction",
         ],
         'title': {
-            'name': 'The Path to Power (The Years of Lyndon Johnson, Volume 1)',
+            'name': 'Master of the Senate: The Years of Lyndon Johnson (Volume 3)',
         },
         'author': {
             'name': 'Robert Caro'
@@ -12,13 +12,57 @@ export const books = [
     },
     {
         'tags': [
-            "memoir", "in progress"
+            "novel",
+        ],
+        'title': {
+            'name': 'The Screwtape Letters',
+        },
+        'author': {
+            'name': 'C.S. Lewis'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'Means of Ascent: The Years of Lyndon Johnson (Volume 2)',
+        },
+        'author': {
+            'name': 'Robert Caro'
+        }
+    },
+    {
+        'tags': [
+            "novel"
+        ],
+        'title': {
+            'name': 'A Good Day To Die',
+        },
+        'author': {
+            'name': 'Jim Harrison'
+        }
+    },
+    {
+        'tags': [
+            "memoir",
         ],
         'title': {
             'name': 'Wild Swans: Three Daughters of China',
         },
         'author': {
             'name': 'Jung Chang'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction"
+        ],
+        'title': {
+            'name': 'The Path to Power: The Years of Lyndon Johnson (Volume 1)',
+        },
+        'author': {
+            'name': 'Robert Caro'
         }
     },
     {
@@ -52,6 +96,17 @@ export const books = [
         },
         'author': {
             'name': 'Andrew Roberts'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Lolita',
+        },
+        'author': {
+            'name': 'Vladimir Nabokov'
         }
     },
     {
