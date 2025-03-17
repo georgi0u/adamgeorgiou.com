@@ -1,6 +1,28 @@
 export const books = [
     {
         'tags': [
+            "non-fiction", "in progress"
+        ],
+        'title': {
+            'name': 'The Passage of Power: The Years of Lyndon Johnson (Volume 4)',
+        },
+        'author': {
+            'name': 'Robert Caro'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'Suprised By Joy',
+        },
+        'author': {
+            'name': 'C.S. Lewis'
+        }
+    },
+    {
+        'tags': [
             "non-fiction",
         ],
         'title': {
