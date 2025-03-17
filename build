@@ -18,7 +18,7 @@ fi
 if [ -z "$1" ] || [ "$1" == 'css' ]
 then
    echo "Less compiler."
-   npx lessc --clean-css="--s1 --advanced --compatibility=ie8" ./style/style.less > ./compiled/compiled.css
+   npx lessc ./style/style.less > ./compiled/compiled.css
    echo "Done."
 fi;
 
