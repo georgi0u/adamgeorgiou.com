@@ -193,9 +193,10 @@ function colorResumeSubcategoryTags() {
     });
 }
 function resumeConsiseVerboseButton() {
-    let expand_button_content_toggle = "(verbose)";
-    $(".verbose").hide();
-    $("#expand_button").text("(concise)");
+    let expand_button_content_toggle = "(concise)";
+    $(".concise").hide();
+    $(".verbose").show();
+    $("#expand_button").text("(verbose)");
     $("#expand_button").click(function () {
         $(".verbose").toggle();
         $(".concise").toggle();
