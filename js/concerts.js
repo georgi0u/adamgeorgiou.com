@@ -1,5 +1,10 @@
 export const concerts = [
     {
+        "artists": ["Lake Street Dive"],
+        "venue": "The Paramount",
+        "start_date": 20250514,
+    },
+    {
         "artists": ["Anders Osborne", "Railroad Earth"],
         "venue": "Breckenridge Brewery",
         "start_date": 20221008,
