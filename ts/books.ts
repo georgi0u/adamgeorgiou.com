@@ -18,7 +18,7 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
-            "non-fiction", "in progress"
+            "non-fiction",
         ],
         'title': {
             'name': 'The Passage of Power: The Years of Lyndon Johnson (Volume 4)',
