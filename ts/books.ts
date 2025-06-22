@@ -21,6 +21,17 @@ export const books: Book[] = [
             "non-fiction",
         ],
         'title': {
+            'name': 'The Selfish Gene',
+        },
+        'author': {
+            'name': 'Richard Dawkins'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
             'name': 'The Passage of Power: The Years of Lyndon Johnson (Volume 4)',
         },
         'author': {
