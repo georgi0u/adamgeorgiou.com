@@ -21,6 +21,39 @@ export const books: Book[] = [
             "non-fiction",
         ],
         'title': {
+            'name': 'The Medium is the Massage',
+        },
+        'author': {
+            'name': 'Marshall McLuhan'
+        }
+    },
+    {
+        'tags': [
+            "technical",
+        ],
+        'title': {
+            'name': 'Concurrency in Go: Tools and Techniques for Developers',
+        },
+        'author': {
+            'name': 'Katherine Cox-Buday'
+        }
+    },
+    {
+        'tags': [
+            "technical",
+        ],
+        'title': {
+            'name': '100 Go Mistakes and How to Avoid Them',
+        },
+        'author': {
+            'name': 'Teiva Harsanyi'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
             'name': 'The Selfish Gene',
         },
         'author': {
