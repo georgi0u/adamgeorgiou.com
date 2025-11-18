@@ -1,7 +1,12 @@
 export const concerts = [
     {
+        "artists": ["The Revivalists"],
+        "venue": "The Paramount",
+        "start_date": 20250929,
+    },
+    {
         "artists": ["Neil Young"],
-        "venue": "Bethel Woods Center for the Artss",
+        "venue": "Bethel Woods Center for the Arts",
         "start_date": 20250825,
     },
     {
@@ -917,6 +922,13 @@ export const concerts = [
         "artists": [
             "The Black Keys",
             "Cage the Elephant"
+        ]
+    },
+    {
+        "venue": "Jones Beach",
+        "start_date": 20080714,
+        "artists": [
+            "Rush"
         ]
     },
     {

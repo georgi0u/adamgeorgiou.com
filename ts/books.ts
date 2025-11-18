@@ -21,6 +21,28 @@ export const books: Book[] = [
             "non-fiction",
         ],
         'title': {
+            'name': 'Flash Boys',
+        },
+        'author': {
+            'name': 'Michael Lewis'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Cryptonomicon',
+        },
+        'author': {
+            'name': 'Neal Stephenson'
+        }
+    },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
             'name': 'The Medium is the Massage',
         },
         'author': {
