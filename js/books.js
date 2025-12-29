@@ -615,7 +615,7 @@ export const books = [
             "epic poem"
         ],
         "title": {
-            "name": "The Oddysey",
+            "name": "The Odyssey",
         },
         "author": {
             "name": "Homer"
