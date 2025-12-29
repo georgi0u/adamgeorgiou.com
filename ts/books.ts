@@ -18,6 +18,17 @@ export interface Book {
 export const books: Book[] = [
     {
         'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Blindsight',
+        },
+        'author': {
+            'name': 'Peter Watts'
+        }
+    },
+    {
+        'tags': [
             "non-fiction",
         ],
         'title': {
@@ -622,7 +633,7 @@ export const books: Book[] = [
             "epic poem"
         ],
         "title": {
-            "name": "The Oddysey",
+            "name": "The Odyssey",
         },
         "author": {
             "name": "Homer"

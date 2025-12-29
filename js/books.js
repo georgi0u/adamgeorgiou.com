@@ -1,6 +1,17 @@
 export const books = [
     {
         'tags': [
+            "novel",
+        ],
+        'title': {
+            'name': 'Blindsight',
+        },
+        'author': {
+            'name': 'Peter Watts'
+        }
+    },
+    {
+        'tags': [
             "non-fiction",
         ],
         'title': {
