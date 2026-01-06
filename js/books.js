@@ -23,6 +23,17 @@ export const books = [
     },
     {
         'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'Liar\'s Poker',
+        },
+        'author': {
+            'name': 'Michael Lewis'
+        }
+    },
+    {
+        'tags': [
             "novel",
         ],
         'title': {
