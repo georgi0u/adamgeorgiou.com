@@ -19,14 +19,16 @@ function writeContactSection() {
     const emailCoded = "jF@RoRjrF60r16H.D6j";
     const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
     const email = decode(emailCoded, emailKey);
-    const link = $(`<a target="_blank" href="mailto:${email}">${email}</a>`);
-    const toModify = $("#email");
-    if (toModify.prop('tagName') === 'A') {
-        toModify.attr('href', `mailto:${email}`);
-    }
-    else {
-        $("#email").append(link);
-    }
+    $(".email").each((_, element) => {
+        const link = $(`<a target="_blank" href="mailto:${email}">${email}</a>`);
+        const toModify = $(element);
+        if (toModify.prop('tagName') === 'A') {
+            toModify.attr('href', `mailto:${email}`);
+        }
+        else {
+            toModify.append(link);
+        }
+    });
 }
 function writeBooksSection() {
     // Build Tag -> Hue Map
@@ -197,7 +199,17 @@ function resumeConsiseVerboseButton() {
     $(".concise").hide();
     $(".verbose").show();
     $("#expand_button").text("(verbose)");
+    $(".sub_category").addClass("with_border");
+    let current = "verbose";
     $("#expand_button").click(function () {
+        if (current === "verbose") {
+            $(".sub_category").removeClass("with_border");
+            current = "concise";
+        }
+        else {
+            $(".sub_category").addClass("with_border");
+            current = "verbose";
+        }
         $(".verbose").toggle();
         $(".concise").toggle();
         const temp = $(this).text().toString();

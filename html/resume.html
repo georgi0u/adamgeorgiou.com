@@ -47,14 +47,17 @@
         <p class="print_only">up to date, live links, and more detail @ adamgeorgiou.com/resume</p>
 
         <section id = "resume_content">
-
           <div class = "category" id = "contact_info_container">
             <h2>i am</h2>
             <div class = "category_content">
               <div class = "sub_category">
-                <ul class="sub_category_content">
-                  <li id="email">at&nbsp;</li>
+                <p class="sub_category_content concise">
+                  an engineer, in New York, at <span class="email">at&nbsp;</span>
+                </p>
+                <ul class="sub_category_content verbose">
+                  <li>an engineer</li>
                   <li>in New York</li>
+                  <li class="email">at&nbsp;</li>
                 </ul>
               </div>
             </div>
@@ -77,39 +80,54 @@
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title">                  
-                  Principal Software Engineer @ <a  target = "_blank"  href = "http://www.runway.com">Runway.com</a>
                   <span class="date">Nov, 2023 → Present</span>
+                  Principal Software Engineer @ <a  target = "_blank"  href = "http://www.runway.com">Runway.com</a>
                 </h3>
-                <ul class = "sub_category_content">
+                <p class = "sub_category_content concise">A few dozen employees building better financial modeling.</p>
+                <ul class = "sub_category_content verbose">
                   <li>A few dozen employees building better financial modeling.</li>
-                  <li>Joined at Seed stage (a16z), with zero revenue; raised ~30M Series A (Initialized); currently ~50 employees, ~XM ARR.</li>
-                  <li>Lead and worked on several projects: a golang based integration pipeline consuming hundreds of sources of data into Runway's platform; using GPTs to generate continuous always available financial insights; a golang based concurrent calculator and corresponding formula AST; scaling the platform through low level memory and compute optimization; a react-based multiplayer-ready frontend for fast display of high dimensional tabular data.</li>
+                  <li class="verbose">Joined at Seed stage (a16z), with zero revenue; raised ~30M Series A (Initialized, Garry Tan); currently ~50 employees, ~XM ARR.</li>
+                  <li class="verbose">Technologies used: Golang, Typescript, React, Postgres, GCP, Docker, K8s, Redis, Snowflake, Fivetran, Workato, Merge.dev.</li>
+                  <li class="verbose"><!--space--></li>
+                  <li class="verbose">Lead/implemented...</li>
+                  <li class="verbose">1. An Open-AI based AI Agent framework called Ari, which deeply integrated with Runway-data via tool calls and scaffolded sessions (i.e. agents) to explain and build financial models.</li>
+                  <li class="verbose">2. Postgres-backed versioned datastore, with custom constraint triggers and optimized throughput. Included mass live migration from previously bespoke datastore, to newly designed system herein.</li>
+                  <li class="verbose">3. An integration pipeline consuming hundreds of sources of data into Runway's platform.</li>
+                  <li class="verbose">4. A concurrent calculator and corresponding formula AST.</li>
+                  <li class="verbose">5. Scaling the platform through low level memory and compute optimization.</li>
+                  <li class="verbose">6. The General Reliability Effort, as designated Lead SRE via lack thereof a dedicated role.</li>
+                  <li class="verbose">7. A react-based multiplayer-capable frontend for fast display of high dimensional tabular data.</li>
                 </ul>
               </section>
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title">                  
-                  Senior Software Engineer @ <a  target = "_blank"  href = "http://www.google.com">Google</a> 
                   <span class="date">Nov, 2014 → Nov, 2023</span>
+                  Senior Software Engineer @ <a  target = "_blank"  href = "http://www.google.com">Google</a> 
                 </h3>
-                <ul class = "sub_category_content">
-                  <li style="font-weight:bold">Google Drive</li>
+                <p class="sub_category_content concise">Worked on the Google Drive and Double Click Ads Verification web stacks.</p>
+                <ul class = "sub_category_content verbose">
+                  <li><a href="https://drive.google.com/file/d/1EA7nsuufZyW11EfLHESrk0mBkRJJtCAs/view?usp=sharing" target="_blank">Left voluntarily</a>, in good standing, to test my independence and give startups a shot (see above).</li>
+                  <li class="concise">Google Drive (Offline, SSR, ...)</li>
+                  <li class="verbose" style="font-weight:bold">Google Drive</li>
                   <li class="verbose">Lead of the Drive Web Offline experience - using Service Workers and Local Storage to make Drive (and Docs) work without a network.</li>
                   <li class="verbose">Server Side Render Drive Web to improve page load by 30%.</li>
                   <li class="verbose">Built APIs allowing other applications (Google and third-party) to extend the Google Drive Web Frontend.</li>
-                  <li style="font-weight:bold;">Double Click Ads Verification</li>
+                  <li class="verbose" style="font-weight:bold;">Double Click Ads Verification</li>
+                  <li class="concise">Double Click Ads Verification</li>
                   <li class="verbose">Classification of ad media into brand safe categories to ensure paid-for creative was delivered as expected.</li>
                   <li class="verbose">Lead team of 2 engineers to rewrite the application from a combination of GWT and Angular JS to Angular Dart.</li>
-                  <li><a href="https://drive.google.com/file/d/1EA7nsuufZyW11EfLHESrk0mBkRJJtCAs/view?usp=sharing" target="_blank">Left voluntarily</a>, in good standing, to test my independence and give startups a shot (see above).</li>
+                  
                 </ul>
               </section>
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title">                  
-                  Software Engineer @ <a target="_blank"href = "http://www.factset.com">FactSet Research Systems Inc.</a>
                   <span class="date">2010 → 2014</span>
+                  Software Engineer @ <a target="_blank"href = "http://www.factset.com">FactSet Research Systems Inc.</a>
                 </h3>
-                <ul class = "sub_category_content">
+                <p class="sub_category_content concise">Real-time search & alert access to market data (news, quotes) via C++, Linux, Elasticsearch stack.</p>
+                <ul class = "sub_category_content verbose">
                   <li>Built real-time search and alert access to market data via multi-machine, multi-process, C++, Linux, Elasticsearch stack.</li>
                   <li class="verbose">Implemented company-wide Python environment from scratch (i.e. no in-house python support prior), including a build/integration system (via BuildBot, setuptools, pylint) and distribution mechanism (via internal PyPI server and PIP).</li>
                   <li class="verbose">Lead team of 2 engineers.</li>
@@ -118,20 +136,19 @@
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title">                  
-                  <a target="_blank" href = "http://www.deckofcardio.com">DeckofCardio.com</a>
                   <span class="date">2022</span>
+                  <a target="_blank" href = "http://www.deckofcardio.com">DeckofCardio.com</a>
                 </h3>
-                <ul class = "sub_category_content">
-                  <li>Flutter & Firebase based mobile app for working out with a deck of cards.</li>
-                  <li>Designed, built, deployed and owned: 100% me.</li>
-                  <li>Released on Android and iOS.</li>
+                <p class = "sub_category_content concise">Flutter & Firebase based mobile app for working out with a deck of cards.</p>
+                <ul class = "sub_category_content verbose">
+                  <li>Flutter & Firebase based mobile app for working out with a deck of cards.</li>            
                 </ul>
               </section>
 
               <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">
-                  The George List
                   <span class="date">2016</span>
+                  The George List
                 </h3>
                 <ul class = "sub_category_content">
                   <li>A website that aggregates all the concerts going on in NYC.</li>
@@ -165,8 +182,8 @@
 
               <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">                  
-                  Photoblog
                   <span class="date">2011</span>
+                  Photoblog
                 </h3>
                 <ul class = "sub_category_content">
                   <li>Developed a PHP, MYSQL, Smarty, jQuery based photo blogging system.</li>
@@ -177,8 +194,8 @@
 
               <section class = "sub_category verbose">
                 <h3 class = "sub_category_title">                  
-                  The Monetary System
                   <span class="date">2006 → 2010</span>
+                  The Monetary System
                 </h3>
                 <ul class = "sub_category_content">
                   <li>Setup and managed company FreeBSD web server.</li>
@@ -188,7 +205,8 @@
 
               <section class = "sub_category">
                 <h3 class = "sub_category_title">GitHub &mdash; Various Projects</h3>
-                <ul>
+                <p class ="sub_category_content concise">Various projects, open-source contributions, and otherwise public, version-controlled files available at <a target="_blank" href = "https://github.com/georgi0u">github.com/georgi0u</a></p>
+                <ul class ="sub_category_content verbose">
                   <li>Various projects, open-source contributions, and otherwise public, version-controlled files available at <a target="_blank" href = "https://github.com/georgi0u">github.com/georgi0u</a>.</li>
                 </ul>
               </section>
@@ -201,7 +219,8 @@
             <div class = "category_content">
               <section class = "sub_category">
                 <h3 class = "sub_category_title"><a target = "_blank" href = "http://www.rpi.edu">Rensselaer Polytechnic Institute</a></h3>
-                <ul class = "sub_category_content">
+                <p class = "sub_category_content concise">Dual B.S. Degree in Computer Science & Marketing with a <a  target = "_blank"  href="https://drive.google.com/file/d/1ZSSteVYBfhaW0Q46frPikzR2I2JOo7rj/view?usp=sharing">GPA: 3.9</a></p>
+                <ul class = "sub_category_content verbose">
                   <li>Dual B.S. Degree in Computer Science & Marketing</li>
                   <li><a  target = "_blank"  href="https://drive.google.com/file/d/1ZSSteVYBfhaW0Q46frPikzR2I2JOo7rj/view?usp=sharing">GPA: 3.9</a></li>
                 </ul>
