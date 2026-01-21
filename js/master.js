@@ -194,13 +194,22 @@ function colorResumeSubcategoryTags() {
         $(element).css("background", "hsl(" + hue + ", 100%, 80%");
     });
 }
-function resumeConsiseVerboseButton() {
-    let expand_button_content_toggle = "(concise)";
-    $(".concise").hide();
-    $(".verbose").show();
-    $("#expand_button").text("(verbose)");
-    $(".sub_category").addClass("with_border");
-    let current = "verbose";
+function resumeConciseVerboseButton() {
+    const startVerbose = isSearchEngineCrawler();
+    let expand_button_content_toggle = startVerbose ? "(concise)" : "(verbose)";
+    if (startVerbose) {
+        $(".concise").hide();
+        $(".verbose").show();
+        $("#expand_button").text("(verbose)");
+        $(".sub_category").addClass("with_border");
+    }
+    else {
+        $(".verbose").hide();
+        $(".concise").show();
+        $("#expand_button").text("(concise)");
+        $(".sub_category").removeClass("with_border");
+    }
+    let current = startVerbose ? "verbose" : "concise";
     $("#expand_button").click(function () {
         if (current === "verbose") {
             $(".sub_category").removeClass("with_border");
@@ -210,12 +219,17 @@ function resumeConsiseVerboseButton() {
             $(".sub_category").addClass("with_border");
             current = "verbose";
         }
+        $("#expand_button_hint").hide();
         $(".verbose").toggle();
         $(".concise").toggle();
         const temp = $(this).text().toString();
         $(this).text(expand_button_content_toggle);
         expand_button_content_toggle = temp;
     });
+}
+function isSearchEngineCrawler() {
+    const ua = navigator.userAgent || "";
+    return /(bot|crawler|spider|slurp|bingpreview|duckduckbot|googlebot|bingbot|yandex|baiduspider|sogou|exabot|facebot|ia_archiver)/i.test(ua);
 }
 function writeAboutControls() {
     const expand_button = $("<span>.. <a tabindex='0' style='cursor:pointer;font-style:italic;text-decoration:underline;'> continued.</a></span>");
@@ -243,6 +257,6 @@ $(function () {
     jumbleTheJunk();
     limitSubContainers();
     colorResumeSubcategoryTags();
-    resumeConsiseVerboseButton();
+    resumeConciseVerboseButton();
     $('body').show();
 });

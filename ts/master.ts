@@ -235,14 +235,22 @@ function colorResumeSubcategoryTags() {
     });
 }
 
-function resumeConsiseVerboseButton() {
-    let expand_button_content_toggle: string = "(concise)";
-    $(".concise").hide();
-    $(".verbose").show();
-    $("#expand_button").text("(verbose)");
-    $(".sub_category").addClass("with_border");
+function resumeConciseVerboseButton() {
+    const startVerbose = isSearchEngineCrawler();
+    let expand_button_content_toggle: string = startVerbose ? "(concise)" : "(verbose)";
+    if (startVerbose) {
+        $(".concise").hide();
+        $(".verbose").show();
+        $("#expand_button").text("(verbose)");
+        $(".sub_category").addClass("with_border");
+    } else {
+        $(".verbose").hide();
+        $(".concise").show();
+        $("#expand_button").text("(concise)");
+        $(".sub_category").removeClass("with_border");
+    }
 
-    let current = "verbose";
+    let current = startVerbose ? "verbose" : "concise";
 
     $("#expand_button").click(function() {
         if (current === "verbose") {
@@ -252,6 +260,8 @@ function resumeConsiseVerboseButton() {
             $(".sub_category").addClass("with_border");
             current = "verbose";
         }
+
+        $("#expand_button_hint").hide();
         
         $(".verbose").toggle();
         $(".concise").toggle();
@@ -259,8 +269,11 @@ function resumeConsiseVerboseButton() {
         $(this).text(expand_button_content_toggle);
         expand_button_content_toggle = temp
     });
+}
 
-
+function isSearchEngineCrawler(): boolean {
+    const ua = navigator.userAgent || "";
+    return /(bot|crawler|spider|slurp|bingpreview|duckduckbot|googlebot|bingbot|yandex|baiduspider|sogou|exabot|facebot|ia_archiver)/i.test(ua);
 }
 
 function writeAboutControls() {
@@ -296,8 +309,7 @@ $(function () {
     limitSubContainers();
 
     colorResumeSubcategoryTags();
-    resumeConsiseVerboseButton();
+    resumeConciseVerboseButton();
 
     $('body').show();
 });
-

@@ -137,6 +137,9 @@ h3 span.date::before {
 h3 span.date::after {
   content: ')';
 }
+bold {
+  font-weight: bold;
+}
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #resume .sub_category_tags {
     display: none !important;
@@ -206,7 +209,7 @@ a {
 }
 /* Style */
 #main_container {
-  max-width: 720px;
+  max-width: 800px;
   min-width: 400px;
   margin: auto;
   padding: 2vmin;
@@ -247,6 +250,11 @@ a {
 #main_container #links_container a .normal-show {
   display: inline;
 }
+#main_container #resume .project_label {
+  font-weight: bold;
+  display: inline-block;
+  min-width: 50px;
+}
 #main_container #resume #contact_info_container h2 {
   border-left-color: #ff9999;
 }
@@ -259,20 +267,41 @@ a {
 #main_container #resume #expand_button {
   color: #aaa;
 }
+#main_container #resume #expand_button_container {
+  position: relative;
+  display: inline-block;
+}
+#main_container #resume #expand_button_hint {
+  position: absolute;
+  left: 50%;
+  top: 2.2em;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+#main_container #resume #expand_button_hint .arrow {
+  display: block;
+  font-size: 10px;
+  line-height: 1;
+  margin-bottom: 2px;
+}
 #main_container #resume .verbose {
   display: none;
 }
 #main_container #resume li a {
   text-decoration: underline;
 }
-#main_container #resume #domain_knowledge .concise li {
+#main_container #resume #domain_knowledge li {
   display: inline;
   margin-left: 0;
 }
-#main_container #resume #domain_knowledge .concise li:after {
+#main_container #resume #domain_knowledge li:after {
   content: ",  ";
 }
-#main_container #resume #domain_knowledge .concise li:last-child:after {
+#main_container #resume #domain_knowledge li:last-child:after {
   content: "";
 }
 #main_container #resume .category {
@@ -379,18 +408,26 @@ a {
 #main_container a:hover {
   text-decoration: underline;
 }
-.print_only {
-  display: none;
+@media only screen {
+  .print_only {
+    display: none !important;
+  }
 }
 @media print {
+  p.print_only {
+    font-size: 9pt;
+  }
   #main_container {
     padding: 0 0px 0 20px !important;
   }
   #expand_button {
     display: none !important;
   }
-  .print_only {
-    display: initial !important;
+  #expand_button_hint {
+    display: none !important;
+  }
+  .no_print {
+    display: none !important;
   }
   a {
     text-decoration: none !important;
