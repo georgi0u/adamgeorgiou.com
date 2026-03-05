@@ -8,6 +8,11 @@ export interface Concert {
 
 export const concerts: Concert[] = [
     {
+        "artists": ["Brandi Carlile"],
+        "venue": "Madison Square Garden",
+        "start_date": 20260213,
+    },
+    {
         "artists": ["The Revivalists"],
         "venue": "The Paramount",
         "start_date": 20250929,

@@ -21,6 +21,17 @@ export const books: Book[] = [
             "novel",
         ],
         'title': {
+            'name': 'Echopraxia',
+        },
+        'author': {
+            'name': 'Peter Watts'
+        }
+    },
+    {
+        'tags': [
+            "novel",
+        ],
+        'title': {
             'name': 'Blindsight',
         },
         'author': {
@@ -49,6 +60,18 @@ export const books: Book[] = [
             'name': 'Michael Lewis'
         }
     },
+    {
+        'tags': [
+            "non-fiction",
+        ],
+        'title': {
+            'name': 'Trump: The Art of the Deal',
+        },
+        'author': {
+            'name': 'Donald Trump with Tony Schwartz'
+        }
+    },
+
     {
         'tags': [
             "novel",
