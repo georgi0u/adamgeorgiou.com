@@ -1,5 +1,52 @@
 #!/bin/bash
 
+# Dev mode - watch and rebuild
+if [ "$1" == 'dev' ]
+then
+    echo "Starting dev mode..."
+    echo "Watching ts/, style/, html/ for changes..."
+    echo "Press Ctrl+C to stop."
+    echo ""
+
+    # Run initial build
+    ./build
+
+    # Use Node.js for file watching
+    node -e "
+const fs = require('fs');
+const { spawn } = require('child_process');
+const path = require('path');
+
+const debounce = {};
+
+function runBuild(type) {
+    const key = type;
+    if (debounce[key]) clearTimeout(debounce[key]);
+    debounce[key] = setTimeout(() => {
+        console.log('\n[\x1b[36m' + new Date().toLocaleTimeString() + '\x1b[0m] Change detected in ' + type + ', rebuilding...');
+        const proc = spawn('./build', [type], { stdio: 'inherit' });
+        proc.on('close', () => console.log('[\x1b[32mready\x1b[0m] Watching for changes...'));
+    }, 100);
+}
+
+function watchDir(dir, type, extensions) {
+    fs.watch(dir, { recursive: true }, (event, filename) => {
+        if (filename && extensions.some(ext => filename.endsWith(ext))) {
+            runBuild(type);
+        }
+    });
+    console.log('Watching ' + dir + ' for ' + extensions.join(', ') + ' changes');
+}
+
+watchDir('./ts', 'script', ['.ts']);
+watchDir('./style', 'css', ['.less']);
+watchDir('./html', 'html', ['.html']);
+
+console.log('\n[\x1b[32mready\x1b[0m] Watching for changes...\n');
+"
+    exit 0
+fi
+
 # Typescript, Javascript
 if [ -z "$1" ] || [ "$1" == 'script' ]
 then
