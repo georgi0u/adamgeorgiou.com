@@ -1,0 +1,304 @@
+<!doctypehtml>
+   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+   <link rel="alternate icon" href="/favicon.png">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8">
+   <meta name="description"
+      content="A summary of some of the experiences and ideology I find to be relevant to professional projects.">
+   <meta name="keywords"
+      content="Adam Patrick Georgiou, Adam Georgiou, adamgeorgiou.com, software developer, software engineer, programmer, marketing, design, resume">
+   <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script type="module" src="/compiled/compiled.js"></script>
+   <link rel="stylesheet" href="/compiled/compiled.css">
+   <script>((e, a, t, g, n, c) => { e.GoogleAnalyticsObject = g, e.ga = e.ga || function () { (e.ga.q = e.ga.q || []).push(arguments) }, e.ga.l = +new Date, n = a.createElement(t), c = a.getElementsByTagName(t)[0], n.async = 1, n.src = "//www.google-analytics.com/analytics.js", c.parentNode.insertBefore(n, c) })(window, document, "script", "ga"), ga("create", "UA-64833419-1", "auto"), ga("send", "pageview")</script>
+   <title>adam patrick georgiou's resume</title>
+
+   <body style="display:none">
+      <div id="main_container">
+         <article id="resume">
+            <p style="text-align:center" class="print_only"><span class="concise">this is catered toward the job
+                  description.&nbsp;</span>more general and up to date @ <a
+                  href="https://adamgeorgiou.com/resume.html">adamgeorgiou.com/resume.html</a>.
+            <section id="resume_content">
+               <div class="category" id="contact_info_container">
+                  <h2>the resume of Adam Georgiou</h2>
+                  <div class="category_content">
+                     <div class="sub_category">
+                        <p class="sub_category_content">Staff-level full-stack engineer with deep experience in data
+                           integration, warehouse-backed systems, and building end-to-end product features, from data
+                           model design to React UI.
+                        <p>I am in New York, reachable at <span class="email"></span>.</p>
+                        <p><a href="https://github.com/georgi0u">github.com/georgi0u</a> &middot; <a
+                              href="https://www.linkedin.com/in/adamgeorgiou">linkedin.com/in/adamgeorgiou</a>
+                     </div>
+                  </div>
+               </div>
+               <section class="category" id="experience">
+                  <h2 class="category_title">professional experience</h2>
+                  <div class="category_content">
+                     <section class="sub_category">
+                        <h3 class="sub_category_title"><span class="date">Nov 2023 → Present</span> Principal Software
+                           Engineer @ <a target="_blank" href="http://www.runway.com">Runway.com</a></h3>
+                        <p class="sub_category_content concise">A few dozen employees building a better financial
+                           planning & analytics (FP&A) tool. Joined at Seed stage (a16z) with zero revenue. Raised a
+                           ~30M Series A (Initialized, Garry Tan). Grew to ~50 employees, single-digit millions in ARR.
+                        <p class="sub_category_content concise">I led several projects across several teams, mentored
+                           the engineering organization, co-contributed to the product roadmap, defined our engineering
+                           career ladder, defined best practices, wrote documentation, headed the DevOps and OnCall
+                           efforts, and more.
+                        </p>
+                        <ul class="sub_category_content verbose">
+                           <li>A few dozen employees building a better financial planning & analytics (FP&A) tool.
+                           <li class="verbose">Joined at Seed stage (a16z) with zero revenue. Raised a ~30M Series A
+                              (Initialized, Garry Tan). Grew to ~50 employees, single-digit millions in ARR.
+                           <li class="verbose">
+                              <bold>Stack:&nbsp;</bold>
+                              Golang, TypeScript, React, PostgreSQL, GCP, Docker, Kubernetes, Redis, Snowflake,
+                              Fivetran, Workato, Merge.dev.&nbsp;
+                           </li>
+                           <bold>Projects include:</bold>
+                           <li class="verbose">→ (Lead) An OpenAI based AI Agent framework called Ari, which integrates
+                              with Runway-data via tool calls and scaffolded sessions (i.e. agents) to explain and build
+                              financial models.
+                           <li class="verbose">→ (Lead Architect, Implementation) PostgreSQL-backed, versioned
+                              datastore, with custom constraint triggers and optimized throughput. Included live,
+                              large-scale migration from previously bespoke datastore, to newly designed system. O(100M)
+                              rows.
+                           <li class="verbose">→ (Lead) An ETL integration pipeline consuming hundreds of sources of
+                              data into Runway's platform.
+                           <li class="verbose">→ (IC) A concurrent calculator, with corresponding formula AST and
+                              dependency graph.
+                           <li class="verbose">→ (IC) Scaling the platform through low level memory and compute
+                              optimization. Tuning of: Garbage Collection, JSON serialization, HTTP caching, struct
+                              allocation, compiler optimizations, lock contention, etc. Multiple double digit percentage
+                              latency & memory wins.
+                           <li class="verbose">→ (Lead) The General Reliability Effort, as designated Lead SRE via lack
+                              thereof a dedicated role. Node pool allocation, pod affinity tuning, green/blue
+                              implementations.
+                           <li class="verbose">→ (IC) A React-based multiplayer-capable frontend for fast display of
+                              high dimensional tabular data.
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title"><span class="date">Nov 2014 → Nov 2023</span> Senior Software
+                           Engineer @ <a target="_blank" href="http://www.google.com">Google</a></h3>
+                        <p class="sub_category_content concise">Worked on the Google Drive and Double Click Ads
+                           Verification web stacks.
+                        <ul class="sub_category_content verbose">
+                           <li><a href="https://drive.google.com/file/d/1EA7nsuufZyW11EfLHESrk0mBkRJJtCAs/view?usp=sharing"
+                                 target="_blank">Left voluntarily</a>, in good standing, to test my independence and
+                              give startups a shot (see above).
+                           <li>
+                              <bold>Lead of Google Drive's Web Client's Offline infrastructure&nbsp;</bold>
+                              - using Service Workers & Local Storage to make Drive (& Docs) work without a network.
+                           <li>Built AppsScript APIs allowing other applications (Google, third-party) to extend the Web
+                              Frontend.
+                           <li>Server-side rendered Drive Web to improve page load by 30%.
+                           <li>Led team of two engineers to rewrite the Double Click Verification application from a
+                              combination of GWT and AngularJS to AngularDart.
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title"><span class="date">2010 → 2014</span> Software Engineer @ <a
+                              target="_blank" href="http://www.factset.com">FactSet Research Systems Inc.</a></h3>
+                        <p class="sub_category_content concise">Real-time search & alert access to market data (news,
+                           quotes) via C++, Linux, Elasticsearch stack.
+                        <ul class="sub_category_content verbose">
+                           <li>
+                              <bold>Built real-time search and alert access to market data&nbsp;</bold>
+                              via C++, Linux, Elasticsearch stack.
+                           <li class="verbose">Implemented company-wide Python environment from scratch (i.e. no
+                              in-house Python support prior), including a build/integration system (via BuildBot,
+                              setuptools, pylint) and distribution mechanism (via internal PyPI server and PIP).
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title"><span class="date">2022 → Present</span> <a target="_blank"
+                              href="http://www.deckofcardio.com">DeckOfCardio.com</a></h3>
+                        <p class="sub_category_content concise">Flutter & Firebase based mobile app for working out with
+                           a deck of cards.
+                        <ul class="sub_category_content verbose">
+                           <li>Flutter & Firebase based mobile app for working out with a deck of cards.
+                        </ul>
+                     </section>
+                  </div>
+               </section>
+               <section class="category" id="projects">
+                  <h2 class="category_title">relevant projects</h2>
+                  <div class="category_content">
+                     <section class="sub_category">
+                        <h3 class="sub_category_title">Fivetran @ Runway.com</h3>
+                        <ul class="sub_category_content">
+                           <li>Designed, built and led a team of 3 on Runway's Integrations effort, based on Fivetran,
+                              Merge.dev,
+                              Workato, and other direct connections to data (Rippling.com, Puzzle.io, ...).</li>
+                           <li>Sources consumed into Snowflake and Postgres, and served/transformed to/by end users via
+                              APIs and React UI.</li>
+                           <li>Heavy use of Fivetran's Transformations, Connect Cards, Go SDK, REST API,
+                              and Webhooks. </li>
+                           <li>Backed by bespoke Go binary, Snowflake, and Postgres.</li>
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title">The Runway Data Model</h3>
+                        <ul class="sub_category_content">
+                           <ul class="sub_category_content">
+                              <li>Architected and led a team of 5 in implementing a PostgreSQL-backed, versioned
+                                 datastore, with custom ORM, custom constraint triggers, and optimized throughput.</li>
+                              <li>Live, incremental migration from previously bespoke datastore, to newly designed
+                                 system: O(100M) rows.</li>
+                              <li>Made the argument for redesigning Runway's data model/store, and convinced leadership
+                                 it was worth doing.
+                              <li>Wrote the canonical documentation distributed to the rest of the engineering team,
+                                 describing how to work with the new data model. (Available on request.)</li>
+                           </ul>
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title">The ARI AI Agent @ Runway.com</h3>
+                        <ul class="sub_category_content">
+                           <li>Designed/built an OpenAI-based AI agent framework for manipulating financial models, in
+                              Go & React.
+                           <li>Included a conversation loop, tool-calling, context construction, permissioning,
+                              structured output, & session management.
+                           <li>Designed LLM-optimized APIs providing context-length-sensitive data retrieval, with
+                              follow-up tool calls to expand summaries as needed.
+                        </ul>
+                     </section>
+                     <!-- <section class="sub_category">
+                        <h3 class="sub_category_title">Ambient AI Explanation Mode @ Runway.com</h3>
+                        <ul class="sub_category_content">
+                           <li>In 2024, models were relatively expensive, slow, and unreliable.
+                           <li>I led a project to build "Ambient AI" into Runway. The idea: generate English
+                              explanations for financial models, using a background pipeline, before any user-intention.
+                              Store the results as cacheable blobs, and serve them instantly when the user requested
+                              them.
+                           <li>Worked well, but then costs dropped, latency dropped, and reasoning became a thing. Moved
+                              on to the above.
+                        </ul>
+                     </section> -->
+
+
+                     <!-- <section class="sub_category">
+                        <h3 class="sub_category_title">Developer Tools</h3>
+                        <ul class="sub_category_content">
+                           <ul class="sub_category_content">
+                              <li>At Runway, managed our deployment scripts and kube environment, including the building
+                                 of docker containers and pod configs.
+                              <li>Extended Google's AppScript environment, allowing third-party developers to build
+                                 Add-Ons in Google Drive's "Companion" sidebar.
+                              <li>At FactSet, created a precedent for writing Python, and a subsequent integration with
+                                 the company's proprietary build environment, using BuildBot, setuptools, pylint, an
+                                 internal PyPI server, and pip
+                              <li>At Runway, wrote a pretty-printer for local server logs, using unicode box characters
+                                 and shell coloring.
+                              <li>Participated in the Google Closure -> TypeScript rewrite of Google Drive Web, and made
+                                 contributions back to automated conversion testing infrastructure.
+                              <li>Maintain customized .zsh, .tmux, and .emacs configurations for optimized workflow.
+                           </ul>
+                        </ul>
+                     </section> -->
+                     <section class="sub_category">
+                        <h3 class="sub_category_title">Dev Ops</h3>
+                        <ul class="sub_category_content">
+                           <ul class="sub_category_content">
+                              <li>Maintained Runway's GCP deployment, including Kubernetes cluster of server pods, Redis
+                                 instance, GCP Cloud SQL instance, and more.
+                              <li>On-call for production incidents and troubleshooting, including resource allocation
+                                 and scaling, debugging, and hotfixes.
+                              <li>Implemented monitoring and alerting for our backend, via Sentry, Datadog, and
+                                 PagerDuty; including custom instrumentation and dashboards.
+                              <li>Implemented a green/blue deployment strategy for our backend, including Kubernetes pod
+                                 affinity rules and deployment scripts.
+                           </ul>
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title">React/TypeScript</h3>
+                        <ul class="sub_category_content">
+                           <ul class="sub_category_content">
+                              <li>At Runway, wrote dozens of features into our React frontend, including a SQL query
+                                 builder, UI for connecting our integration sources, websocket logic for checking on the
+                                 status of running tasks, the components for our "Block" UI primitives, Data Table
+                                 components, etc.
+                              <li>Used the React profiler to optimize under-memoized components and trigger-happy
+                                 hooks.
+                           </ul>
+                        </ul>
+                     </section>
+                     <section class="sub_category">
+                        <h3 class="sub_category_title">Google Misc.</h3>
+                        <ul class="sub_category_content">
+                           <ul class="sub_category_content">
+                              <li>Tech Lead of Google Drive's Web Client's Offline infrastructure - using Service
+                                 Workers & Local Storage to make Drive (& Docs) work without a network.
+                              <li>Managed the mass migration of authentication infrastructure for Google Docs/Drive as
+                                 part of a company-wide move to a new identity management system. Included coordination
+                                 across dozens of servers and sub-teams.
+                              <li>Live migration of Google Drive Web's frontend to server-side rendering, improving page
+                                 load times by 30%.
+                              <li>Led team of two engineers to rewrite the Double Click Verification application from a
+                                 combination of GWT and AngularJS to AngularDart.
+                              <li>Built AppsScript APIs allowing other applications (Google, third-party) to extend the
+                                 Web Frontend.
+                           </ul>
+                        </ul>
+                     </section>
+                     <!-- <section class="sub_category">
+                        <h3 class="sub_category_title">ML Experimentation</h3>
+                        <ul class="sub_category_content">
+                           <ul class="sub_category_content">
+                              <li>Built the canonical MNIST NN, via Michael Nielsen’s <a
+                                    href="https://neuralnetworksanddeeplearning.com">Neural Networks & Deep Learning</a>
+                                 tutorial; as well as some toy RNNs & CNNs.
+                               <li>Implemented from scratch, in C++, to test my understanding of the linear algebra &
+                                 calculus; and in pytorch, to learn the basics of the SDK.
+                              <li>Hacked together an Anyscale/Ray.io to prototype self-hosted Llama models.
+                              <li>Daily user of Claude, Cursor, and ChatGPT; experimenting with AI-assisted development
+                                 workflows. 
+                              <li>More detail at <a
+                                    href="https://github.com/georgi0u/ml_experiments">github.com/georgi0u/ml_experiments</a>.
+                           </ul>
+                        </ul>
+                     </section> -->
+                  </div>
+               </section>
+               <section class="category" id="education">
+                  <h2 class="category_title">education</h2>
+                  <div class="category_content">
+                     <section class="sub_category">
+                        <h3 class="sub_category_title"><a target="_blank" href="http://www.rpi.edu">Rensselaer
+                              Polytechnic Institute</a></h3>
+                        <p class="sub_category_content concise">Dual B.S. Degree in Computer Science & Marketing with a
+                           <a target="_blank"
+                              href="https://drive.google.com/file/d/1ZSSteVYBfhaW0Q46frPikzR2I2JOo7rj/view?usp=sharing">GPA:
+                              3.9</a>.
+                        <ul class="sub_category_content verbose">
+                           <li>Dual B.S. Degree in Computer Science & Marketing
+                           <li><a target="_blank"
+                                 href="https://drive.google.com/file/d/1ZSSteVYBfhaW0Q46frPikzR2I2JOo7rj/view?usp=sharing">GPA:
+                                 3.9</a>
+                        </ul>
+                     </section>
+                  </div>
+               </section>
+               <section class="category" id="domain_knowledge">
+                  <h2 class="category_title">skills</h2>
+                  <div class="category_content">
+                     <section class="sub_category">
+                        <ul class="sub_category_content">
+                           <li>Golang, TypeScript, React, GCP, K8s, Docker, PostgreSQL, Snowflake, Sentry, Datadog,
+                              Vercel
+                           <li>Firebase, Python
+                           <li>Git, Perforce, Zsh, Tmux, Bazel
+                           <li>Fivetran, Workato, Merge.dev, OpenAI API
+                           <li>Claude Code
+                        </ul>
+                     </section>
+                  </div>
+               </section>
+            </section>
+         </article>
+      </div>
