@@ -52,6 +52,7 @@ if [ -z "$1" ] || [ "$1" == 'script' ]
 then
    # Typescript to Javascript
    echo "Typescript compiler."
+   npx tsc --version
    npx tsc -p ./ts/
    echo "Done."
 
