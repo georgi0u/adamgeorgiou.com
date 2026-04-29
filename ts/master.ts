@@ -1,32 +1,34 @@
-import {books} from "./books.js";
-import {concerts} from "./concerts.js";
-import {createColorMap} from "./colors.js";
+/// <reference types="jquery" />
+
+import { books } from "./books.js";
+import { concerts } from "./concerts.js";
+import { createColorMap } from "./colors.js";
 
 function writeContactSection() {
-    function decode(coded: string, key: string){ 
-	const shift = coded.length;
-	let decoded = "";
-	
-	for (let i = 0; i < coded.length; i++) {
-	    if (key.indexOf(coded.charAt(i)) == -1) {
-		decoded += coded.charAt(i);
-	    } else {     
-		const ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
-		decoded += key.charAt(ltr);
-	    }
-	}
-	return decoded;
+    function decode(coded: string, key: string) {
+        const shift = coded.length;
+        let decoded = "";
+
+        for (let i = 0; i < coded.length; i++) {
+            if (key.indexOf(coded.charAt(i)) == -1) {
+                decoded += coded.charAt(i);
+            } else {
+                const ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
+                decoded += key.charAt(ltr);
+            }
+        }
+        return decoded;
     }
-    
+
     const emailCoded = "jF@RoRjrF60r16H.D6j";
     const emailKey = "Nd1pxTu4V3JYfE0ABKyZoWl5CHMQX7cmn9eqUOg6SaIPzibhGDj2vFw8LrtsRk";
     const email = decode(emailCoded, emailKey);
-    
 
-     $(".email").each((_, element) => {
+
+    $(".email").each((_, element) => {
         const link = $(`<a target="_blank" href="mailto:${email}">${email}</a>`);
         const toModify = $(element);
-        if(toModify.prop('tagName') === 'A') {
+        if (toModify.prop('tagName') === 'A') {
             toModify.attr('href', `mailto:${email}`);
         } else {
             toModify.append(link);
@@ -48,62 +50,62 @@ function writeBooksSection() {
     const bookList = $("<ul>");
 
     books.forEach((book) => {
-	// Title
-	const toPrint = $("<li>");
-	let title = book["title"]["name"]
-	if (title.length > 100) {
-	    title = title.substring(0, 100) + "...";
-	}
-	const iTitle = $("<i>");
-	iTitle.append(title);
-	toPrint.append(iTitle);
+        // Title
+        const toPrint = $("<li>");
+        let title = book["title"]["name"]
+        if (title.length > 100) {
+            title = title.substring(0, 100) + "...";
+        }
+        const iTitle = $("<i>");
+        iTitle.append(title);
+        toPrint.append(iTitle);
 
-	// Author
-	const author = book["author"];
+        // Author
+        const author = book["author"];
         const translator = book["translator"];
         if (translator) {
-	    toPrint.append($("<span>").text(" by "))
+            toPrint.append($("<span>").text(" by "))
             toPrint.append(author['name']);
             toPrint.append($("<span>").text(", translated by "))
             toPrint.append(translator['name']);
         } else {
-	    toPrint.append($("<span>").text(" by "))
+            toPrint.append($("<span>").text(" by "))
             toPrint.append(author['name']);
         }
 
-	// Tags        
-	const tags = book["tags"];
-	if (tags) {
+        // Tags        
+        const tags = book["tags"];
+        if (tags) {
             if (tags.indexOf("abandoned") != -1) {
                 toPrint.append(
                     $("<span>")
                         .append(toPrint.contents())
                         .css('text-decoration', 'line-through'));
             }
-            
-	    const sortedTags = tags.sort();
-	    toPrint.append(" - ");
-            const toPrintTags = $("<span style='display:inline-block;'></span>");
-	    sortedTags.forEach((tag) => {
-		const color = tagColorMap.get(tag)
-		if (color == null) {
-		    return;
-		}
-		toPrintTags.append(
-		    $("<span>")
-			.css('background',
-                             tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
-			.text(tag.toLowerCase())
-			.addClass("tag"));
-	    });
-            toPrint.append(toPrintTags);
-	}
 
-	// Append Book String
-	bookList.append(toPrint);
+            const sortedTags = tags.sort();
+            toPrint.append(" - ");
+            const toPrintTags = $("<span style='display:inline-block;'></span>");
+            sortedTags.forEach((tag) => {
+                const color = tagColorMap.get(tag)
+                if (color == null) {
+                    return;
+                }
+                toPrintTags.append(
+                    $("<span>")
+                        .css('background',
+                            tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
+                        .text(tag.toLowerCase())
+                        .addClass("tag"));
+            });
+            toPrint.append(toPrintTags);
+        }
+
+        // Append Book String
+        bookList.append(toPrint);
     });
 
-    
+
     section.append(bookList);
 }
 
@@ -116,7 +118,7 @@ function writeConcertsSection() {
 
     $("#ticket_stubs_container")
         .append(concertList);
-    
+
     const sortedConcerts =
         concerts.sort((lhs, rhs) => rhs["start_date"] - lhs["start_date"]);
 
@@ -127,7 +129,7 @@ function writeConcertsSection() {
         if (concert["title"]) {
             showTitle.append(
                 $("<span>")
-                    .css({"color":"red"})
+                    .css({ "color": "red" })
                     .append(concert["title"]))
                 .append(": ");
         }
@@ -137,16 +139,16 @@ function writeConcertsSection() {
         const dateStr = concert["start_date"].toString();
         const date = new Date();
         date.setFullYear(
-            parseInt(dateStr.substring(0,4), 10),
-            parseInt(dateStr.substring(4,6), 10) - 1,
-            parseInt(dateStr.substring(6,8), 10));
+            parseInt(dateStr.substring(0, 4), 10),
+            parseInt(dateStr.substring(4, 6), 10) - 1,
+            parseInt(dateStr.substring(6, 8), 10));
         const showMeta = $("<span>").addClass("concert_meta");
         showMeta
             .append(" @ ")
             .append(concert["venue"])
             .append(" on ")
             .append($("<span>").addClass("date").append(date.toDateString()));
-        
+
         concertInfo
             .append(showTitle)
             .append(showMeta);
@@ -161,7 +163,7 @@ function writeConcertsSection() {
 */
 function limitSubContainers() {
     const ITEM_LIMIT = 2;
-    
+
     const subContainers = $(".sub_container.collapsible > ul");
 
     subContainers.each((index, list) => {
@@ -181,34 +183,34 @@ function limitSubContainers() {
 
         const expand = $(
             `<a tabindex='0' title='Show remaining ${hiddenItems.length}  items.' ` +
-                `class='expand_button'>(show more)</a>`);
+            `class='expand_button'>(show more)</a>`);
         const collapse = $("<a tabindex='0' class='collapse_button'>(show less of the above)</a>");
         collapse.hide();
         $(list).parent().append(expand);
         $(list).parent().append(collapse);
 
         expand.on('keypress click', (e) => {
-          if (e.which !== 13 && e.type !== 'click')
-            return;
-          $(list).append(hiddenItems);
-          $(hiddenItems).show();
-          expand.hide();
-          collapse.show();
-          $(list).parent().toggleClass('expanded');
+            if (e.which !== 13 && e.type !== 'click')
+                return;
+            $(list).append(hiddenItems);
+            $(hiddenItems).show();
+            expand.hide();
+            collapse.show();
+            $(list).parent().toggleClass('expanded');
         });
 
         collapse.on('keypress click', (e) => {
-          if (e.which !== 13 && e.type !== 'click')
-            return;
-          $(hiddenItems).hide();
-          $(hiddenItems).remove();
-          collapse.hide();
-          expand.show();
-          const headerOffset = $($(list).siblings('h1')[0]).offset()
-          if (headerOffset) {
-            $('html, body').animate({scrollTop: headerOffset.top - 50}, 0);
-          }
-          $(list).parent().toggleClass('expanded');
+            if (e.which !== 13 && e.type !== 'click')
+                return;
+            $(hiddenItems).hide();
+            $(hiddenItems).remove();
+            collapse.hide();
+            expand.show();
+            const headerOffset = $($(list).siblings('h1')[0]).offset()
+            if (headerOffset) {
+                $('html, body').animate({ scrollTop: headerOffset.top - 50 }, 0);
+            }
+            $(list).parent().toggleClass('expanded');
         });
     });
 }
@@ -216,7 +218,7 @@ function limitSubContainers() {
 
 function colorResumeSubcategoryTags() {
     const elements = $("#resume .sub_category_tags > li");
-    if(!elements.length) {
+    if (!elements.length) {
         return;
     }
 
@@ -232,42 +234,6 @@ function colorResumeSubcategoryTags() {
         var tag = $(element).text();
         var hue = tagColorMap.get(tag);
         $(element).css("background", "hsl(" + hue + ", 100%, 80%");
-    });
-}
-
-function resumeConciseVerboseButton() {
-    const startVerbose = isSearchEngineCrawler();
-    let expand_button_content_toggle: string = startVerbose ? "(concise)" : "(verbose)";
-    if (startVerbose) {
-        $(".concise").hide();
-        $(".verbose").show();
-        $("#expand_button").text("(verbose)");
-        $(".sub_category").addClass("with_border");
-    } else {
-        $(".verbose").hide();
-        $(".concise").show();
-        $("#expand_button").text("(concise)");
-        $(".sub_category").removeClass("with_border");
-    }
-
-    let current = startVerbose ? "verbose" : "concise";
-
-    $("#expand_button").click(function() {
-        if (current === "verbose") {
-            $(".sub_category").removeClass("with_border");
-            current = "concise";
-        } else {
-            $(".sub_category").addClass("with_border");
-            current = "verbose";
-        }
-
-        $("#expand_button_hint").hide();
-        
-        $(".verbose").toggle();
-        $(".concise").toggle();
-        const temp: string = $(this).text().toString();
-        $(this).text(expand_button_content_toggle);
-        expand_button_content_toggle = temp
     });
 }
 
@@ -294,7 +260,7 @@ function jumbleTheJunk() {
     drawer
         .children()
         .toArray()
-        .sort(() => Math.round(Math.random())-0.5)
+        .sort(() => Math.round(Math.random()) - 0.5)
         .forEach((el) => drawer.append(el));
 }
 
@@ -309,7 +275,7 @@ $(function () {
     limitSubContainers();
 
     colorResumeSubcategoryTags();
-    resumeConciseVerboseButton();
+    // resumeConciseVerboseButton();
 
     $('body').show();
 });

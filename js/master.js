@@ -1,3 +1,4 @@
+/// <reference types="jquery" />
 import { books } from "./books.js";
 import { concerts } from "./concerts.js";
 import { createColorMap } from "./colors.js";
@@ -194,39 +195,6 @@ function colorResumeSubcategoryTags() {
         $(element).css("background", "hsl(" + hue + ", 100%, 80%");
     });
 }
-function resumeConciseVerboseButton() {
-    const startVerbose = isSearchEngineCrawler();
-    let expand_button_content_toggle = startVerbose ? "(concise)" : "(verbose)";
-    if (startVerbose) {
-        $(".concise").hide();
-        $(".verbose").show();
-        $("#expand_button").text("(verbose)");
-        $(".sub_category").addClass("with_border");
-    }
-    else {
-        $(".verbose").hide();
-        $(".concise").show();
-        $("#expand_button").text("(concise)");
-        $(".sub_category").removeClass("with_border");
-    }
-    let current = startVerbose ? "verbose" : "concise";
-    $("#expand_button").click(function () {
-        if (current === "verbose") {
-            $(".sub_category").removeClass("with_border");
-            current = "concise";
-        }
-        else {
-            $(".sub_category").addClass("with_border");
-            current = "verbose";
-        }
-        $("#expand_button_hint").hide();
-        $(".verbose").toggle();
-        $(".concise").toggle();
-        const temp = $(this).text().toString();
-        $(this).text(expand_button_content_toggle);
-        expand_button_content_toggle = temp;
-    });
-}
 function isSearchEngineCrawler() {
     const ua = navigator.userAgent || "";
     return /(bot|crawler|spider|slurp|bingpreview|duckduckbot|googlebot|bingbot|yandex|baiduspider|sogou|exabot|facebot|ia_archiver)/i.test(ua);
@@ -257,6 +225,6 @@ $(function () {
     jumbleTheJunk();
     limitSubContainers();
     colorResumeSubcategoryTags();
-    resumeConciseVerboseButton();
+    // resumeConciseVerboseButton();
     $('body').show();
 });
