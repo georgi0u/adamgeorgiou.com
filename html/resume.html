@@ -112,6 +112,95 @@
           </div>
         </section>
 
+        <section class="category" id="projects">
+          <h2 class="category_title">projects</h2>
+          <div class="category_content">
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">Financial Modeling Agent — "ARI" @ Runway.com</h3>
+              <ul class="sub_category_content">
+                <li>Led a team of three to design and build an LLM-powered assistant in Go and React that lets users
+                  query, explain, and manipulate highly dimensional financial models through conversational workflows.
+                </li>
+                <li>Owned the execution loop end to end: session management, planning and orchestration, tool
+                  invocation, permissioning, context assembly, structured outputs, and the React UI.</li>
+                <li>Improved reliability, responsiveness, and cost via prompt caching, context compaction, model
+                  selection, and iterative prompt development with Braintrust.</li>
+              </ul>
+            </section>
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">"Ambient" AI @ Runway.com</h3>
+              <ul class="sub_category_content">
+                <li>Designed, <a href="https://patents.google.com/patent/WO2024259423A3/en">patented</a>, and built an
+                  asynchronous LLM processing pipeline that precomputed contextual explanations over customer financial
+                  data and surfaced them proactively in-product.</li>
+              </ul>
+            </section>
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">Core Data Platform @ Runway.com</h3>
+              <ul class="sub_category_content">
+                <li>Architected and led a team of five to implement a PostgreSQL-backed, versioned datastore with a
+                  custom Go ORM/SDK, integrity constraints, and optimized throughput; tailored to highly dimensional
+                  financial data.</li>
+                <li>Executed a live, incremental, feature-flagged migration from a bespoke datastore at ~100M-row
+                  scale, with zero downtime and zero data loss.</li>
+                <li>Made the case for the redesign to leadership and authored the canonical engineering documentation
+                  for the new system.</li>
+              </ul>
+            </section>
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">Integrations @ Runway.com</h3>
+              <ul class="sub_category_content">
+                <li>Designed, built, and led a team of three on Runway's ETL pipeline, ingesting hundreds of financial
+                  data sources (accounting, payroll, banking, CRM, ad platforms) via Fivetran, Merge.dev, Workato, and
+                  direct connections.</li>
+                <li>Hundreds of GB and hundreds of thousands of API calls per day through a bespoke orchestration
+                  system handling scheduling, retries, schema evolution, and monitoring; backed by Go services,
+                  Snowflake, and PostgreSQL.</li>
+              </ul>
+            </section>
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">Production Reliability @ Runway.com</h3>
+              <ul class="sub_category_content">
+                <li>Owned reliability for Runway's GCP deployment — Kubernetes, Redis, Cloud SQL — including
+                  observability, on-call rotation, and lead response on sev-1 incidents.</li>
+                <li>Improved debuggability via custom Sentry, Datadog, and PagerDuty instrumentation, and reduced
+                  deployment risk with a blue/green rollout strategy on Kubernetes.</li>
+              </ul>
+            </section>
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">Collaboration & Productivity Platform @ Google</h3>
+              <ul class="sub_category_content">
+                <li>Tech lead for Google Drive Web's offline infrastructure, using Service Workers and local storage
+                  to make Drive and Docs usable without a network for over 100 million daily-active users.</li>
+                <li>Built Apps Script APIs allowing first- and third-party applications to extend the Drive web
+                  frontend; used by over a million developers.</li>
+                <li>Migrated Drive Web to server-side rendering (~30% page load improvement) and managed the
+                  company-wide migration of Drive and Docs to a new identity management system across dozens of
+                  services.</li>
+                <li>Led a two-engineer rewrite of the DoubleClick Verification application from GWT/AngularJS to
+                  AngularDart.</li>
+              </ul>
+            </section>
+
+            <section class="sub_category">
+              <h3 class="sub_category_title">Search & Information Retrieval @ FactSet</h3>
+              <ul class="sub_category_content">
+                <li>Built real-time search and alerting over market data — thousands of sources, petabytes of data,
+                  hundreds of QPS — on a C++, Linux, and Elasticsearch stack.</li>
+                <li>Implemented company-wide Python tooling from scratch: BuildBot integration, setuptools, pylint,
+                  an internal PyPI server, and pip.</li>
+              </ul>
+            </section>
+
+          </div>
+        </section>
+
         <section class="category" id="education">
           <h2 class="category_title">education</h2>
           <div class="category_content">
