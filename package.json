@@ -2,12 +2,8 @@
   "dependencies": {
     "google-closure-compiler": "^20260427.0.0",
     "html-minifier": "^4.0.0",
-    "jquery": "^4.0.0",
     "less": "^4.6.4",
     "less-plugin-clean-css": "^1.6.0",
     "typescript": "^6.0.3"
-  },
-  "devDependencies": {
-    "@types/jquery": "^4.0.0"
   }
 }
