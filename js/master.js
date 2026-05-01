@@ -75,14 +75,21 @@ function writeBooksSection() {
             toPrint.append(" - ");
             const toPrintTags = $("<span style='display:inline-block;'></span>");
             sortedTags.forEach((tag) => {
-                const color = tagColorMap.get(tag);
-                if (color == null) {
+                const bgColor = tagColorMap.get(tag);
+                if (bgColor == null) {
                     return;
                 }
-                toPrintTags.append($("<span>")
-                    .css('background', tag == "abandoned" ? '#DDDDDD' : `hsl(${color}, 100%, 85%)`)
+                const tagElement = $("<span>")
+                    .css('background', `hsl(${bgColor}, 100%, var(--tag-lightness, 85%))`)
+                    .css('color', 'var(--tag-color, #000)')
                     .text(tag.toLowerCase())
-                    .addClass("tag"));
+                    .addClass("tag");
+                if (tag == "abandoned") {
+                    tagElement
+                        .css('background', 'var(--tag-bg-abandoned, #DDDDDD)')
+                        .css('color', 'var(--tag-color-abandoned, #888888)');
+                }
+                toPrintTags.append(tagElement);
             });
             toPrint.append(toPrintTags);
         }
@@ -192,7 +199,7 @@ function colorResumeSubcategoryTags() {
     elements.each((index, element) => {
         var tag = $(element).text();
         var hue = tagColorMap.get(tag);
-        $(element).css("background", "hsl(" + hue + ", 100%, 80%");
+        $(element).css("background", "hsl(" + hue + ", 100%, var(--tag-lightness, 80%))");
     });
 }
 function isSearchEngineCrawler() {
