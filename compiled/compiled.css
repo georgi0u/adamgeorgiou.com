@@ -141,9 +141,6 @@ bold {
   font-weight: bold;
 }
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  #resume .sub_category_tags {
-    display: none !important;
-  }
   body {
     font-size: 3rem !important;
     line-height: 5.5rem !important;
@@ -238,23 +235,6 @@ a {
   padding-left: 0;
   content: '';
 }
-#main_container #links_container a:hover .hover-show {
-  display: inline;
-}
-#main_container #links_container a:hover .normal-show {
-  display: none;
-}
-#main_container #links_container a .hover-show {
-  display: none;
-}
-#main_container #links_container a .normal-show {
-  display: inline;
-}
-#main_container #resume .project_label {
-  font-weight: bold;
-  display: inline-block;
-  min-width: 50px;
-}
 #main_container #resume #contact_info_container h2 {
   border-color: #ff9999;
 }
@@ -263,33 +243,6 @@ a {
 }
 #main_container #resume #contact_info_container li a:hover {
   text-decoration: underline;
-}
-#main_container #resume #expand_button {
-  color: #aaa;
-}
-#main_container #resume #expand_button_container {
-  position: relative;
-  display: inline-block;
-}
-#main_container #resume #expand_button_hint {
-  position: absolute;
-  left: 50%;
-  top: 2.2em;
-  transform: translateX(-50%);
-  font-size: 12px;
-  color: #999;
-  text-align: center;
-  white-space: nowrap;
-  pointer-events: none;
-}
-#main_container #resume #expand_button_hint .arrow {
-  display: block;
-  font-size: 10px;
-  line-height: 1;
-  margin-bottom: 2px;
-}
-#main_container #resume .verbose {
-  display: none;
 }
 #main_container #resume li a {
   text-decoration: underline;
@@ -307,11 +260,6 @@ a {
 #main_container #resume .sub_category {
   padding-top: 15px;
 }
-#main_container #resume .sub_category.with_border {
-  padding-top: 30px;
-  border-top: 1px #ededed solid;
-  margin-top: 5px;
-}
 #main_container #resume .sub_category:first-child {
   border-top: 0px;
   padding-top: 0px;
@@ -323,32 +271,6 @@ a {
 }
 #main_container #resume .sub_category .sub_category_content {
   padding-bottom: 5px;
-}
-#main_container .coffee_shops {
-  width: 100%;
-  margin-left: -10px;
-}
-#main_container .coffee_shops tbody > tr:nth-child(2n+1) {
-  background: #eee;
-}
-#main_container .coffee_shops td,
-#main_container .coffee_shops th {
-  text-align: left;
-  border-left: 1px #ddd solid;
-  padding: 5px 10px 5px 10px;
-}
-#main_container .coffee_shops td:first-child,
-#main_container .coffee_shops th:first-child {
-  border-left: 0;
-}
-#main_container .coffee_shops th {
-  font-weight: bold;
-}
-#main_container .coffee_shops th:hover {
-  cursor: pointer;
-}
-#main_container .coffee_shops td {
-  border-top: 1px #ddd solid;
 }
 #main_container #ticket_stubs_container li span.concert_title {
   display: inline;
@@ -414,12 +336,6 @@ a {
     padding: 0 0px 0 20px !important;
     max-width: 1000px;
     min-width: 400px;
-  }
-  #expand_button {
-    display: none !important;
-  }
-  #expand_button_hint {
-    display: none !important;
   }
   .no_print {
     display: none !important;
